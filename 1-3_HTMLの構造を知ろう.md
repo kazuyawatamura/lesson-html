@@ -79,7 +79,7 @@ HTML要素は、HTMLドキュメントの **ルート（root / 基点）** で�
 ```
 
 
-### ```<title>```
+### ```<title>``` ```<meta name="description" 〜```
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_3066FA23A18E1433BC4D48A1112B9F0C6A766C9E0917C880D3A50377E5D58EB4_1520576947742_image.png)
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_3066FA23A18E1433BC4D48A1112B9F0C6A766C9E0917C880D3A50377E5D58EB4_1520576795045_image.png)
