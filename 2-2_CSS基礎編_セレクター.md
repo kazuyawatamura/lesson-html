@@ -1,4 +1,138 @@
-# 2-2_CSS基礎編_セレクターについて
+# CSS基礎編 セレクターについて
+
+## 代表的なセレクター一覧（selector1.html）
+
+
+### インラインStyle属性
+```html
+<p style="color: red;">インラインスタイル</p>
+```
+
+
+### タグセレクター
+
+HTMLにスタイルを充てる方法です。
+
+#### `<p>` タグの文字色を赤にしてください。
+
+```html
+<p>pタグの内容</p>
+<span>spanタグの内容</span>
+```
+
+```css
+p {
+  color: red;
+}
+```
+![](https://paper-attachments.dropbox.com/s_99F560811FA13A2097A0AA539193AC772188AA6753D14D87F45BFD10DB837A23_1570716584327_+2019-10-10+23.09.18.png)
+
+
+
+
+### クラスセレクター
+
+タグセレクターのようにHTMLタグを直接指定すると
+
+* 複数ページ、複数パーツに渡って
+* 同じタグに
+* 同じスタイルが適用
+
+されてしまいます。
+意図する場所だけにスタイルを充てるためにクラスセレクターを使うクセを付けておきましょう。
+（場合に応じてタグセレクターを使用することもあります）
+
+#### `hello-wrapper` クラスがついた要素の文字色をオレンジ色にしてください。
+
+```html
+<p class="hello-wrapper">pタグの内容</p>
+<span>spanタグの内容</span>
+```
+
+```css
+.hello-wrapper {
+  color: orange;
+}
+```
+
+### 複数一括セレクター
+「,」（カンマ）でクラスを繋いで複数のクラスにスタイルを適用する事ができます。
+
+#### `.goodbye` クラスと`.hello`クラスが付いた要素の文字色をグレーにしてください。
+
+```html
+<p class="goodbye">pタグの内容</p>
+<span class="hello">spanタグの内容</span>
+```
+
+```css
+.goodbye, .hello {
+  color: gray;
+}
+```
+
+### 子孫セレクター
+
+もっともよく見かけるセレクターの種類です。
+HTMLタグの入れ子をした状態で細かく指定できることが大きなメリットです。
+
+#### `.hello-wrapper` クラスの子要素の `.hello`クラスが付いた要素の文字色をグリーンにしてください。
+
+```html
+<div class="hello-wrapper">
+  <p class="goodbye">pタグの内容</p>
+  <span class="hello">spanタグの内容</span>
+</div>
+```
+
+```css
+.hello-wrapper .hello {
+  color: green;
+}
+```
+
+
+### IDセレクター
+
+今までのクラスセレクターは、```class="xxx"``` や ```.xxx``` で記述していましたが、IDセレクターは若干違います。
+クラスセレクターとの違いは同じID名を他のタグでは使うことはできません。
+そのためクラスセレクターと違って使い勝手が悪いのでIDセレクターはあまり使いません。
+（筆者はJavaScriptのセレクターとして使用することが稀にあります）
+
+### ```id-selector```のIDが付いた要素の文字色を水色にしてください。
+
+```html
+<div id="id-selector">IDセレクタで文字の色を変える</div>
+
+<!-- 2回目のこのIDセレクターは使用不可 -->
+<div id="id-selector">IDセレクタで文字の大きさを変える</div>
+```
+
+```css
+#id-selector {
+  color: skyblue;
+}
+```
+
+※ id名は同じ要素に対して複数のid名を指定することはできません。
+```html
+<div id="test test2">これは無効です</div>
+```
+
+
+
+### 全称セレクター
+
+
+
+```css
+* {
+　color: blue;
+}
+```
+
+
+### 書いて覚えよう
 
 ```html
 <!DOCTYPE html>
@@ -7,7 +141,7 @@
     <meta charset="utf-8">
     <title>セレクタの練習</title>
     <style>
-    　★ここにスタイルシートを書く★
+    　/* ここにスタイルシートを書く */
     </style>
   </head>
   <body>
@@ -27,79 +161,6 @@
   </body>
 </html>
 ```
-
-
-## 代表的なセレクター一覧（selector1.html）
-
-### 1. 全称セレクター
-```css
-* {
-　color: blue;
-}
-```
-
-### 2. インラインStyle属性
-```html
-<p style="color: red;">インラインスタイル</p>
-```
-
-
-### 3. タグセレクター
-
-```<p>``` タグの文字色を赤にしてください。
-```css
-p {
-  color: red;
-}
-```
-
-### 4. IDセレクター
-
-```id-selector```のIDが付いた要素の文字色を水色にしてください。
-
-```html
-<div id="id-selector">IDセレクタで文字の色を変える</div>
-```
-```css
-#id-selector {
-  color: skyblue;
-}
-```
-
-※ id名は同じ要素に対して複数のid名を指定することはできません。
-```html
-<div id="test test2">これは無効です</div>
-```
-
-
-### 5. クラスセレクター
-
-```hello-wrapper``` クラスがついた要素の文字色をオレンジ色にしてください。
-
-```css
-.hello-wrapper {
-  color: orange;
-}
-```
-
-
-### 6. 複数一括セレクター
-
-```.goodbye``` クラスと```.hello```クラスが付いた要素の文字色をグレーにしてください。
-
-```css
-.goodbye, .hello {
-  color: gray;
-}
-```
-
-### 7. 子孫セレクター
-```css
-.hello-wrapper .hello {
-  color: tan;
-}
-```
-
 
 ## クラスの付け方のルールや注意点
 
