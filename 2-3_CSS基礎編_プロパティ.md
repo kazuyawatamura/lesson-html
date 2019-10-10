@@ -1,8 +1,6 @@
-# 2. CSS基礎編2
+# 2-3_CSS基礎編_プロパティ（properties1html）
 
-## プロパティについて（properties1html）
-
-### 文字の色・大きさ・太さ
+## 文字の色・大きさ・太さ
 
 ```html
 <div class="text">文字の色・大きさ・太さ</div>
@@ -19,11 +17,11 @@
 それぞれの初期値（デフォルト）は、#000000、16px、normal、none
 
 
-### カラーコードについて
+## カラーコードについて
 
 [カラーコード 早見表](http://www5.plala.or.jp/vaio0630/hp/c_code.htm)
 
-#### 16進数のカラーコード
+### 16進数のカラーコード
 
 黒← 　0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f　→白
 
@@ -31,7 +29,7 @@
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1521170368133_.png)
 
 
-#### rgba
+### rgba
 
 黒← 　0 〜 255　→白
 透明← 0 〜 1 →不透明
@@ -41,14 +39,14 @@
 
 
 
-### 単位について（font-size.html）
+## 単位について（font-size.html）
 
-#### px（ピクセル）
+### px（ピクセル）
 
 - 絶対値
 - ユーザーがブラウザからそのサイズを変更する事ができない
 
-#### em（エム）
+### em（エム）
 
 - 相対値
 - 親要素のフォントサイズの倍率
@@ -68,7 +66,7 @@
 }
 ```
 
-#### %（パーセント）
+### %（パーセント）
 
 - 相対値
 - 親要素のフォントサイズの倍率
@@ -85,7 +83,7 @@
 [PXtoEM.com PX to EM conversion made simple.](http://pxtoem.com/)
 
 
-#### rem（レム / ルートエム）
+### rem（レム / ルートエム）
 
 - 相対値
 - emと同じような考え方だが、ルート（htmlタグ）に対する割合のサイズ
@@ -118,7 +116,7 @@ body {
 }
 ```
 
-### 文字を左右中央に寄せる
+## 文字を左右中央に寄せる
 
 ```html
 <div class="text-align">文字を左右中央に寄せる</div>
@@ -130,7 +128,7 @@ body {
 ```
 
 
-### 行間を指定する
+## 行間を指定する
 
 ```html
 <div class="line-height">行間を指定する</div>
@@ -155,7 +153,7 @@ body {
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1521177549564_2.png)
 
 
-### 背景色の指定
+## 背景色の指定
 **properties2.html**
 
 ```html
@@ -181,7 +179,7 @@ CSSでも指定の仕方は3通りあります
 ```
 
 
-### 線を引く
+## 線を引く
 
 ```html
 <p class="border">この周りに線を描きます</p>
@@ -194,7 +192,7 @@ CSSでも指定の仕方は3通りあります
 }
 ```
 
-#### ショートハンド
+### ショートハンド
 
 ```css
 .border {
@@ -202,7 +200,7 @@ CSSでも指定の仕方は3通りあります
 }
 ```
 
-#### 線の種類
+### 線の種類
 
 - solid（実線）
 - dotted（点線）
@@ -222,7 +220,7 @@ CSSでも指定の仕方は3通りあります
 .double { border: 5px double gray;}
 ```
 
-#### 上下左右、個別に線をひく
+### 上下左右、個別に線をひく
 
 - 上にだけ線を引く：**border-top**:〜
 - 下にだけ線を引く：**border-bottom**:〜
@@ -240,14 +238,14 @@ CSSでも指定の仕方は3通りあります
 }
 ```
 
-#### ショートハンド
+### ショートハンド
 ```css
 .solid-bottom { border-bottom: 2px solid gray;}
 ```
 
 
 
-### 背景画像（background-image.html）
+## 背景画像（background-image.html）
 
 ```html
 <div class="background">背景画像の指定</div>
@@ -262,10 +260,10 @@ CSSでも指定の仕方は3通りあります
 }
 ```
 
-#### background-image
+### background-image
 背景画像を指定するプロパティ
 
-#### background-repeat
+### background-repeat
 背景画像のリピートの仕方を指定するプロパティ
 
 ```css
@@ -275,7 +273,7 @@ background-repeat: repeat-x;
 background-repeat: repeat-y;
 ```
 
-#### background-position
+### background-position
 
 背景画像の表示開始位置を指定するプロパティ
 水平位置と垂直位置の順で半角スペースを用いて区切って指定します。
@@ -305,13 +303,13 @@ background-position: 10px 40px;
 ```css
 background-position: bottom 10px right 30%;
 ```
-#### ショートハンド
+### ショートハンド
 
 ```css
 background: #FFFFFF url(../assets/images/logo.png) no-repeat 10px 40px;
 ```
 
-#### おまけ：background-size
+### おまけ：background-size
 
 背景画像のサイズを指定するプロパティ
 
@@ -329,7 +327,7 @@ background-size: 100% 40%;
 
 
 
-### フォントを指定する
+## フォントを指定する
 
 ![](https://paper-attachments.dropbox.com/s_2582435CB886887D060D48AAD474CC3D5EFC64DCE8C72CEB83A15ED7D7AAEB60_1570003509949_+2019-10-02+17.04.11.png)
 
@@ -353,19 +351,18 @@ Webサイトに表示される文字（フォント）の指定を、font-family
 
 
 
-#### 基本的に複数のフォントを指定する
+### 基本的に複数のフォントを指定する
 
 OS毎（Mac / Windows / iOS）にインストールされているフォンが違うため、基本的には複数指定します。
 （Macにしか入っていないフォントを指定してもWindowsパソコンで表示されない等…）
 
 
-#### 左に指定されているフォントから優先される
+### 左に指定されているフォントから優先される
 
 下記だと  `Avenir Next`  が無かったら、 `Gadugi`  →  `ヒラギノ丸ゴ`  →  `メイリオ`  の順
 
 
-#### 英語フォントを先に記述する
-
+### 英語フォントを先に記述する
 
 - 英語フォントは、英語だけ
 - 日本語フォントは、英語と日本語
@@ -386,12 +383,12 @@ OS毎（Mac / Windows / iOS）にインストールされているフォンが�
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1522221708091_+2018-03-28+16.20.29.png)
 
 
-#### 総称フォントとは？
+### 総称フォントとは？
 
 指定したフォントがまったく入っていなかったら「せめてこういう系統のフォントを表示したい」という指定になります。
 ざっくりとした指定なので、実際にどんなフォントが使われるかはブラウザしだになります。
 
-#### sans-serif　or　serif
+### sans-serif　or　serif
 
 この講座内では、
 

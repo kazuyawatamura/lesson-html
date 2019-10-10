@@ -1,4 +1,4 @@
-# 練習
+# 2-6_CSS基礎編（練習）
 
 -  `box-sizing: border-box`  に
 - 全体の横幅：300px

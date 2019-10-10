@@ -1,121 +1,4 @@
-# 2. CSS基礎編1
-
-
-## CSS（スタイルーシート）とは
-
-**Cascading Style Sheetsの略**
-HTMLが文章構造を指定する言語であるのに対して、
-CSSはそのHTML文章のレイアウトや装飾などの見た目を指定する為の言語です。
-
-
-
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_3066FA23A18E1433BC4D48A1112B9F0C6A766C9E0917C880D3A50377E5D58EB4_1520566501261_HTML.png)
-
-
-
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_3066FA23A18E1433BC4D48A1112B9F0C6A766C9E0917C880D3A50377E5D58EB4_1520567145555_CSS.png)
-
-
-
----
-## CSSの基本的な書き方
-
-
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1520926483939_CSS.png)
-
-
-
-- セレクター　：　適用する対象　　　　　← どれ
-- プロパティ：　スタイルの種類　　　　← 何を
-- 値　　　　：　適用させたい結果　　　← どうするか
-
-### POINT
-
-- プロパティと値は波括弧で囲う
-- プロパティと値はコロン（：）でつないでセミコロン（；）で終わる
-
-
-```css
-p {
-　color: red;
-　font-weight: bold;
-　margin-left: 20px;
-}
-```
-↓
-```css
-pタグの {
-　色を: 赤にする;
-　太さを: 太くする;
-　左側の隙間を: 20pxにする;
-}
-```
-
----
-## 記述する場所について
-
-
-### 1.HTMLタグに直接記述する
-
-```html
-<p style="color: red;">この文字を赤にしたい。</p>
-```
-
-### 2.head要素内に記述する
-
-```html
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <title>セレクタの練習1</title>
-    <style>
-      p {
-      　color: red;
-      }
-    </style>
-  </head>
-  <body>
-  　<p>この文字を赤にしたい。</p>
-  </body>
-</html>
-```
-
-### 3. 外部ファイルに記述する
-```html
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <title>セレクタの練習1</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-  　<p>この文字を赤にしたい。。</p>
-  </body>
-</html>
-```
-
-```css
-/* style.css の中身 */
-p {
-　color: red;
-}
-```
----
-## CSSのコメントの書き方
-
-```css
-/* コメントを書いて分かりやすいスタイルシートを書こう */
-
-/*
-    コメントは複数行でも記述できます。
-    説明やメッセージなどを残せます。
-*/
-```
-
----
-## セレクターについて
+# 2-2_CSS基礎編_セレクターについて
 
 ```html
 <!DOCTYPE html>
@@ -146,22 +29,22 @@ p {
 ```
 
 
-### 代表的なセレクター一覧（selector1.html）
+## 代表的なセレクター一覧（selector1.html）
 
-#### 1. 全称セレクター
+### 1. 全称セレクター
 ```css
 * {
 　color: blue;
 }
 ```
 
-#### 2. インラインStyle属性
+### 2. インラインStyle属性
 ```html
 <p style="color: red;">インラインスタイル</p>
 ```
 
 
-#### 3. タグセレクター
+### 3. タグセレクター
 
 ```<p>``` タグの文字色を赤にしてください。
 ```css
@@ -170,7 +53,7 @@ p {
 }
 ```
 
-#### 4. IDセレクター
+### 4. IDセレクター
 
 ```id-selector```のIDが付いた要素の文字色を水色にしてください。
 
@@ -189,7 +72,7 @@ p {
 ```
 
 
-#### 5. クラスセレクター
+### 5. クラスセレクター
 
 ```hello-wrapper``` クラスがついた要素の文字色をオレンジ色にしてください。
 
@@ -200,7 +83,7 @@ p {
 ```
 
 
-#### 6. 複数一括セレクター
+### 6. 複数一括セレクター
 
 ```.goodbye``` クラスと```.hello```クラスが付いた要素の文字色をグレーにしてください。
 
@@ -210,7 +93,7 @@ p {
 }
 ```
 
-#### 7. 子孫セレクター
+### 7. 子孫セレクター
 ```css
 .hello-wrapper .hello {
   color: tan;
@@ -218,7 +101,7 @@ p {
 ```
 
 
-### クラスの付け方のルールや注意点
+## クラスの付け方のルールや注意点
 
 
 - 英字大文字小文字は区別される。
@@ -240,7 +123,7 @@ p {
 ```
 
 
-### 他にもあるセレクター（selector2.html）
+## 他にもあるセレクター（selector2.html）
 
 ```html
 <section class="news-area">
@@ -259,7 +142,7 @@ p {
 </section>
 ```
 
-#### 8. 子セレクター
+### 8. 子セレクター
 
 ```css
 /* よくない例 */
@@ -272,7 +155,7 @@ p {
 }
 ```
 
-#### 9. 隣接セレクター
+### 9. 隣接セレクター
 
 ```css
 .news-area .news-area-main li + li {
@@ -281,7 +164,7 @@ p {
 ```
 
 
-### まだまだあるセレクター（selector3.html）
+## まだまだあるセレクター（selector3.html）
 ```html
 <ul class="main-menu">
   <li><a href="#">メニュー1</a></li>
@@ -295,7 +178,7 @@ p {
 </ul>
 ```
 
-#### 10. 擬似クラス
+### 10. 擬似クラス
 
 - hover　　　　　 → カーソルが乗っている要素
 
@@ -356,7 +239,7 @@ p {
 参考サイト： [nth-childジェネレーター](http://www.bad-company.jp/nth-child/)
 
 
----
+
 ## 詳細度
 
 セレクターには詳細度というものがあり、セレクターの設定によって詳細度が変化し、セレクターの詳細度によって優先されるスタイルが上書きされます。

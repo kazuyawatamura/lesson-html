@@ -1,22 +1,24 @@
-# 3. CSSレイアウト2 Flex編(1)
+# 3-2_CSSレイアウト_Flex基礎
 
 
 # Flexbox（flexbox-basic.html）
 
-WEBサイトをレイアウトする為に実装され、スマートフォンなどの端末でも最適で柔軟なレイアウトが実現できるプロパティ。（レスポンシブ）
+WEBサイトをレイアウトする為に実装され、スマートフォンなどの端末でも最適で柔軟なレイアウトが実現できるプロパティです。
+現状、Webサイトをレイアウトするために用いられるもっともメジャーなプロパティなので是非覚えておきましょう。
 
 
-
-    <ul class="flexbox"> /* Flex container */
-      <li>flexアイテム</li> /* Flexアイテム */
-      <li>flexアイテム</li> /* Flexアイテム */
-      <li>flexアイテム</li> /* Flexアイテム */
-    </ul>
-
-
-    .flexbox {
-      display: flex;
-    }
+```html
+<ul class="flexbox"> /* Flexコンテナー */
+  <li>flexアイテム</li> /* Flexアイテム */
+  <li>flexアイテム</li> /* Flexアイテム */
+  <li>flexアイテム</li> /* Flexアイテム */
+</ul>
+```
+```css
+.flexbox {
+  display: flex;
+}
+```
 
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1522047628382_flex-container.png)
@@ -24,45 +26,47 @@ WEBサイトをレイアウトする為に実装され、スマートフォン�
 
 
 
-**メリット**
+### メリット
 
 - 親要素に`display: flex;`と指定すれば、子要素が横並びの対象となります。
 
-**デメリット**
+### デメリット
 
 - レガシーブラウザが対応していない場合がある。
-    - IE9は未対応。IE10はdisplay:-ms-flexbox
-    - IE11ではflex:1ではなくflex-grow：1としなければならない。
-    - Safari8 未満はdisplay: -webkit-flex
-    - iOS9 未満はdisplay: -webkit-flex
-    - Android 4.3 未満はdisplay: -webkit-box
+    - IE9は未対応。IE10は`display:-ms-flexbox`。
+    - IE11では`flex:1`ではなく`flex-grow：1`としなければならない。
+    - Safari8 未満は`display: -webkit-flex`
+    - iOS9 未満は`display: -webkit-flex`
+    - Android 4.3 未満は`display: -webkit-box`
 - モダンブラウザでも問題がある場合がある
     - [flexboxのバグに立ち向かう（flexboxバグまとめ）](https://qiita.com/hashrock/items/189db03021b0f565ae27)
 
+---
 
 
 ## Flexboxのプロパティ
 
-[**コンテナー用プロパティ**](https://paper.dropbox.com/doc/3.-CSS2-Flex1--AhCbO0xgAvVPZaT8e6yI7BOLAg-ISLAx0fcNOLemYKhw7ah2#:uid=141244173376216642993849&h2=%E3%82%B3%E3%83%B3%E3%83%86%E3%83%8A%E3%83%BC%E7%94%A8%E3%83%97%E3%83%AD%E3%83%91%E3%83%86%E3%82%A3)
+Flexbox関連のプロパティはたくさんあります。
+無理にすべて覚えずに下記の表をうまく利用してレイアウトしてみてください。
 
+### コンテナー用プロパティ
 
-- [flex-direction](https://paper.dropbox.com/doc/2.-CSS-rjwNkn68WDxSwjXVMOloM#:h2=flex-direction)　-　flexアイテムを並べる方向
-- [flex-wrap](https://paper.dropbox.com/doc/2.-CSS-rjwNkn68WDxSwjXVMOloM#:h2=flex-wrap)　-　flexアイテムの折り返し
-- [justify-content](https://paper.dropbox.com/doc/2.-CSS-rjwNkn68WDxSwjXVMOloM#:h2=justify-content)　-　左右中央
-- [align-item](https://paper.dropbox.com/doc/2.-CSS-rjwNkn68WDxSwjXVMOloM#:h2=align-item)（align-self）　-　上下位置
-- [align-content](https://paper.dropbox.com/doc/2.-CSS-rjwNkn68WDxSwjXVMOloM#:h2=align-content)　-　行の揃え方
+**flex-direction**　-　flexアイテムを並べる方向
+**flex-wrap**　-　flexアイテムの折り返し
+**justify-content**　-　左右中央
+**align-item（align-self）** -　上下位置
+**align-content**　-　行の揃え方
 
-[**アイテム用プロパティ**](https://paper.dropbox.com/doc/3.-CSS2-Flex2--AhCWbukm_Cvcg20UzT1B2PWVAg-mFR3aGQVjkwJ5qrTz6Bgg#:uid=783441533533766140786921&h2=%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E7%94%A8%E3%83%97%E3%83%AD%E3%83%91%E3%83%86%E3%82%A3)
+### アイテム用プロパティ
 
-
-- [flex-grow](https://paper.dropbox.com/doc/3.-CSS2-Flex2--AhCWbukm_Cvcg20UzT1B2PWVAg-mFR3aGQVjkwJ5qrTz6Bgg#:h2=flex-grow)、[flex-shrink](https://paper.dropbox.com/doc/3.-CSS2-Flex2--AhCWbukm_Cvcg20UzT1B2PWVAg-mFR3aGQVjkwJ5qrTz6Bgg#:h2=flex-shrink)、[flex-basis](https://paper.dropbox.com/doc/3.-CSS2-Flex2--AhCWbukm_Cvcg20UzT1B2PWVAg-mFR3aGQVjkwJ5qrTz6Bgg#:h2=flex-basis)　-　伸縮系プロパティ
-- [order](https://paper.dropbox.com/doc/2.-CSS-rjwNkn68WDxSwjXVMOloM#:h2=order)　-　flexアイテムの順番
+**flex-grow、flex-shrink、flex-basis**　-　伸縮系プロパティ
+**order**　-　flexアイテムの順番
 
 
 
 ## **コンテナー用プロパティ**
 
-**flex-direction** 
+#### flex-direction
 
 Flexアイテムが並ぶ方向を決める為のプロパティ
 
@@ -76,9 +80,9 @@ Flexアイテムが並ぶ方向を決める為のプロパティ
 
 
 
-**flex-wrap**
+#### flex-wrap
 
-コンテナ内でFlexアイテムを折り返すためのプロパティ
+コンテナー内でFlexアイテムを折り返すためのプロパティ
 
 | flex-wrap        | flexアイテムの折り返し                                                                                             |
 | ---------------- | --------------------------------------------------------------------------------------------------------- |
@@ -89,7 +93,7 @@ Flexアイテムが並ぶ方向を決める為のプロパティ
 
 
 
-**justify-content**
+#### justify-content
 
 Flexアイテムを配置する際の間隔を設定するプロパティ
 
@@ -105,7 +109,7 @@ Flexアイテムを配置する際の間隔を設定するプロパティ
 
 
 
-**align-items**
+#### align-items
 
 Flexアイテムを垂直に揃えるためのプロパティ
 
@@ -121,10 +125,10 @@ Flexアイテムを垂直に揃えるためのプロパティ
 
 
 
-**align-content**
+#### align-content
 
-Flexアイテムが2行以上になった場合にどう揃えるかを設定するプロパティ
-※ 「flex-wrap: wrap」が適用され、アイテムが2行になっている場合のみ有効
+Flexアイテムが2行以上になった場合にどう揃えるかを設定するプロパティ。
+※「flex-wrap: wrap」が適用され、アイテムが2行になっている場合のみ有効
 
 | align-content     | 行の揃え方                                                                                                     |
 | ----------------- | --------------------------------------------------------------------------------------------------------- |
@@ -138,26 +142,14 @@ Flexアイテムが2行以上になった場合にどう揃えるかを設定す
 
 
 
-
-
-
-
-
-
-
-
 ----------
-# 練習1
+## 練習1
 
-リンクなしのメニュー、box-sizing: border-box で。
+リンクなしのメニュー、`box-sizing: border-box` を用いてレイアウトしてください。
 
 
 
 ![](https://paper-attachments.dropbox.com/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1562407409523_+2019-07-06+19.03.20.png)
-
-
-
-
 
 
 - 文字色：#333333
@@ -171,7 +163,7 @@ Flexアイテムが2行以上になった場合にどう揃えるかを設定す
 
 
 
-# 練習2
+## 練習2
 
 上記の練習1を使ってリンク付きのメニューにしてみましょう。
 
@@ -187,10 +179,11 @@ Flexアイテムが2行以上になった場合にどう揃えるかを設定す
 
 
 
-## 復習1
+### 復習1
 
-練習2を使って、全体をpadding20ピクセルの余白をつけて背景色#eeeeee にしてください。
-※ box-sizing: border-box; で。
+練習2を使って、全体をpadding20ピクセルの余白をつけて背景色 `#eeeeee` にしてください。
+※ `box-sizing: border-box;` を用いてレイアウトしてください。
+
 
 
 ![](https://paper-attachments.dropbox.com/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1562407649118_+2019-07-06+19.07.18.png)
