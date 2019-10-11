@@ -1,6 +1,6 @@
-# CSS基礎編 セレクターについて
+# CSSセレクターについて
 
-## 代表的なセレクター一覧（selector1.html）
+## 代表的なセレクター一覧
 
 
 ### インラインStyle属性
@@ -121,9 +121,9 @@ HTMLタグの入れ子をした状態で細かく指定できることが大き�
 
 
 
-### 全称セレクター
+### ユニバーサルセレクター（全称セレクター）
 
-
+すべてのHTML要素を対象に共通のCSSプロパティを指定したい場合のプロパティです。
 
 ```css
 * {
@@ -133,6 +133,16 @@ HTMLタグの入れ子をした状態で細かく指定できることが大き�
 
 
 ### 書いて覚えよう
+
+上述した
+* インラインStyle属性
+* タグセレクター
+* クラスセレクター
+* 複数一括セレクター
+* 子孫セレクター
+* IDセレクター
+を用いて自由にスタイルを設定してみてください。
+
 
 ```html
 <!DOCTYPE html>
@@ -164,6 +174,7 @@ HTMLタグの入れ子をした状態で細かく指定できることが大き�
 
 ## クラスの付け方のルールや注意点
 
+クラスセレクターを利用する際にルールや注意点があります。
 
 - 英字大文字小文字は区別される。
 - 日本語もOK（だけど使わない）
@@ -186,6 +197,8 @@ HTMLタグの入れ子をした状態で細かく指定できることが大き�
 
 ## 他にもあるセレクター（selector2.html）
 
+下記のHTMLを用意して、それぞれのCSSを試してみましょう。
+
 ```html
 <section class="news-area">
   <ul class="news-area-main">
@@ -205,6 +218,11 @@ HTMLタグの入れ子をした状態で細かく指定できることが大き�
 
 ### 8. 子セレクター
 
+「メインニュース1〜3だけ」を水色にする設定をしてみましょう。
+下記の「よくない例」ですとサブニュース1~3も水色になってしまいます。
+
+`>` を利用することによって、`.news-area` の直ぐ下層にある `<ul>` の中の `<li>` という指定方法になります。
+
 ```css
 /* よくない例 */
 .news-area ul li {
@@ -218,14 +236,29 @@ HTMLタグの入れ子をした状態で細かく指定できることが大き�
 
 ### 9. 隣接セレクター
 
+下記のコードの結果、メインニュース2と3の文字がピンクになります。
+
+`<li>` を `+` で繋げることによって2番目の `<li>` を指定するようになります。
+
+
 ```css
 .news-area .news-area-main li + li {
   background-color: pink;
 }
 ```
 
+例として、2番目のナビゲーションから左側に `margin-left: 10px;` を適用させたイメージです。
+すべてのナビゲーションの左側に `margin-left: 10px;` させてしまうと一番左側にも10pxの余白ができてしまってデザイン通りにはならないと思います。
+そういった時にこのテクニックは有効です。
+
+![](https://paper-attachments.dropbox.com/s_97C3F0387F7CAA07757B6831A60691B14724A7912A28CBD65BC1B2F2E7ADD369_1570759412827_.png)
+
+
 
 ## まだまだあるセレクター（selector3.html）
+
+まずこちらのHTMLを用意してください。
+
 ```html
 <ul class="main-menu">
   <li><a href="#">メニュー1</a></li>
@@ -236,27 +269,33 @@ HTMLタグの入れ子をした状態で細かく指定できることが大き�
   <li><a href="#">メニュー6</a></li>
   <li><a href="#">メニュー7</a></li>
   <li><a href="#">メニュー8</a></li>
+  <li><a href="#">メニュー9</a></li>
+  <li><a href="#">メニュー10</a></li>
+  <li><a href="#">メニュー11</a></li>
 </ul>
 ```
 
 ### 10. 擬似クラス
 
+擬似クラスには、いろいろな種類があります。
+急いですべて覚える必要はないので、こういう種類があるとだけ覚えておいてください。
+
 - hover　　　　　 → カーソルが乗っている要素
 
 
-- first-child　　　 → 要素内の最初の子要素
+- first-of-type　　　 → 要素内の最初の子要素
     - ■□□□□□□□□
-- last-child　　　 → 要素内の最後の子要素
+- last-of-type　　　 → 要素内の最後の子要素
     - □□□□□□□□■
-- nth-child(n)　　 → 要素内のn番目の子要素
+- nth-of-type(n)　　 → 要素内のn番目の子要素
     - □□■□□□□□
-- nth-child(odd)　→ 要素内の奇数の子要素
+- nth-of-type(odd)　→ 要素内の奇数の子要素
     - ■□■□■□■□
-- nth-child(even)  → 要素内の偶数の子要素
+- nth-of-type(even)  → 要素内の偶数の子要素
     - □■□■□■□■
-- nth-child(n + 5) → 5個目以降のliを指定する場合
+- nth-of-type(n + 5) → 5個目以降のliを指定する場合
     - □□□□■■■■
-- nth-child(-n + 5) → 5個目までを指定する場合
+- nth-of-type(-n + 5) → 5個目までを指定する場合
     - ■■■■■□□□
 
 
@@ -268,36 +307,40 @@ HTMLタグの入れ子をした状態で細かく指定できることが大き�
 }
 
 /* 最初の要素 */
-.main-menu li:first-child {
+.main-menu li:first-of-type {
   background-color:#faa;
 }
 /* n番目の要素 */
-.main-menu li:nth-child(2), .main-menu li:nth-child(3) {
+.main-menu li:nth-of-type(2), .main-menu li:nth-of-type(3) {
   background-color:#afa;
 }
 /* 最後の要素 */
-.main-menu li:last-child {
+.main-menu li:last-of-type {
   background-color: #aaf;
 }
 /* 奇数の要素 */
-.main-menu li:nth-child(odd) {
+.main-menu li:nth-of-type(odd) {
   background-color:#faf;
 }
 /* 偶数の要素 */
-.main-menu li:nth-child(even) {
+.main-menu li:nth-of-type(even) {
   background-color:#ffa;
 }
 /* 3の倍数の要素 */
-.main-menu li:nth-child(3n) {
+.main-menu li:nth-of-type(3n) {
   background-color:#aff;
 }
 /* 3の倍数プラス1の要素 */
-.main-menu li:nth-child(3n+1) {
+.main-menu li:nth-of-type(3n+1) {
   background-color:#aff;
 }
 ```
 
-参考サイト： [nth-childジェネレーター](http://www.bad-company.jp/nth-child/)
+#### こちらのサイトにコードを用意したので参考にご覧ください。
+https://codepen.io/cotton/pen/WNNQJqm
+
+#### 擬似クラスを試せるWebサービス
+[nth-childジェネレーター](http://www.bad-company.jp/nth-child/)
 
 
 

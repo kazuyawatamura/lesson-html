@@ -1,8 +1,4 @@
-# 3-2_CSSレイアウト_Flex2
-
-
-
-# Flexアイテム用プロパティ
+# CSSレイアウト Flex伸縮系のプロパティなど
  
 ## Flexアイテムの伸縮系プロパティ
 
@@ -19,10 +15,10 @@
 
 
 ```html
-<ul class="flexbox"> /* Flex container */
-  <li>flexアイテム</li> /* Flexアイテム */
-  <li>flexアイテム</li> /* Flexアイテム */
-  <li>flexアイテム</li> /* Flexアイテム */
+<ul class="flexbox"> /* container */
+  <li>flexアイテム</li> /* Item */
+  <li>flexアイテム</li> /* Item */
+  <li>flexアイテム</li> /* Item */
 </ul>
 ```
 

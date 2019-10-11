@@ -1,4 +1,4 @@
-# 2-3_CSS基礎編_プロパティ（properties1html）
+# CSS基礎編 プロパティについて（properties1html）
 
 ## 文字の色・大きさ・太さ
 
@@ -14,8 +14,18 @@
 }
 ```
 
-それぞれの初期値（デフォルト）は、#000000、16px、normal、none
+### 何も指定していない時のそれぞれの初期値（デフォルト）
 
+```css
+.class {
+  color: #000000;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: underline;
+}
+```
+
+ただし　```<a>``` タグの ```text-decoration``` の初期値（デフォルト）は、```underline```（下線有り）です。
 
 ## カラーコードについて
 
@@ -88,16 +98,22 @@
 - 相対値
 - emと同じような考え方だが、ルート（htmlタグ）に対する割合のサイズ
 
+
+`％` や `em` と同様に相対値ですが、ルート（html）の値を参照するため、計算が楽でメンテナンス性にも優れています。
+
+とくにレスポンシブサイトで効果を発揮し、スマホ時に文字を大きくしたい場合は、`font-size: 10px;` を `font-size: 20px;` にすれば、サイト全体の文字サイズが2倍になります。
+
 ```css
 html {
-  font-size: 100%; /* 16px */
+  font-size: 10px;
 }
 .rem {
-  font-size: 3rem; /* 16px * 3(rem) = 48px */
+  font-size: 3rem; /* 10px * 3(rem) = 30px */
 }
 ```
 
-```％```や```em```と同様に相対値ですが、ルート（html）の値を参照するため、計算が楽でメンテナンス性にも優れている。
+
+下記はサイト全体の文字サイズは、```14px``` 相当だが、タイトルの文字サイズ ```16px``` 相当に指定できます。
 
 ```html
 <h1 class="title">ヘッダータイトル</h1>
@@ -117,6 +133,10 @@ body {
 ```
 
 ## 文字を左右中央に寄せる
+
+ブロック要素内（もしくはインラインブロック要素内）で中央寄せにできます。
+インライン要素でこの指定をしても横幅が内容分の横幅なので中央寄せは効きません。
+
 
 ```html
 <div class="text-align">文字を左右中央に寄せる</div>
@@ -161,6 +181,7 @@ body {
 ```
 
 CSSでも指定の仕方は3通りあります
+
 ```css
 .background-color {
   background-color: #FF0000;
@@ -172,6 +193,7 @@ CSSでも指定の仕方は3通りあります
   background-color: rgba(255, 0, 0, 1);
 }
 ```
+
 ```css
 .background-color {
   background-color: red;
@@ -340,7 +362,7 @@ Webサイトに表示される文字（フォント）の指定を、font-family
 ```
 ```css
 .font-family {
-  font-family: 'Avenir Next' , Gadugi , 'ヒラギノ丸ゴ ProN' , メイリオ , sans-serif;
+  font-family: "Avenir Next" , Gadugi , "ヒラギノ丸ゴ ProN" , メイリオ , sans-serif;
 }
 ```
 
@@ -359,7 +381,7 @@ OS毎（Mac / Windows / iOS）にインストールされているフォンが�
 
 ### 左に指定されているフォントから優先される
 
-下記だと  `Avenir Next`  が無かったら、 `Gadugi`  →  `ヒラギノ丸ゴ`  →  `メイリオ`  の順
+下記だと  ```Avenir Next```  が無かったら、 ```Gadugi```  →  ```ヒラギノ丸ゴ```  →  ```メイリオ```  の順
 
 
 ### 英語フォントを先に記述する

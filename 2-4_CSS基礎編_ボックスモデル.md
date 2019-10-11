@@ -1,37 +1,47 @@
-# 2-4_CSS基礎編（ボックスモデル）
+# CSSボックスモデルについて
 
-# 
-# 
-# ボックスモデル（box-model.html）
-
+ここでは横幅や縦幅を設定したり、要素間の余白を設定することのできるプロパティについてお伝えします。
+前提としてサイトのレイアウトに用いるのはブロック要素（次ページで解説します）です。
+`<span>` や `<a>` では書かずに `<div>` などで記述していきましょう。
 
 ## width（ウィズ）
 
-横幅の指定をするプロパティ
+**（box-model.html）**
+
+要素の横幅の指定をするプロパティ。
+サイトレイアウト時には必ず用いるプロパティです。
+
+
+
+
+### 初期値： auto
+
+![](https://paper-attachments.dropbox.com/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1521511306636_width1.png)
+
+ブロック要素（後述します）何も指定しないと要素の幅は自動でブラウザ幅いっぱいに広がります。
+
+以下のようにすると500pxの細長いブロックができると思います。
 
 ```html
 <div class="width">横幅</div>
 ```
 ```css
 .width {
-  width: 500px; /* auto */
+  width: 500px; /* 初期値はauto */
   background-color: skyblue;
 }
 ```
 
+### 親要素の幅 > 子要素の幅にする
 
-**初期値： auto**
-
-![](https://paper-attachments.dropbox.com/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1521511306636_width1.png)
-
-> ブロック要素（後述します）何も指定しないと要素の幅は自動で決められる。
-
-**親要素の幅 > 子要素の幅にする**
+子要素の幅は親要素よりも小さくしてください。
+はみ出してしまうとレイアウトが難しくなるので、親要素の幅以内にしておきましょう。
+または、 `width: auto`（初期値のまま）で構いません。
 
 ![](https://paper-attachments.dropbox.com/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1521511286290_width2.png)
 
 
-**親要素を固定、 % での指定**
+### 親要素を固定、 % での指定
 
 ![](https://paper-attachments.dropbox.com/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1521511295581_width3.png)
 
@@ -39,18 +49,11 @@
 
 ## height（ハイト）
 
-高さの指定をするプロパティ
+高さの指定をするプロパティ。
+Webサイトをレイアウトする上で、高さは可変するものだと考えがあるため `height` を設定する事はあまりありません。
+ボタンなどのパーツで指定する場合があるので覚えておきましょう。
 
-```html
-<div class="height">高さ</div>
-```
-```css
-.height {
-  width: 500px; /* auto */
-  background-color: skyblue;
-}
-```
-**初期値：auto**
+### 初期値：auto
 
 ![](https://paper-attachments.dropbox.com/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1521185592542_height1.png)
 
@@ -58,16 +61,29 @@
 `width: auto` と異なり、`height` は縦いっぱいには広がりません。
 文字や画像などの要素の中身の分だけの高さになります。
 
-**親要素のheightが指定されていないと%指定は効かない**
+固定値500pxを指定してみましょう。
+
+```html
+<div class="height">高さ</div>
+```
+```css
+.height {
+  height: 500px; /* auto */
+  background-color: skyblue;
+}
+```
+
+### 親要素のheightが指定されていないと%指定は効かない
+
+こちらもあまり指定することはありませんが、高さを % パーセントで設定したい時は覚えておきましょう。
 
 ![](https://paper-attachments.dropbox.com/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1521189557925_height2.png)
 
 
 
+## padding（パディング）と　margin（マージン）
 
-
-## padding（パディング） と　margin（マージン）（padding-margin.html）
-
+下記の図を見てください。
 
 - padding：要素の内側の余白
 - margin  ：要素の外側の余白
@@ -77,7 +93,7 @@
 ![](https://paper-attachments.dropbox.com/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1521520448558_.png)
 
 
-#### Google Chrome の Developer Tool にも
+#### Google Chrome の Developer Tool の右下にも
 
 ![](https://paper-attachments.dropbox.com/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1522025206507_+2018-03-26+9.46.01.png)
 
@@ -85,6 +101,8 @@
 
 
 ### 基本的な書き方
+
+**padding-margin.html**
 
 ```html
 <div class="top">上部</div>
@@ -119,7 +137,7 @@
 }
 ```
 
-順番に「　上　、　右　、　下　、　左　」
+順番に「上、右、下、左」
 
 ##### その2
 ```css
@@ -130,7 +148,7 @@
 }
 ```
 
-順番に「　上　、　左右　、　下　」
+順番に「上、左右、下」
 
 ##### その3
 ```css
@@ -141,7 +159,7 @@
 }
 ```
 
-順番に「　上下　、　左右　」
+順番に「上下、左右」
 
 
 
@@ -194,76 +212,3 @@
 
 - `margin: auto 0;` では、上下中央配置はできない。
 - `padding: 0 auto;` では、中央配置はできない。
-
-
-## box-sizing プロパティ
-
-
-要素の幅（width）や高さ（height）の中にpaddingとborderを含めるかどうか
-
-```css
-/* paddingとborderを幅と高さに含めない */
-box-sizing: content-box; /* 初期値 */
-
-/* paddingとborderを幅と高さに含める */
-box-sizing: border-box;
-```
-
-#### 例
-```html
-<p class="box-sizing">要素の幅や高さに含めるかどうか。</p>
-```
-```css
-.box-sizing {
-  box-sizing: border-box;
-  width: 300px;
-  padding: 20px;
-  border: 1px solid orange;
-}
-```
-
-### content-box の場合
-
-
-paddingとborderを幅(width)と高さ(height)に含めない（幅(width)と高さ(height)に足される）
-
-
-![](https://paper-attachments.dropbox.com/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1521520578504_2.png)
-
-
-
-
-### border-box の場合
-
-paddingとborderを幅(width)と高さ(height)に含める
-
-
-![](https://paper-attachments.dropbox.com/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1521522172887_3.png)
-
-
-content-boxの場合、width + padding + border を足した幅を計算しなければならず使いづらいので
-理由がない限り、border-boxを指定します。
-
-下記をオマジナイのように書くと、pタグやクラスに1つひとつ要素に指定せず、記述するHTMLすべての要素が  `border-box`  になります。
-
-```css
-html {
-  box-sizing: border-box;
-}
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-```
-
-
-
-### width:100%とautoの違いは？
-
-![](https://paper-attachments.dropbox.com/s_BC4F8A59D54929D0D4950267E6E46E1369E40AC5CCA7E973F87B06577856D766_1523524467522_4.png)
-
-- auto：widthの中にpaddingとborderが含まれる。
-- 100%：widthにはpaddingとborderの分が含まれません。
-
-上記の   `box-sizing: border-box;` をすれば特に意識する必要はありません。
-※marginは除く
-

@@ -1,17 +1,19 @@
-# 3-2_CSSレイアウト_Flex基礎
+# CSSレイアウト Flexについて
 
 
-# Flexbox（flexbox-basic.html）
+# Flexbox
+
+**flexbox-basic.html**
 
 WEBサイトをレイアウトする為に実装され、スマートフォンなどの端末でも最適で柔軟なレイアウトが実現できるプロパティです。
 現状、Webサイトをレイアウトするために用いられるもっともメジャーなプロパティなので是非覚えておきましょう。
 
 
 ```html
-<ul class="flexbox"> /* Flexコンテナー */
-  <li>flexアイテム</li> /* Flexアイテム */
-  <li>flexアイテム</li> /* Flexアイテム */
-  <li>flexアイテム</li> /* Flexアイテム */
+<ul class="flexbox"> /* Container */
+  <li>flexアイテム</li> /* Item */
+  <li>flexアイテム</li> /* Item */
+  <li>flexアイテム</li> /* Item */
 </ul>
 ```
 ```css

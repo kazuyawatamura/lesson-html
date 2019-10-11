@@ -1,7 +1,9 @@
-# 3-4_CSSレイアウト_Position
+# CSSレイアウト Positionについて
 
 
-# position（position-basic.html）
+## positionプロパティとは？
+
+**position-basic.html**
 
 Positionは、要素の位置を座標で決めるためのプロパティです。
 全体的なレイアウトはFlexboxで行い、部分的なパーツのレイアウトはPositionで行うと良いかと思います。
@@ -19,7 +21,7 @@ Positionは、要素の位置を座標で決めるためのプロパティです
 ```
 
 
-## positionプロパティ
+### positionプロパティ
 
 基準の位置の指定
 
@@ -28,7 +30,7 @@ Positionは、要素の位置を座標で決めるためのプロパティです
 - relative　← 現在の位置を基準に相対的な位置を決める
 - fixed　　← 画面上の指定した位置に固定する
 
-### 基準からの距離
+#### 基準からの距離
 
 - top　　　← 上からの距離
 - bottom　←下からの距離
@@ -37,7 +39,7 @@ Positionは、要素の位置を座標で決めるためのプロパティです
 
 
 
-### 実際の使い方（1）
+##### 実際の使い方（1）
 
 ```html
 <div class="relative">
@@ -63,7 +65,7 @@ Positionは、要素の位置を座標で決めるためのプロパティです
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522138292122_position1.png)
 
 
-### 実際の使い方（position-photo.html）
+##### 実際の使い方（position-photo.html）
 
 ```html
 <div class="relative">
@@ -99,17 +101,15 @@ Positionは、要素の位置を座標で決めるためのプロパティです
 - 50% と マイナスマージンで中央に配置する事も可能
 
 
+#### 注意
 
- `absolute`  を使って位置調整するときは、親要素に  `relative`  を指定しておきましょう。
+* `absolute`  を使って位置調整するときは、親要素に  `relative`  を指定しておきましょう。
 基準位置がずれて定まらず、思った位置になりません。
- `absolute`  を使うときは、おまじないのように親要素もセットで変えるようにしましょう。
+* `absolute`  を使うときは、おまじないのように親要素もセットで変えるようにしましょう。
 
 
 
-
-
-
-## 固定位置（position-fixed.html）
+### 固定位置（position-fixed.html）
 
 画面の決まった位置に固定表示をさせるプロパティです。
 
@@ -143,7 +143,7 @@ Positionは、要素の位置を座標で決めるためのプロパティです
 ```css
 .fixed {
   position: fixed;
-  top: 0;
+  bottom: 0;
   left: 0;
   width: 100%;
   background-color: orange;
