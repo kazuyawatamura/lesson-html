@@ -1,9 +1,11 @@
 
-# 4-1_CSS実用_角丸とグラデーション
+# CSS実用、角丸とグラデーション
 
 
 
-## 角丸（border-radius.html）
+## 角丸
+
+**border-radius.html**
 
 CSSで要素に対して四方に角丸を設定できるプロパティです。
 
@@ -54,6 +56,7 @@ CSSで要素に対して四方に角丸を設定できるプロパティです�
 border-radius: 10px 20px 30px 40px;
 ```
 
+---
 
 ## グラデーション（gradient.html）
 

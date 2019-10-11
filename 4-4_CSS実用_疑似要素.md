@@ -1,7 +1,7 @@
 
-# 疑似要素（before-after.html）
+# CSS実用、疑似要素について
 
-
+**before-after.html**
 
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522207364851_HTML.png)
@@ -17,6 +17,10 @@ HTMLには書かれていない要素もどき（疑似的に）をCSSで作る�
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522207977692_beforeafter1.png)
 
 
+こういったパーツが実現できます。
+（疑似要素を使わなくても実現はできます）
+
+### 実際に書いて覚えてみよう
 
 ```html
 <div class="before">こんにちは</div>
@@ -117,6 +121,8 @@ HTMLには書かれていない要素もどき（疑似的に）をCSSで作る�
       height: 42px;
     }
 ```
+
+下記の画像を右クリックでダウンロードして、上記のHTML `<h1>` タグの疑似要素として自由に配置してみましょう。
 
 ![ico-new.png](https://d2mxuefqeaa7sj.cloudfront.net/s_3AFFAD81B710F086AB22545D7AB6A184015C245587269DFF7E16C5AFB7C20C7D_1522893931247_ico-new.png)
 

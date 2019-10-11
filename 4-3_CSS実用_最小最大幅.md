@@ -1,6 +1,16 @@
-# 最小と最大横幅（min-max.html）
+# CSS実用、最小と最大横幅
 
-## min-width
+レスポンシブデザインでサイトを制作する際によく用いるプロパティです。
+ブロック要素の最小幅と最大幅を設定ができます。
+
+**相対値（%）で指定した `width`**と併用する事によってブラウザの幅に応じて可変するレイアウトを作ってみましょう。
+
+**min-max.html**
+
+## 最小幅（min-width）について
+
+要素がこれ以上小さくならない幅を指定し `width` の最小値として設定します。
+小さいデバイスやブラウザの幅を狭めたときに小さくなりすぎないように `min-width` を設定します。
 
 ```html
 <div class="min-width">
@@ -10,21 +20,34 @@
 ```
 ```css
 .min-width {
-  width: 200px;/*親要素大きめ*/
-  background:skyblue
+  width: 90%;/*親要素大きめ*/
+  background: skyblue;
 }
 .min-width .nomin {/*最小幅なし*/
-  background:gray;
+  background: white;
   width: 50%
 }
 .min-width .min {/*最小幅あり*/
-  background:orange;
+  background: orange;
   width: 50%;
   min-width: 100px
 }
 ```
 
-## max-width
+下記の動画のオレンジ色の要素の最小幅を設定しています。
+**親要素の50%を保たれつつ、縮小されていますが100pxでストップして、それ以上は縮みません。**
+
+
+![](https://paper-attachments.dropbox.com/s_03B51809C9E0C0C2D26C8EFE7729EA237FDC61C5D96CFEEB5910A632AC684B2C_1570806437999_Kapture+2019-10-12+at+0.07.01.gif)
+
+
+
+
+
+## 最大幅（max-width）について
+
+`min-width` の逆の考え方で、要素がこれ以上大きくならない幅を指定し `width` の最大値として設定します。
+PCや大きなタブレットなど大きなデバイスやブラウザの幅を広めたときに大きくなりすぎないように `max-width` を設定します。
 
 ```html
 <div class="max-width">
@@ -34,16 +57,67 @@
 ```
 ```css
 .max-width {
-  width: 100px;/*親要素小さめ*/
-  background:skyblue
+  width: 90%;/*親要素小さめ*/
+  background:skyblue;
 }
 .max-width .nomin {/*最大幅なし*/
-  background:gray;
+  background: white;
   width: 80%
 }
 .max-width .min {/*最大幅あり*/
   background:orange;
   width: 80%;
-  max-width: 100px
+  max-width: 500px
 }
 ```
+下記の動画のオレンジ色の要素の最大幅を設定しています。
+**親要素の50%を保たれつつ、拡大されていますが500pxでストップして、それ以上は広がりません。**
+
+
+![](https://paper-attachments.dropbox.com/s_03B51809C9E0C0C2D26C8EFE7729EA237FDC61C5D96CFEEB5910A632AC684B2C_1570806942834_Kapture+2019-10-12+at+0.15.29.gif)
+
+### 最大幅（max-width）の実例
+
+大きい画像をスマホで見たときに画像が画面からはみ出さないように制限してみましょう。
+大きさ縦横500pxの画像に対して `max-width: 100%;` を設定します。
+そうして500px以下のブラウザサイズで見たときに、画面からはみ出さずに収まりました。
+
+
+```html
+<div class="max-width-img">
+  <img src="https://picsum.photos/500/500?randam" alt="">
+</div>
+```
+
+```css
+.max-width-img {
+  text-align: center;
+}
+.max-width-img img {
+  width: 500px;
+  height: 500px;
+  max-width: 100%;
+}
+```
+
+![](https://paper-attachments.dropbox.com/s_03B51809C9E0C0C2D26C8EFE7729EA237FDC61C5D96CFEEB5910A632AC684B2C_1570808650123_Kapture+2019-10-12+at+0.43.56.gif)
+
+
+しかし、`500px` 以下になって幅だけ `max-width` により小さくなったせいで、画像の縦横比が変化してしまいました。
+そこで**画像の縦横比を保つ方法**をご紹介します。
+
+それは、`height` を `auto` にすることです。
+縦を `auto` にすることによって縦が可変になり、横幅に応じて変化するようになりました。
+
+```css
+.max-width-img {
+  text-align: center;
+}
+.max-width-img img {
+  width: 500px;
+  height: auto; /* ←ここをautoに変更 */
+  max-width: 100%;
+}
+```
+
+![](https://paper-attachments.dropbox.com/s_03B51809C9E0C0C2D26C8EFE7729EA237FDC61C5D96CFEEB5910A632AC684B2C_1570809119618_Kapture+2019-10-12+at+0.51.41.gif)
