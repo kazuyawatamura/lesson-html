@@ -61,14 +61,15 @@ srcに対して、値を与えてあげる働きがあります。
 
 #### 【example-a.html】に【images】フォルダーの中の【photo.jpg】を表示させる場合
 
-example-a.htmlに下記を入力すると、
+```<img src="./images/photo.jpg" alt="">```
 
-* 同じ階層にあるimagesフォルダの中の
+example-a.htmlに上記を入力すると、
+
+* 同じ階層にあるimagesフォルダーの中の
 * photo.jpgというファイル名の画像を表示させる
 
 という指定になります。
 
-```<img src="./images/photo.jpg" alt="">```
 
 
 #### 問題
@@ -78,11 +79,11 @@ example-a.htmlに下記を入力すると、
 
 ![](https://paper-attachments.dropbox.com/s_4AFE1D42921B49A1323F81806A5D8CA9E5A3178118A99D50F44A4B49B29FB3D8_1570888913424_link2.png)
 
-問1：【example-a.html】から【example-b.html】にリンクを貼る場合
+**問1**：【example-a.html】から【example-b.html】にリンクを貼る場合
 
-問2：【example-a.html】から【example-c.html】にリンクを貼る場合
+**問2**：【example-a.html】から【example-c.html】にリンクを貼る場合
 
-問3：【example-c.html】に【photo.jpg】を表示させる場合
+**問3**：【example-c.html】に【photo.jpg】を表示させる場合
 
 
 #### 参考

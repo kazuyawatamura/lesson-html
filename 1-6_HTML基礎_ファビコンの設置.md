@@ -6,8 +6,7 @@
 
 Webサイトを作る上で必須ではありませんが、サイトの印象を与える効果的なもので、ブックマークしたときに一覧から見つけやすくもなります。
 
-また、スマートフォンのホーム画面にWebサイトを登録した際に表示されるアイコンは「
-apple-touch-icon」といいます。
+また、スマートフォンのホーム画面にWebサイトを登録した際に表示されるアイコンは「apple-touch-icon」といいます。
 
 ## 画像を用意するまでの大きな流れ
 
@@ -34,9 +33,20 @@ apple-touch-icon」といいます。
 まずファビコンを指定する下記のコードを書く場所は、```<head>```の中です。
 
 ```html
-<!-- ファビコン用 -->
-<link rel="icon" href="favicon.ico">
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>はじめまして</title>
+    <!-- ファビコン用 -->
+    <link rel="icon" href="./favicon.ico">
+  </head>
+  <body>
+    
+  </body>
+</html>
 ```
 
+```<head>``` の中のタグ（```<meta>```や```<title>```など）の順番は順不同です。
 
 パスは適宜変更し、設置してみてください。
