@@ -24,7 +24,7 @@ srcに対して、値を与えてあげる働きがあります。
 
 - 絶対パス：「http://」から始まるパス（例：https://amazon.co.jp）
     - 「東京都世田谷区・・」から始まる住所の様なパス
-- 相対パス：「./」や「../」から始まるパス
+- 相対パス：や「../」から始まるパス
     - 自分から「信号を右に曲がり、階段を上がり・・」という現在地と対象を相対的に見るパス
 
 
@@ -40,11 +40,18 @@ srcに対して、値を与えてあげる働きがあります。
 
 ### 例
 
-![](https://paper-attachments.dropbox.com/s_6DC39C02081D2F0F89C1BB40AC805C4C3DCC6DA94D1CE0AB6A7FB3CF3041E463_1569979237558_link1.png)
+![](https://paper-attachments.dropbox.com/s_4AFE1D42921B49A1323F81806A5D8CA9E5A3178118A99D50F44A4B49B29FB3D8_1570888909145_link1.png)
+
 
 #### 【example-a.html】に【images】フォルダーの中の【photo.jpg】を表示させる場合
 
-example-a.htmlに下記を入力
+example-a.htmlに下記を入力すると、
+
+* 同じ階層にあるimagesフォルダの中の
+* photo.jpgというファイル名の画像を表示させる
+
+という指定になります。
+
 ```<img src="images/photo.jpg" alt="">```
 
 
@@ -53,11 +60,11 @@ example-a.htmlに下記を入力
 回答するのはパスだけで構いません。
 （src=""などの属性は不要です）
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_3066FA23A18E1433BC4D48A1112B9F0C6A766C9E0917C880D3A50377E5D58EB4_1520603381995_link2.png)
+![](https://paper-attachments.dropbox.com/s_4AFE1D42921B49A1323F81806A5D8CA9E5A3178118A99D50F44A4B49B29FB3D8_1570888913424_link2.png)
 
 問1：【example-a.html】から【example-b.html】にリンクを貼る場合
 
-問2：【example-b.html】から【example-c.html】にリンクを貼る場合
+問2：【example-a.html】から【example-c.html】にリンクを貼る場合
 
 問3：【example-c.html】に【photo.jpg】を表示させる場合
 
