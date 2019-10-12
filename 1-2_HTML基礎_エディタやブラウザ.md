@@ -1,18 +1,39 @@
 # 使用するアプリ
 
+![](https://paper-attachments.dropbox.com/s_4AFE1D42921B49A1323F81806A5D8CA9E5A3178118A99D50F44A4B49B29FB3D8_1570884618326_vscode.png)
 
-## テキストエディタ（Visual Studio Code）
+## テキストエディター（Visual Studio Code）
 
+HTMLやCSS、JavaScriptはテキストデータです。
+WIndowsやMacに付属しているメモ帳やノートパッドなども作れますが、HTMLなどを作る上で便利な機能を備えているアプリケーションを使いましょう。
+
+アプリケーションにはいろいろな種類がありますが、今回は **Visual Studio Code（以下VS Code）** を使います。
+（VS Codeでなくてもテキストデータを扱えるアプリであれば何でも構いません）
+
+**Visual Studio Code**
 https://www.microsoft.com/ja-jp/dev/products/code-vs.aspx
 
-### インストールして欲しいプラグイン
 
-- Japanese Language Pack
-- Visual Studio IntelliCode（コーディングを支援してくれるプラグイン1）
-- Bracket Pair Colorizer（分かりやすくしてくれるプラグイン）
-- Path Intellisense（コーディングを支援してくれるプラグイン2）
 
-### 日本語メニュー
+
+### Mac に VS Code をインストールしましょう
+
+こちらを参照しインストールまで進めてください。
+
+[MacOSでVisual Studio Codeをインストールする手順](https://qiita.com/watamura/items/51c70fbb848e5f956fd6)
+
+
+
+#### インストールして欲しい拡張機能（プラグイン）
+
+VS Code のインストールが終わったら、それに拡張機能を入れてより便利にしていきます。
+
+- **Japanese Language Pack**（英語版から日本語版に変えてくれるプラグイン）
+- **Visual Studio IntelliCode**（コーディングを支援してくれるプラグイン）
+- **Bracket Pair Colorizer**（分かりやすくしてくれるプラグイン）
+- **Path Intellisense**（コーディングを支援してくれるプラグイン）
+
+##### Japanese Language Packの設定
 
 1. 拡張機能「Japanese Language Pack」と検索
 2. Japanese Language Packをインストール
@@ -21,14 +42,18 @@ https://www.microsoft.com/ja-jp/dev/products/code-vs.aspx
 5. 「ja」を選択
 
 
-### インデントを表示
+##### インデント（字下げ）を分かりやすくする設定
 
 1. メニューバーの「Code」「基本設定」「設定」
 2. 上の方にある「設定の検索」というフォームに「renderIndentGuides」を入力
 3. 表示された「エディターでインデントガイドを〜」にチェックをしてください
 
 
-## ブラウザ（Google Chrome）
+## ブラウザー（Google Chrome）
+
+![](https://paper-attachments.dropbox.com/s_4AFE1D42921B49A1323F81806A5D8CA9E5A3178118A99D50F44A4B49B29FB3D8_1570884754170_+2019-10-12+21.52.04.png)
+
+HTMLの確認用に用いるブラウザは、Google製のChrome（クローム）を使います。
 
 https://www.google.co.jp/chrome/browser/desktop/index.html
 
