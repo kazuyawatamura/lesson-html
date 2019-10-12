@@ -1,9 +1,9 @@
 # CSS基礎編 プロパティについて
 
+**properties1.html**
+
 
 ## 文字の色・大きさ・太さ
-
-**font-size.html**
 
 ```html
 <div class="text">文字の色・大きさ・太さ</div>
@@ -33,8 +33,6 @@
 ---
 
 ## カラーコードについて
-
-**color.html**
 
 CSSで色を設定する際に3通りの指定方法があります。
 
@@ -110,6 +108,20 @@ color: paleGreen;
 background-color: skyblue;
 ```
 
+
+### `color` と　`background-color` の初期値
+
+使用することは少ないですが、`color` と `background-color` の初期値があることを覚えておいてください。
+
+```css
+/* 文字色 */
+color: transparent;
+
+/*背景色*/
+background-color: transparent;
+```
+
+
 * [カラーコード 早見表](http://www5.plala.or.jp/vaio0630/hp/c_code.htm)
 * [カラーコード変換ツール](https://tech-unlimited.com/color.html)
 
@@ -117,12 +129,10 @@ background-color: skyblue;
 
 ## 単位について
 
-**font-size.html**
-
 ### px（ピクセル）
 
 - 絶対値
-- ユーザーがブラウザからそのサイズを変更する事ができない
+- CSSで数値を指定するさいの基本的な単位は `px` ピクセルと覚えておきましょう。
 
 ### %（パーセント）
 
@@ -203,7 +213,7 @@ body {
 ## 行間を指定する
 
 ```html
-<div class="line-height">行間を指定する</div>
+<div class="line-height">行間を指定する。行間を生むために長文を打ってください。サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト。</div>
 ```
 
 ```css
@@ -227,7 +237,6 @@ body {
 ---
 
 ## 背景色の指定
-**properties2.html**
 
 ```html
 <div class="background-color">背景色の指定</div>
@@ -257,6 +266,13 @@ CSSでも指定の仕方は3通りあります
 
 ## 線を引く
 
+要素の上下左右にそれぞれ線を引くことができます。
+指定できるプロパティは下記の通りです。
+
+* 太さ
+* スタイル
+* 色
+
 ```html
 <p class="border">この周りに線を描きます</p>
 ```
@@ -276,7 +292,7 @@ CSSでも指定の仕方は3通りあります
 }
 ```
 
-### 線の種類
+### 線スタイルの種類
 
 - solid（実線）
 - dotted（点線）
@@ -321,7 +337,9 @@ CSSでも指定の仕方は3通りあります
 
 ---
 
-## 背景画像（background-image.html）
+## 背景画像
+
+**properties2.html**
 
 ```html
 <div class="background">背景画像の指定</div>
