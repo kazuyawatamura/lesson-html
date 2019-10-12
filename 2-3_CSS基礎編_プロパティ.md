@@ -1,6 +1,9 @@
-# CSS基礎編 プロパティについて（properties1html）
+# CSS基礎編 プロパティについて
+
 
 ## 文字の色・大きさ・太さ
+
+**font-size.html**
 
 ```html
 <div class="text">文字の色・大きさ・太さ</div>
@@ -27,29 +30,94 @@
 
 ただし　```<a>``` タグの ```text-decoration``` の初期値（デフォルト）は、```underline```（下線有り）です。
 
+---
+
 ## カラーコードについて
 
-[カラーコード 早見表](http://www5.plala.or.jp/vaio0630/hp/c_code.htm)
+**color.html**
+
+CSSで色を設定する際に3通りの指定方法があります。
 
 ### 16進数のカラーコード
 
-黒← 　0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f　→白
+よく使用する指定方法です。
+耳慣れない16進数という言葉ですが、Photoshopなどのデザインツールから値をコピーしてCSSに貼り付けることが多いため、「この値は○○色」と具体的に覚えなくても大丈夫です。
+※ 無彩色の数種類は覚えても良いかもしれません。
 
+**無彩色カラーの一部**
+`#FFFFFF` →　白
+`#FAFAFA` →　限りなく薄いグレー
+`#CCCCCC` →　グレー
+`#000000` →　黒
+
+6桁の値の2桁ずつがRGBのそれぞれの値です。
+RGBは「加法混合」といって、赤青緑の3種類の色を混ぜれば混ぜるほど白に近づきます。
+
+![](https://paper-attachments.dropbox.com/s_57618050A23610DF813AD1198DA65210FE3FC11F977BF6FD2CA4F045448EE4DA_1570877915813_rgb.png)
+
+* [RGBとは](https://www.designmeishi.net/meishidatabase/color/)
+
+それぞれの値をこの16進数で表現します。
+`F` に近づくほど色が強く出て、`0` に近づくほど色は弱くなります。
+
+赤青緑のそれぞれの色をすべて強く出したら白になり、すべての色を弱めたら黒、と覚えましょう。
+
+
+**黒** ← 　0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f　→ **白**
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1521170368133_.png)
 
 
+
+```css
+/* 文字色 */
+color: #FF0000;
+
+/*背景色*/
+background-color:  #FF00FF;
+```
+
+
 ### rgba
 
-黒← 　0 〜 255　→白
-透明← 0 〜 1 →不透明
+RGBの値を0〜255までの数字で指定する方法です。
+大きな特徴は、Alpha（透明度）を指定することができる指定方法です。
+背景色に指定する事によって、半透明が表現できるのでデザインの幅が広がります。
+
+* 黒← 　`0` 〜 `255`　→白
+* 透明← `0` 〜 `1` →不透明
+  * `0.5` を `.5` と記述することもできます。
 
 ![](https://paper-attachments.dropbox.com/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1562395570706_rgba.png)
 
+```css
+/* 文字色 */
+color: rgba(255, 0, 0, 1);
 
+/*背景色*/
+background-color:  rgba(0, 0, 0, 0.5);
+```
 
+### カラーネーム
 
-## 単位について（font-size.html）
+Black、Navy、Aquaなど色の名前を指定する方法です。
+
+```css
+/* 文字色 */
+color: paleGreen;
+
+/*背景色*/
+background-color: skyblue;
+```
+
+* [カラーコード 早見表](http://www5.plala.or.jp/vaio0630/hp/c_code.htm)
+* [カラーコード変換ツール](https://tech-unlimited.com/color.html)
+
+---
+
+## 単位について
+
+**font-size.html**
 
 ### px（ピクセル）
 
@@ -98,6 +166,7 @@
 - 相対値
 - emと同じような考え方だが、ルート（htmlタグ）に対する割合のサイズ
 
+**主にフォントサイズの指定に使います。**
 
 `％` や `em` と同様に相対値ですが、ルート（html）の値を参照するため、計算が楽でメンテナンス性にも優れています。
 
@@ -132,6 +201,8 @@ body {
 }
 ```
 
+---
+
 ## 文字を左右中央に寄せる
 
 ブロック要素内（もしくはインラインブロック要素内）で中央寄せにできます。
@@ -147,6 +218,7 @@ body {
 }
 ```
 
+---
 
 ## 行間を指定する
 
@@ -172,6 +244,7 @@ body {
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1521177549564_2.png)
 
+---
 
 ## 背景色の指定
 **properties2.html**
@@ -200,6 +273,7 @@ CSSでも指定の仕方は3通りあります
 }
 ```
 
+---
 
 ## 線を引く
 
@@ -265,7 +339,7 @@ CSSでも指定の仕方は3通りあります
 .solid-bottom { border-bottom: 2px solid gray;}
 ```
 
-
+---
 
 ## 背景画像（background-image.html）
 
@@ -347,7 +421,7 @@ background-size: 100% 40%;
 [background-sizeプロパティについてまとめ](https://www.tam-tam.co.jp/tipsnote/html_css/post6015.html)
 
 
-
+---
 
 ## フォントを指定する
 
@@ -419,7 +493,8 @@ font-family: sans-serif;
 ```
 でも構いません。
 
-
+**Font-familyを生成してくれる便利なWebサービス（若干情報が古いです）**
+[Font-familyメーカー](https://saruwakakun.com/font-family)
 
 ----------
 
