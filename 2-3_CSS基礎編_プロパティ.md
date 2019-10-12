@@ -124,26 +124,6 @@ background-color: skyblue;
 - 絶対値
 - ユーザーがブラウザからそのサイズを変更する事ができない
 
-### em（エム）
-
-- 相対値
-- 親要素のフォントサイズの倍率
-
-```html
-<div class="px">pxを使ったフォントサイズ</div>
-<div class="em">emを使ったフォントサイズ</div>
-<div class="percent-wrapper"><p class="percent">パーセントを使ったフォントサイズ</p></div>
-<div class="rem">remを使ったフォントサイズ</div>
-```
-```css
-.px {
-  font-size: 16px;
-}
-.em {
-  font-size: 0.5em;
-}
-```
-
 ### %（パーセント）
 
 - 相対値
