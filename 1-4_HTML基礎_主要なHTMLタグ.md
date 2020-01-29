@@ -203,7 +203,7 @@ HTMLタグは「入れ子（ネスト）」といってタグの中にタグを�
 
 
 
-![水色がnav、赤枠がarticle、緑枠がsection、黄枠はaside、青がp](https://laro.jp/wp-content/uploads/2019/11/lesson-html-tag4.png)
+![水色がnav、赤枠がarticle、緑枠がsection、黄枠はaside、青がp](https://laro.jp/wp-content/uploads/2019/11/lesson-html-tag4.png)  
 ※水色がnav、赤枠がarticle、緑枠がsection、黄枠はaside、青がp
 
 
