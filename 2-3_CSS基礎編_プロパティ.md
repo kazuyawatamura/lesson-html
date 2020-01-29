@@ -551,3 +551,6 @@ font-family: sans-serif;
 もっとたくさんのスタイルシートみる
 [スタイルシートリファレンス（目的別）](http://www.htmq.com/style/)
 
+### 画像（imgタグ）下の隙間
+
+[画像（imgタグ）の下にできる隙間を無くす方法](https://technical-creator.com/img-tag-vertical-align/)
