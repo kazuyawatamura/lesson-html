@@ -3,22 +3,26 @@
 
 **before-after.html**
 
+<br><br><br>
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522207364851_HTML.png)
-
-
-HTMLには書かれていない要素もどき（疑似的に）をCSSで作ることが可能になります。
-（要素とはHTMLの文章や画像の事ですね。）
-
-そして疑似要素をマスターするとより幅広い表現が可能になります。
-たとえば、、、
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-before1.png)
 
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522207977692_beforeafter1.png)
+HTMLには書かれていない要素もどき（疑似的に）をCSSで作ることが可能になります。  
+（要素とはHTMLの文章や画像の事ですね。）  
+
+そして疑似要素をマスターするとより幅広い表現が可能になります。  
+たとえば、、、  
+
+<br>
+
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-before2.png)
 
 
-こういったパーツが実現できます。
+こういったパーツが実現できます。  
 （疑似要素を使わなくても実現はできます）
+
+<br><br><br>
 
 ### 実際に書いて覚えてみよう
 
@@ -37,14 +41,20 @@ HTMLには書かれていない要素もどき（疑似的に）をCSSで作る�
 }
 ```
 
+<br>
+
 - ::before ： 要素の直前に内容（content）を追加
 - ::after　： 要素の直後に内容（content）を追加
 
-
+<br><br><br>
 
 ## 具体的な活用方法
 
+<br><br><br>
+
 ### テキストをかぎかっこで囲む
+
+
 
 ```html
 <div class="example1">これはサンプルテキストです。</div>
@@ -61,6 +71,7 @@ HTMLには書かれていない要素もどき（疑似的に）をCSSで作る�
 }
 ```
 
+<br><br><br>
 
 ### タイトル文の英字を入れる
 
@@ -82,6 +93,8 @@ HTMLには書かれていない要素もどき（疑似的に）をCSSで作る�
 
 疑似要素は初期値ではインライン要素のため、 `display: block;`  を入れて前後に改行が入るようにします。
 
+<br><br><br>
+
 ### 【Extra】data属性を使ってタイトルを入れてみる
 
 ```html
@@ -99,6 +112,7 @@ HTMLには書かれていない要素もどき（疑似的に）をCSSで作る�
 }
 ```
 
+<br><br><br>
 
 ### 絶対配置（position: absolute;）で、疑似要素を好きな位置に配置する
 
@@ -124,18 +138,20 @@ HTMLには書かれていない要素もどき（疑似的に）をCSSで作る�
 
 下記の画像を右クリックでダウンロードして、上記のHTML `<h1>` タグの疑似要素として自由に配置してみましょう。
 
-![ico-new.png](https://d2mxuefqeaa7sj.cloudfront.net/s_3AFFAD81B710F086AB22545D7AB6A184015C245587269DFF7E16C5AFB7C20C7D_1522893931247_ico-new.png)
+<br>
 
+![ico-new.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-before3.png)
 
+<br><br><br>
 
 ## 練習
 https://www.dropbox.com/s/ii3ft2n116vyc5p/icon.zip?dl=0
 
+<br>
 
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-before4.png)
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522224752565_beforeafter2.png)
-
-
+<br>
 
 ```html
 <ul class="menu-before">
@@ -147,9 +163,11 @@ https://www.dropbox.com/s/ii3ft2n116vyc5p/icon.zip?dl=0
 </ul>
 ```
 
+<br><br><br>
+
 ### ヒント
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522232694697_beforeafter3.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-before5.png)
 
 
 
