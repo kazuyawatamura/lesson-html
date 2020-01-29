@@ -12,8 +12,8 @@
 ```css
 .text {
   color: #40dce8; /* rgba(64, 220, 232, 100) */
-  font-size: 16px; /* px, em, %, rem */
-  font-weight: normal; /* normal, bold, 400, 800 */
+  font-size: 20px; /* px, em, %, rem */
+  font-weight: bold; /* normal, bold, 400, 800 */
   text-decoration: underline; /* none, underline */
 }
 ```
@@ -26,7 +26,7 @@
   color: #000000;
   font-size: 16px;
   font-weight: normal;
-  text-decoration: underline;
+  text-decoration: none;
 }
 ```
 
@@ -51,10 +51,11 @@ CSSで色を設定する際に3通りの指定方法があります。
 ※ 無彩色の数種類は覚えても良いかもしれません。  
 
 **無彩色カラーの一部**
-`#FFFFFF` →　白
-`#FAFAFA` →　限りなく薄いグレー
-`#CCCCCC` →　グレー
-`#000000` →　黒
+`#FFFFFF` →　白  
+`#FAFAFA` →　限りなく薄いグレー  
+`#CCCCCC` →　グレー  
+`#000000` →　黒  
+
 
 6桁の値の2桁ずつがRGBのそれぞれの値です。  
 RGBは「加法混合」といって、赤青緑の3種類の色を混ぜれば混ぜるほど白に近づきます。
@@ -86,7 +87,7 @@ background-color:  #FF00FF;
 
 ### rgba
 
-RGBの値を0〜255までの数字で指定する方法です。
+RGBの値を0〜255までの数字で指定する方法です。
 大きな特徴は、Alpha（透明度）を指定することができる指定方法です。
 背景色に指定する事によって、半透明が表現できるのでデザインの幅が広がります。
 
@@ -134,15 +135,20 @@ background-color: transparent;
 
 * [カラーコード 早見表](http://www5.plala.or.jp/vaio0630/hp/c_code.htm)
 * [カラーコード変換ツール](https://tech-unlimited.com/color.html)
-
+<br><br><br>
 ---
+<br><br><br>
 
 ## 単位について
+
+<br><br><br>
 
 ### px（ピクセル）
 
 - 絶対値
 - CSSで数値を指定するさいの基本的な単位は `px` ピクセルと覚えておきましょう。
+
+<br><br><br>
 
 ### %（パーセント）
 
