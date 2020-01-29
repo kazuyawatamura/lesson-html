@@ -1,16 +1,17 @@
 # CSSでレイアウト　Floatについて
 
+<br><br><br>
 
 ## floatプロパティとは？
 
 **float-basic.html**
 
-昔から使われている横並び用のCSS。
-レイアウト調整用のCSSと言えばfloatだったが、本来の用途は、特定の要素を左右に寄せて配置するプロパティ。
-たとえば、文章中の画像に回り込ませる為のCSSでした。
+昔から使われている横並び用のCSS。  
+レイアウト調整用のCSSと言えばfloatだったが、本来の用途は、特定の要素を左右に寄せて配置するプロパティ。  
+たとえば、文章中の画像に回り込ませる為のCSSでした。  
 
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1522033854828_image.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-float1.png)
 
 
 ```html
@@ -38,7 +39,7 @@
 - float: right;と指定すれば、画像は右側に寄る。
 - 初期値は、 `none` 
 
-
+<br><br><br>
 
 ## floatで横並び1
 
@@ -70,15 +71,16 @@
 }
 ```
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1522035741946_image.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-float2.png)
 
+<br><br><br>
 
 ### 注意点
 
 `.red`  要素から  `float: left;`  を削除してみると。。。
 
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1522036377319_image.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-float3.png)
 
 
 
@@ -90,10 +92,9 @@ floatプロパティを適応した要素は、「浮いてしまう」ような
 
 
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522892722724_1.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-float4.png)
 
-
-
+<br><br><br>
 
 ### 解決策
 
@@ -106,7 +107,7 @@ floatプロパティを適応した要素は、「浮いてしまう」ような
 }
 ```
 
-
+<br><br><br>
 
 ## floatで横並び2
 
@@ -144,9 +145,9 @@ floatプロパティを適応した要素は、「浮いてしまう」ような
 ```
 
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1522042437450_2.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-float5.png)
 
-
+<br><br><br>
 
 ### 解決策1（推奨）
 ```css
@@ -155,6 +156,7 @@ floatプロパティを適応した要素は、「浮いてしまう」ような
   background-color: palegreen;
 }
 ```
+<br><br><br>
 
 ### 解決策2
 縦サイズが決まっていればこの方法のほうが手っ取り早いと思いますが、レスポンシブサイトを作るのであれば面倒な手法かもしれません。
@@ -165,6 +167,7 @@ floatプロパティを適応した要素は、「浮いてしまう」ような
   background-color: palegreen;
 }
 ```
+<br><br><br>
 
 ### 解決策3
 
@@ -184,6 +187,6 @@ htmlの方に `clearfix` というクラスを追加します。
 }
 ```
 
-クリアーフィックスという手法の解決方法です。
-IEが古い時代に回避方法としてベターだったこの方法ですが、時代と共に使われなくなってきました。
-古いサイトのリニューアル案件などでもしかしたら利用されているかもしれません。
+クリアーフィックスという手法の解決方法です。  
+IEが古い時代に回避方法としてベターだったこの方法ですが、時代と共に使われなくなってきました。  
+古いサイトのリニューアル案件などでもしかしたら利用されているかもしれません。  
