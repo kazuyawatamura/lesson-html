@@ -2,8 +2,9 @@
 
 レスポンシブデザインとは、PC、タブレット、スマートフォンなどの色々なデバイスに最適化した表示を1つのHTMLファイルで対応できる方法です。
 
+<br>
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_3AFFAD81B710F086AB22545D7AB6A184015C245587269DFF7E16C5AFB7C20C7D_1522396939826_responsive1.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-responsive1.png)
 
 ```html
 <div class="responsive">
@@ -11,6 +12,8 @@
   <div class="right">ライトコンテンツ</div>
 </div>
 ```
+
+<br><br>
 
 [assets/css/responsive.css]
 
@@ -31,9 +34,11 @@
 }
 ```
 
+<br><br><br>
+
 ## Viewport について
 
-ブラウザでどのように見えるかを設定する為のタグです。
+ブラウザでどのように見えるかを設定する為のタグです。  
 head内に記述します。
 
 [Google - レスポンシブ ウェブデザインの基本](https://developers.google.com/web/fundamentals/design-and-ux/responsive/#set-the-viewport)
@@ -42,14 +47,19 @@ head内に記述します。
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
+<br><br><br>
 
 ## メディアクエリを使ってCSSを読み込む方法
+
+<br><br><br>
 
 ### HTMLのlinkタグに記述（responsive-html.html）
 
 ```html
 <link rel="stylesheet" href="assets/css/style.css" media="(min-width: 960px)">
 ```
+
+<br><br><br>
 
 ### CSS内に記述（responsive-css.html）
 
@@ -82,14 +92,17 @@ head内に記述します。
 }
 ```
 
+<br><br><br>
+
 ## 書き方ルール
 
 `min-width` → 最小の横幅が `◯◯px` の時に ~
 `max-width` → 最大の横幅が `◯◯px` の時に ~
 
-スマートフォン用のCSSから書いていくことをモバイルファースト、
+スマートフォン用のCSSから書いていくことをモバイルファースト、  
 デスクトップ用のCSSから書いていくことをデスクトップファーストといいます。
  
+<br><br><br>
 
 ### 各デバイス用に設けたブレイクポイント
 
@@ -100,12 +113,12 @@ head内に記述します。
 
 参考：[Responsive breakpoints](https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints)
 
+<br>
+
+![クスールサイトのブレークポイントは 768px の1つです](https://laro.jp/wp-content/uploads/2019/11/lesson-css-responsive2.png)
 
 
-![クスールサイトのブレークポイントは 768px の1つです](https://d2mxuefqeaa7sj.cloudfront.net/s_3AFFAD81B710F086AB22545D7AB6A184015C245587269DFF7E16C5AFB7C20C7D_1522627577175_responsive2.png)
-
-
-
+<br>
 
 ```css
 .responsive {
@@ -151,13 +164,13 @@ head内に記述します。
 }
 ```
 
-
+<br><br><br>
 
 参考：[The Ultimate Guide To iPhone Resolutions](https://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions)
 
-
+<br>
 ※デバイスが縦長か横長で振り替わる
-
+<br>
 
 - portrait: 縦長の場合
 - landscape: 横長の場合
