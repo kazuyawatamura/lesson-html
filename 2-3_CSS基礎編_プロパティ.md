@@ -2,6 +2,7 @@
 
 **properties1.html**
 
+<br><br><br>
 
 ## 文字の色・大きさ・太さ
 
@@ -16,6 +17,7 @@
   text-decoration: underline; /* none, underline */
 }
 ```
+<br><br><br>
 
 ### 何も指定していない時のそれぞれの初期値（デフォルト）
 
@@ -30,17 +32,23 @@
 
 ただし　```<a>``` タグの ```text-decoration``` の初期値（デフォルト）は、```underline```（下線有り）です。
 
+<br><br><br>
+
 ---
+
+<br><br><br>
 
 ## カラーコードについて
 
 CSSで色を設定する際に3通りの指定方法があります。
 
+<br><br><br>
+
 ### 16進数のカラーコード
 
-よく使用する指定方法です。
-耳慣れない16進数という言葉ですが、Photoshopなどのデザインツールから値をコピーしてCSSに貼り付けることが多いため、「この値は○○色」と具体的に覚えなくても大丈夫です。
-※ 無彩色の数種類は覚えても良いかもしれません。
+よく使用する指定方法です。  
+耳慣れない16進数という言葉ですが、Photoshopなどのデザインツールから値をコピーしてCSSに貼り付けることが多いため、「この値は○○色」と具体的に覚えなくても大丈夫です。  
+※ 無彩色の数種類は覚えても良いかもしれません。  
 
 **無彩色カラーの一部**
 `#FFFFFF` →　白
@@ -48,14 +56,14 @@ CSSで色を設定する際に3通りの指定方法があります。
 `#CCCCCC` →　グレー
 `#000000` →　黒
 
-6桁の値の2桁ずつがRGBのそれぞれの値です。
+6桁の値の2桁ずつがRGBのそれぞれの値です。  
 RGBは「加法混合」といって、赤青緑の3種類の色を混ぜれば混ぜるほど白に近づきます。
 
-![](https://paper-attachments.dropbox.com/s_57618050A23610DF813AD1198DA65210FE3FC11F977BF6FD2CA4F045448EE4DA_1570877915813_rgb.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-property1.png)
 
 * [RGBとは](https://www.designmeishi.net/meishidatabase/color/)
 
-それぞれの値をこの16進数で表現します。
+それぞれの値をこの16進数で表現します。  
 `F` に近づくほど色が強く出て、`0` に近づくほど色は弱くなります。
 
 赤青緑のそれぞれの色をすべて強く出したら白になり、すべての色を弱めたら黒、と覚えましょう。
@@ -63,7 +71,7 @@ RGBは「加法混合」といって、赤青緑の3種類の色を混ぜれば�
 
 **黒** ← 　0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f　→ **白**
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1521170368133_.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-property2.png)
 
 
 
@@ -74,7 +82,7 @@ color: #FF0000;
 /*背景色*/
 background-color:  #FF00FF;
 ```
-
+<br><br><br>
 
 ### rgba
 
@@ -86,7 +94,7 @@ RGBの値を0〜255までの数字で指定する方法です。
 * 透明← `0` 〜 `1` →不透明
   * `0.5` を `.5` と記述することもできます。
 
-![](https://paper-attachments.dropbox.com/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1562395570706_rgba.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-property3.png)
 
 ```css
 /* 文字色 */
@@ -95,6 +103,7 @@ color: rgba(255, 0, 0, 1);
 /*背景色*/
 background-color:  rgba(0, 0, 0, 0.5);
 ```
+<br><br><br>
 
 ### カラーネーム
 
@@ -108,6 +117,7 @@ color: paleGreen;
 background-color: skyblue;
 ```
 
+<br><br><br>
 
 ### `color` と　`background-color` の初期値
 
@@ -150,6 +160,7 @@ background-color: transparent;
 
 [PXtoEM.com PX to EM conversion made simple.](http://pxtoem.com/)
 
+<br><br><br>
 
 ### rem（レム / ルートエム）
 
@@ -162,6 +173,7 @@ background-color: transparent;
 
 とくにレスポンシブサイトで効果を発揮し、スマホ時に文字を大きくしたい場合は、`font-size: 10px;` を `font-size: 20px;` にすれば、サイト全体の文字サイズが2倍になります。
 
+
 ```css
 html {
   font-size: 10px;
@@ -170,7 +182,6 @@ html {
   font-size: 3rem; /* 10px * 3(rem) = 30px */
 }
 ```
-
 
 下記はサイト全体の文字サイズは、```14px``` 相当だが、タイトルの文字サイズ ```16px``` 相当に指定できます。
 
@@ -191,7 +202,9 @@ body {
 }
 ```
 
+<br><br><br>
 ---
+<br><br><br>
 
 ## 文字を左右中央に寄せる
 
@@ -208,7 +221,9 @@ body {
 }
 ```
 
+<br><br><br>
 ---
+<br><br><br>
 
 ## 行間を指定する
 
@@ -227,14 +242,15 @@ body {
 - 単位は付けずに記述することが一般的
 
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1522845201939_.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-property4.png)
 
+<br><br>
 
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-property5.png)
 
-
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1521177549564_2.png)
-
+<br><br><br>
 ---
+<br><br><br>
 
 ## 背景色の指定
 
@@ -262,7 +278,9 @@ CSSでも指定の仕方は3通りあります
 }
 ```
 
+<br><br><br>
 ---
+<br><br><br>
 
 ## 線を引く
 
@@ -284,6 +302,8 @@ CSSでも指定の仕方は3通りあります
 }
 ```
 
+<br><br><br>
+
 ### ショートハンド
 
 ```css
@@ -291,6 +311,7 @@ CSSでも指定の仕方は3通りあります
   border: 1px solid palegreen;
 }
 ```
+<br><br><br>
 
 ### 線スタイルの種類
 
@@ -311,6 +332,7 @@ CSSでも指定の仕方は3通りあります
 .dashed { border: 2px dashed gray;}
 .double { border: 5px double gray;}
 ```
+<br><br><br>
 
 ### 上下左右、個別に線をひく
 
@@ -329,13 +351,16 @@ CSSでも指定の仕方は3通りあります
   border-bottom-color: gray;
 }
 ```
+<br><br><br>
 
 ### ショートハンド
 ```css
 .solid-bottom { border-bottom: 2px solid gray;}
 ```
 
+<br><br><br>
 ---
+<br><br><br>
 
 ## 背景画像
 
@@ -353,9 +378,12 @@ CSSでも指定の仕方は3通りあります
   background-position: 0 0;
 }
 ```
+<br><br><br>
 
 ### background-image
 背景画像を指定するプロパティ
+
+<br><br><br>
 
 ### background-repeat
 背景画像のリピートの仕方を指定するプロパティ
@@ -366,6 +394,7 @@ background-repeat: repeat;
 background-repeat: repeat-x;
 background-repeat: repeat-y;
 ```
+<br><br><br>
 
 ### background-position
 
@@ -397,11 +426,15 @@ background-position: 10px 40px;
 ```css
 background-position: bottom 10px right 30%;
 ```
+
+<br><br><br>
+
 ### ショートハンド
 
 ```css
 background: #FFFFFF url(../assets/images/logo.png) no-repeat 10px 40px;
 ```
+<br><br><br>
 
 ### おまけ：background-size
 
@@ -418,12 +451,15 @@ background-size: 100% 40%;
 [background-size リファレンス](http://www.htmq.com/css3/background-size.shtml)
 [background-sizeプロパティについてまとめ](https://www.tam-tam.co.jp/tipsnote/html_css/post6015.html)
 
+<br><br><br>
 
 ---
 
+<br><br><br>
+
 ## フォントを指定する
 
-![](https://paper-attachments.dropbox.com/s_2582435CB886887D060D48AAD474CC3D5EFC64DCE8C72CEB83A15ED7D7AAEB60_1570003509949_+2019-10-02+17.04.11.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-property6-scaled.png)
 
 
 Webサイトに表示される文字（フォント）の指定を、font-familyというプロパティで設定します。
@@ -440,9 +476,10 @@ Webサイトに表示される文字（フォント）の指定を、font-family
 
 
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1522220757855_font-family.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-property7.png)
 
 
+<br><br><br>
 
 
 ### 基本的に複数のフォントを指定する
@@ -451,10 +488,13 @@ OS毎（Mac / Windows / iOS）にインストールされているフォンが�
 （Macにしか入っていないフォントを指定してもWindowsパソコンで表示されない等…）
 
 
+<br><br><br>
+
 ### 左に指定されているフォントから優先される
 
 下記だと  ```Avenir Next```  が無かったら、 ```Gadugi```  →  ```ヒラギノ丸ゴ```  →  ```メイリオ```  の順
 
+<br><br><br>
 
 ### 英語フォントを先に記述する
 
@@ -465,22 +505,24 @@ OS毎（Mac / Windows / iOS）にインストールされているフォンが�
 （英語は英語フォントの方がキレイで整っている場合が多い）
 
 
-
 > Macのスクリーンショット（Futuraとヒラギノ丸ゴ ProNが適用されている）
 
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1522221676689_+2018-03-28+16.16.47.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-property8.png)
 
 > Windowsのスクリーンショット（Gadugiとメイリオが適用されている）
 
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1522221708091_+2018-03-28+16.20.29.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-property9.png)
 
+<br><br><br>
 
 ### 総称フォントとは？
 
 指定したフォントがまったく入っていなかったら「せめてこういう系統のフォントを表示したい」という指定になります。
 ざっくりとした指定なので、実際にどんなフォントが使われるかはブラウザしだになります。
+
+<br><br><br>
 
 ### sans-serif　or　serif
 
@@ -494,8 +536,9 @@ font-family: sans-serif;
 **Font-familyを生成してくれる便利なWebサービス（若干情報が古いです）**
 [Font-familyメーカー](https://saruwakakun.com/font-family)
 
+<br><br><br>
 ----------
-
+<br><br><br>
 
 もっとたくさんのスタイルシートみる
 [スタイルシートリファレンス（目的別）](http://www.htmq.com/style/)
