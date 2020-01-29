@@ -5,7 +5,7 @@ HTMLタグには、すでにブラウザ毎にスタイルがあらかじめ割�
 
 オレンジ色の部分が `margin-top` と `margin-bottom`、グリーン色が `padding-left` がデフォルトで設定されています。
 
-![]https://laro.jp/wp-content/uploads/2019/11/lesson-css-reset1.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-reset1.png)
 
 
 タグ毎によってそれぞれのスタイルがついており、かつスタイルがブラウザごとに違います。  
