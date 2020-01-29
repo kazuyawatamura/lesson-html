@@ -362,6 +362,30 @@ HTMLタグの入れ子をした状態で細かく指定できることが大き�
 ```
 <br><br><br>
 
+#### hover について
+
+要素の上にマウスのポインタを要素の上に置いたときに実行されるクラスです。  
+リンクを作成するaタグと一緒に使われることが多い擬似クラスです。
+
+```html
+<a class="button" href=#>Button</a>
+```
+
+```css
+.button {
+	color: #fff;
+	background-color: #3a3a3a;
+	text-decoration: none;
+	padding: 20px;
+}
+.button:hover{
+  color: #000;
+  background-color: #c9c9c9;
+}
+```
+
+<br><br><br>
+
 #### こちらのサイトにコードを用意したので参考にご覧ください。
 https://codepen.io/cotton/pen/WNNQJqm
 
