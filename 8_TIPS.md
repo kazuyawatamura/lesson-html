@@ -1,5 +1,7 @@
 # 6. TIPS
 
+<br><br><br>
+
 # ホバーで浮き上がる演出のコード例
 
 ```html
@@ -31,27 +33,41 @@
 
 参考：[ハイパフォーマンスCSS3アニメーション——60fpsを実現するベストプラクティス](https://www.webprofessional.jp/achieve-60-fps-mobile-animations-with-css3/)
 
-
+<br><br><br>
 
 # vwと%の違い
+
+<br><br><br>
+
 ## ビューポートの単位
+
+<br><br><br>
 
 ### vw
 ビューポートの幅
+
+<br><br><br>
+
 ### vh
 ビューポートの高さ
+
+<br><br><br>
+
 ### vmin
 ビューポートの幅化高さの値が小さい方
+
+<br><br><br>
+
 ### vmax
 ビューポートの幅化高さの値が大きい方
 
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_1C4F3DB67FE10C25EFFA2013B6FF9EAD56526DFDA0962233A80C220B534DB251_1522661665145_vw.png)
+![](https://laro.jp/wp-content/uploads/2020/01/lesson-tips1.png)
 
 
 ※幅いっぱいにする場合、`vw`にすると横スクロールが出てしまう可能性があるので、パーセント指定をする方が良い。
 
-
+<br><br><br>
 
 # transformプロパティ
 
@@ -60,6 +76,7 @@
 [CSS3リファレンス transform](http://www.htmq.com/css3/transform.shtml)
 [【CSS3】Transform（変形）関連のまとめ](https://qiita.com/7968/items/eddfeb4b424d7c2d2d34)
 
+<br><br><br>
 
 # data属性
 
@@ -86,9 +103,8 @@
 }
 ```
 
-
+<br><br><br><br><br><br>
 ---
-# 残り
 ## Grid layout
 ## ベンダープレフィックス
 ## SVG
