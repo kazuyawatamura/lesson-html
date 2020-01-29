@@ -1,15 +1,17 @@
 # 6_CSSアニメーション_transition
 
 
-プロパティに変更があった時に、一定時間でプロパティを変化させる設定。
+プロパティに変更があった時に、一定時間でプロパティを変化させる設定。  
 マウスオーバーなど単純な動きのアニメーションを実装する時に利用します。
 
+<br>
 
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition1.gif)
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522288460873_Kapture+2018-03-29+at+10.53.47.gif)
-
+<br><br><br>
 
 ## まずファイルを用意します（transition.html）
+
 ```html
 <div class="animation">アニメーション</div>
 ```
@@ -29,6 +31,7 @@
 }
 ```
 
+<br><br><br>
 
 ## transition-property
 
@@ -40,17 +43,19 @@
 下の要素は  `background-color`  を指定しているため、それ以外のプロパティを変更しても
 アニメーションが適用されません。
 
+<br><br><br>
+
 ### all
 
-![全てのプロパティに対してアニメーションが適用](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522291006012_Kapture+2018-03-29+at+11.36.31.gif)
+![全てのプロパティに対してアニメーションが適用](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition2.gif)
 
+<br><br><br>
 
 ### background-color
 
-![背景色のみアニメーションが適用](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522291199753_Kapture+2018-03-29+at+11.39.54.gif)
+![背景色のみアニメーションが適用](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition3.gif)
 
-
-
+<br><br><br>
 
 ## transition-duration
 
@@ -62,17 +67,19 @@
 例 
  `transition-duration: .5s;`   → 0.5秒
 
+<br><br><br>
+
 ### 3秒
 
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition4.gif)
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522291610651_Kapture+2018-03-29+at+11.46.18.gif)
-
+<br><br><br>
 
 ### 0.5秒
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522291665197_Kapture+2018-03-29+at+11.47.38.gif)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition5.gif)
 
-
+<br><br><br>
 
 ## transition-delay
 
@@ -80,18 +87,19 @@
 
 初期値は、 `0` 
 
+<br><br><br>
 
 ### 1秒
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522291806943_Kapture+2018-03-29+at+11.49.44.gif)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition6.gif)
 
+<br><br><br>
 
 ### 0秒
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522291862165_Kapture+2018-03-29+at+11.50.53.gif)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition7.gif)
 
-
-
+<br><br><br>
 
 ## transition-timing-function
 
@@ -100,42 +108,49 @@
 初期値は、  `ease` 
 
 
-![via: https://developers.google.com/web/fundamentals/design-and-ux/animations/the-basics-of-easing?hl=ja](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522299879568_transition-timing-function.png)
+![via: https://developers.google.com/web/fundamentals/design-and-ux/animations/the-basics-of-easing?hl=ja](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition8.png)
+via: https://developers.google.com/web/fundamentals/design-and-ux/animations/the-basics-of-easing?hl=ja
 
+<br><br><br>
 
 ### linear
 一定
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522300294765_linear.gif)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition9.gif)
 
+<br><br><br>
 
 ### ease-out
 ゆっくり終わる
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522300250520_ease-out.gif)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition10.gif)
 
+<br><br><br>
 
 ### ease-in
 ゆっくり始まる
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522300364242_ease-in.gif)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition11.gif)
 
+<br><br><br>
 
 ### ease-in-out
 ゆっくり始まってゆっくり終わる
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522300444293_ease-in-out.gif)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition12.gif)
 
+<br><br><br>
 
 ### cubic-bezier()
 3次ベジェ曲線のP1とP2を (x1, y1, x2, y2) で指定
 
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522300654127_Kapture+2018-03-29+at+14.17.24.gif)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition13.gif)
 
 
 http://cubic-bezier.com/
 
+<br><br><br>
 
 ### ショートハンド
 
