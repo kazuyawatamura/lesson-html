@@ -11,6 +11,8 @@ box-sizing: content-box; /* 初期値 */
 box-sizing: border-box;
 ```
 
+<br><br><br>
+
 #### 書き方の例
 ```html
 <p class="box-sizing">要素の幅や高さに含めるかどうか。</p>
@@ -23,16 +25,19 @@ box-sizing: border-box;
   border: 1px solid orange;
 }
 ```
+<br><br><br>
 
 ### content-boxの場合
 
 
-paddingとborderを幅（width）と高さ（height)に含めない。
+paddingとborderを幅（width）と高さ（height)に含めない。  
 幅（width）と高さ（height）に足されるため、レイアウトがしづらい。
+
+<br><br><br>
 
 #### 400pxのボックスを作りたい場合
 
-356px = 400px - ( 20px x 2 ) + ( 2px x 2 )
+356px = 400px - ( 20px x 2 ) + ( 2px x 2 )  
 ※ 2というのは両端辺の数です。
 
 ```css
@@ -44,22 +49,21 @@ paddingとborderを幅（width）と高さ（height)に含めない。
 ```
 
 
-![](https://paper-attachments.dropbox.com/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1521520578504_2.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-boxsizing1.png)
 
 
-
+<br><br><br>
 
 ### border-box の場合
 
-上記の `content-box` のデメリットを解決できるのが、`box-sizing: border-box;` です。
+上記の `content-box` のデメリットを解決できるのが、`box-sizing: border-box;` です。  
 paddingとborderを幅（width）と高さ（height）に含めることができます。
 
 
-![](https://paper-attachments.dropbox.com/s_7DF33F8944F50DBBBCAFB844350AD0F55F2410F15DD00441E5D5AD6381F014B7_1521522172887_3.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-boxsizing2.png)
 
 
-content-boxの場合、width + padding + border を足した幅を計算しなければならず使いづらいので
-理由がない限り、border-boxを指定します。
+content-boxの場合、width + padding + border を足した幅を計算しなければならず使いづらいので理由がない限り、border-boxを指定します。
 
 下記をオマジナイのように書くと、pタグやクラスに1つひとつ要素に指定せず、記述するHTMLすべての要素が `border-box` になります。
 
@@ -75,14 +79,15 @@ html {
 別資料でお伝えするリセットCSSにすでに記述されておりますので、リセットCSSを読み込むだけで `border-box` になります。
 
 
+<br><br><br>
 
 ### width:100%とautoの違いは？
 
-![](https://paper-attachments.dropbox.com/s_BC4F8A59D54929D0D4950267E6E46E1369E40AC5CCA7E973F87B06577856D766_1523524467522_4.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-boxsizing3.png)
 
 - auto：widthの中にpaddingとborderが含まれる。
 - 100%：widthにはpaddingとborderの分が含まれません。
 
-上記の `box-sizing: border-box;` をすればとくに意識する必要はありません。
+上記の `box-sizing: border-box;` をすればとくに意識する必要はありません。  
 ※ ただしmarginは除きます。
 
