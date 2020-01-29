@@ -1,6 +1,5 @@
 # 使用するアプリ
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-tool-vscode.png)
 
 ## テキストエディター（Visual Studio Code）
 
@@ -9,6 +8,9 @@ WIndowsやMacに付属しているメモ帳やノートパッドなども作れ�
 
 アプリケーションにはいろいろな種類がありますが、今回は **Visual Studio Code（以下VS Code）** を使います。
 （VS Codeでなくてもテキストデータを扱えるアプリであれば何でも構いません）
+
+
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-tool-vscode.png)
 
 **Visual Studio Code**
 https://www.microsoft.com/ja-jp/dev/products/code-vs.aspx
