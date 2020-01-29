@@ -1,11 +1,12 @@
 # CSSレイアウト Positionについて
 
+<br><br><br>
 
 ## positionプロパティとは？
 
 **position-basic.html**
 
-Positionは、要素の位置を座標で決めるためのプロパティです。
+Positionは、要素の位置を座標で決めるためのプロパティです。  
 全体的なレイアウトはFlexboxで行い、部分的なパーツのレイアウトはPositionで行うと良いかと思います。
 
 
@@ -19,7 +20,7 @@ Positionは、要素の位置を座標で決めるためのプロパティです
   left: 20px;
 }
 ```
-
+<br><br><br>
 
 ### positionプロパティ
 
@@ -30,6 +31,8 @@ Positionは、要素の位置を座標で決めるためのプロパティです
 - relative　← 現在の位置を基準に相対的な位置を決める
 - fixed　　← 画面上の指定した位置に固定する
 
+<br><br><br>
+
 #### 基準からの距離
 
 - top　　　← 上からの距離
@@ -37,7 +40,7 @@ Positionは、要素の位置を座標で決めるためのプロパティです
 - left　　　←左からの距離
 - right　　 ←右からの距離
 
-
+<br><br><br>
 
 ##### 実際の使い方（1）
 
@@ -61,9 +64,9 @@ Positionは、要素の位置を座標で決めるためのプロパティです
 }
 ```
 
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-position1.png)
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522138292122_position1.png)
-
+<br><br><br>
 
 ##### 実際の使い方（position-photo.html）
 
@@ -90,16 +93,16 @@ Positionは、要素の位置を座標で決めるためのプロパティです
   background-color: red;
 }
 ```
+<br>
 
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-position2.png)
 
-
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522138900170_position2.png)
-
-
+<br>
 
 - マイナス数値も可能。 `right: -20px;`  
 - 50% と マイナスマージンで中央に配置する事も可能
 
+<br><br><br>
 
 #### 注意
 
@@ -107,14 +110,14 @@ Positionは、要素の位置を座標で決めるためのプロパティです
 基準位置がずれて定まらず、思った位置になりません。
 * `absolute`  を使うときは、おまじないのように親要素もセットで変えるようにしましょう。
 
-
+<br><br><br>
 
 ### 固定位置（position-fixed.html）
 
 画面の決まった位置に固定表示をさせるプロパティです。
 
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522140904682_Kapture+2018-03-27+at+17.54.49.gif)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-position3.gif)
 
 
 ```html
@@ -150,7 +153,7 @@ Positionは、要素の位置を座標で決めるためのプロパティです
 }
 ```
 
-※位置の基準は親要素ではなく「ウィンドウ全体」
+※位置の基準は親要素ではなく「ウィンドウ全体」  
 ※「Page top」にも有効
 
 ```html
@@ -172,4 +175,3 @@ Positionは、要素の位置を座標で決めるためのプロパティです
   background-color: orange;
 }
 ```
-
