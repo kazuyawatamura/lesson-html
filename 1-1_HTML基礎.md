@@ -12,7 +12,7 @@
 
 
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_6DC39C02081D2F0F89C1BB40AC805C4C3DCC6DA94D1CE0AB6A7FB3CF3041E463_1522747664688_1-1+Web.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-about1.png)
 
 
 ### HTMLとはWEBサイトを構成する基本的で大事な言語
