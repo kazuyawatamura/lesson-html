@@ -87,11 +87,16 @@ HTML要素は、HTMLドキュメントの **ルート（root / 基点）** で�
 
 #### 参考
 ■ A free guide to ```<head>``` elements
-https://gethead.info/
+
+![https://gethead.info/](https://gethead.info/)
+
 ■HTMLページのhead内に記述する要素の総まとめ
-http://coliss.com/articles/build-websites/operation/work/list-of-head-elements.html
+
+![http://coliss.com/articles/build-websites/operation/work/list-of-head-elements.html](http://coliss.com/articles/build-websites/operation/work/list-of-head-elements.html)
+
 ■もうmeta要素を迷わない！最低限入れるべきmeta要素のまとめ
-https://qiita.com/pompom0c0/items/5c00a188aab744cfc918
+
+![https://qiita.com/pompom0c0/items/5c00a188aab744cfc918](https://qiita.com/pompom0c0/items/5c00a188aab744cfc918)
 
 
 ### ```<body>```
