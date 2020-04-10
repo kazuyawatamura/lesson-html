@@ -60,8 +60,8 @@ Anker独自の充電技術を搭載。細部にもこだわった高品質な急
 
 ## チェックサービス
 
-**Markup Validation Service - W3C**
-[https://validator.w3.org/](https://validator.w3.org/)
+**Markup Validation Service**
+[https://validator.w3.org/nu/#textarea](https://validator.w3.org/nu/#textarea)
 
 **HTML 5 Outliner**
 http://gsnedders.html5.org/outliner/
