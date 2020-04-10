@@ -14,6 +14,7 @@
 
 ![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-about1.png)
 
+<br><br><br>
 
 ### HTMLとはWEBサイトを構成する基本的で大事な言語
 
@@ -31,9 +32,16 @@
 
 
 ----------
+
+<br><br><br>
+
 # Webサイトを構成するファイル
+
+<br><br><br>
+
 ## HTML、CSS、JavaScriptの役割
 
+<br><br><br>
 
 ### HTML（Hyper Text Markup Language）
 
@@ -53,13 +61,14 @@
 そもそもハイパーテキストというのは何かと簡単に説明すると「リンク」です。
 それぞれ別のHTMLとHTMLをリンクでWebサイトを繋げて広げていくというのがハイパーテキストの概念です。
 
+<br><br><br>
+
 #### HTMLはプログラミング言語か
 
 正確にいうとHTMLとCSSはプログラミング言語ではありません。
 プログラミング言語とはコンピューターに演算処理（計算）をさせていますが、HTMLは前述の通り文章構造を定義するものなのでまったく違うものなのです。
 
-
-
+<br><br><br>
 
 ### CSS（Cascading Style Sheets）
 
@@ -77,7 +86,7 @@
 前述したHTMLで構造化したテキストを、人間が読みやすく整理したり文字の大きさを変更したり色を付けたりデザインができます。
 
 
-
+<br><br><br>
 
 ### JavaScript
 
