@@ -24,9 +24,8 @@
 <br> （改行）
 ```
 
+<br><br><br>
 
-
-----------
 # 書いて覚えよう
 
 ```html
@@ -65,6 +64,8 @@
 - ```<span>```（意味のないインライン要素）
 - ```<br>```（改行、Breakの略）
 
+<br><br><br>
+
 ## タグの属性
 
 HTMLタグはその種類に応じて設定を付加できます。
@@ -82,7 +83,7 @@ HTMLタグはその種類に応じて設定を付加できます。
 `<a href="~~">`**ここにリンクしたいテキストを書きます**`</a>`
 
 
-![](https://paper-attachments.dropbox.com/s_6AD67901DDCBE25DFB94A125A49B8E1F905D364477C2918B8B54FF5360D21859_1570719821212_.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-tag1.png)
 
 
 ### ```<img>``` タグの属性と属性値
@@ -92,9 +93,10 @@ HTMLタグはその種類に応じて設定を付加できます。
 * **src** とは、表示したい画像の場所を示す属性です。
 * **alt** とは、画像がどのような画像なのか、をテキストで説明する属性です。目の見えない方が使う音声ブラウザーなどで読まれます。
 
-![](https://paper-attachments.dropbox.com/s_65A4B7F354CB95FE18B2C0B7E932E7874204965640AC95F8D9272B6E38137D6E_1570720212817_img.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-tag2.png)
 
 
+<br><br><br>
 
 ## タグの入れ子（ネスト）
 
@@ -142,6 +144,35 @@ HTMLタグは「入れ子（ネスト）」といってタグの中にタグを�
 ```html
 <p>HTMLは、ハイパーテキストを記述するための<strong>マークアップ言語</p>です。</strong>
 ```
+  
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 
 正解はこちらです。
 答え：strongタグとpタグの終了タグの位置が変わっています。
@@ -150,9 +181,11 @@ HTMLタグは「入れ子（ネスト）」といってタグの中にタグを�
 <p>HTMLは、ハイパーテキストを記述するための<strong>マークアップ言語</strong>です。</p>
 ```
 
+<br><br><br>
 
 ---
 
+<br><br><br>
 
 ## ```<article>``` と ```<section>```
 
@@ -168,19 +201,21 @@ HTMLタグは「入れ子（ネスト）」といってタグの中にタグを�
 （緑枠がsection）
 
 
-![](https://paper-attachments.dropbox.com/s_6DC39C02081D2F0F89C1BB40AC805C4C3DCC6DA94D1CE0AB6A7FB3CF3041E463_1562115017890_.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-tag3.png)
 （黄色はaside）
 
 
 
-![水色がnav、赤枠がarticle、緑枠がsection、黄枠はaside、青がp](https://paper-attachments.dropbox.com/s_6DC39C02081D2F0F89C1BB40AC805C4C3DCC6DA94D1CE0AB6A7FB3CF3041E463_1562045212400_.png)
+![水色がnav、赤枠がarticle、緑枠がsection、黄枠はaside、青がp](https://laro.jp/wp-content/uploads/2019/11/lesson-html-tag4.png)  
 ※水色がnav、赤枠がarticle、緑枠がsection、黄枠はaside、青がp
 
+<br><br><br>
 
 ## ```<div>``` と ```<span>``` を多用しすぎない事が大事です
 サイトをコーディングしているとどうしても文章構造を付けられない（```<p>```などで囲めない）テキストがでてきます。
 その場合は意味のないタグ（```<div>``` と ```<span>```）を付ける必要があるのですが、気を付けないと```<div>```ばかりになってしまうのでご注意ください。
 
+<br><br><br>
 
 ## ブラウザには表示させないコメントを書くことができます
 
@@ -200,6 +235,7 @@ HTMLタグは「入れ子（ネスト）」といってタグの中にタグを�
 </footer>
 ```
 
+<br><br><br>
 
 ## HTMLタグ付けの例
 
@@ -275,8 +311,11 @@ HTMLタグは「入れ子（ネスト）」といってタグの中にタグを�
 * ```<address>``` 今回は住所を記載していますが、電話番号やメールアドレスも可能です。
 * ```<small>``` Copyrightという著作権情報を記載しています。
 
+<br><br><br>
+
 ---
 
+<br><br><br>
 
 ### HTMLには厳格な決まりはありません
 コーダーの文章構造の解釈や組織によって、どんなルールで書くかはそれぞれなので、上記は参考までに覚えておいてください。

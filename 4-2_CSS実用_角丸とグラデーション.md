@@ -1,7 +1,7 @@
 
 # CSS実用、角丸とグラデーション
 
-
+<br><br><br>
 
 ## 角丸
 
@@ -10,10 +10,10 @@
 CSSで要素に対して四方に角丸を設定できるプロパティです。
 
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522306298448_border-radius1.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-radius1.png)
 
 
-四隅に同じ値の角丸を設定したい場合、以下のように記述します。
+四隅に同じ値の角丸を設定したい場合、以下のように記述します。  
 半径20pxの正円の円弧をベースにした角丸を実装ができます。
 
 
@@ -31,10 +31,11 @@ CSSで要素に対して四方に角丸を設定できるプロパティです�
 
 四隅に異なる値を設定したい場合は以下のように記述します。
 
+<br>
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522306688289_border-radius2.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-radius2.png)
 
-
+<br>
 
 ```css
 .radius {
@@ -48,6 +49,8 @@ CSSで要素に対して四方に角丸を設定できるプロパティです�
 }
 ```
 
+<br><br><br>
+
 ### ショートハンド
 
 左上、右上、左下、右下の順に記述（左上を基準に時計回り）
@@ -55,16 +58,17 @@ CSSで要素に対して四方に角丸を設定できるプロパティです�
 ```css
 border-radius: 10px 20px 30px 40px;
 ```
-
+<br><br><br>
 ---
+<br><br><br>
 
 ## グラデーション（gradient.html）
 
-CSSでグラデーションを設定ができます。
+CSSでグラデーションを設定ができます。  
 デザインのアクセントや要所で使うことがあるので、ぜひ覚えておきましょう。
 
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522310087899_gradient1.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-radius3.png)
 
 
 ```html
@@ -79,13 +83,12 @@ CSSでグラデーションを設定ができます。
   background: linear-gradient(#FAD961, #F76B1C);
 }
 ```
-
-
+<br><br><br>
 
 ### グラデーションの方向を設定する
 
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522310655503_gradient2.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-radius4.png)
 
 
 ```css
@@ -98,15 +101,19 @@ CSSでグラデーションを設定ができます。
     }
 ```
 
+<br>
+
 > deg = degree（デグリー）
+
+<br>
 
 **90deg** ではなく、 `to bottom`   `to left`    `to bottom right`  でも設定ができます。
 
+<br><br><br>
 
-
-CSS Gradient Generator
+CSS Gradient Generator  
 https://cssgradient.io/
 
-Gradient Gallery
+Gradient Gallery  
 https://webgradients.com/
 

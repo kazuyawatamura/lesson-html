@@ -5,12 +5,13 @@
 HTMLとは、テキストにタグを付けて文章構造を与えるための言語です。
 タグをつけたテキストは、それぞれ役割を持った「要素」となり、その集合体がWebサイトを作っています。
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_3066FA23A18E1433BC4D48A1112B9F0C6A766C9E0917C880D3A50377E5D58EB4_1520573020711_.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-structure1.png)
 
 上の例は「pタグ」といいます。
 pとは、Paragraph（パラグラフ）=文節・段落という意味で、このpタグで囲まれたテキストは段落という意味になります。
 pタグの他にもいろいろなタグの種類があるので、調べて勉強してみましょう。
 
+<br><br><br>
 
 ### タグを書く際のルール
 - 「<」（小なり）と「>」（大なり）でタグ名を囲む
@@ -18,6 +19,7 @@ pタグの他にもいろいろなタグの種類があるので、調べて勉�
 - 終了タグはタグ名の前に「/」（スラッシュ）を付ける
 - 開始タグ単独で記述するタグもある（後述します）
 
+<br><br><br>
 
 ##  HTMLファイルを作成してみよう
 
@@ -36,6 +38,7 @@ pタグの他にもいろいろなタグの種類があるので、調べて勉�
 </html>
 ```
 
+<br><br><br>
 
 ### ```<!DOCTYPE html>```
 
@@ -43,6 +46,7 @@ pタグの他にもいろいろなタグの種類があるので、調べて勉�
 
 DOCTYPEの文字は大文字小文字どちらでも構いません。慣例で大文字にしている事が多いようです。
 
+<br><br><br>
 
 ### ```<html>```
 
@@ -52,6 +56,7 @@ HTML要素は、HTMLドキュメントの **ルート（root / 基点）** で�
 「lang="ja"」は、要素内で使用されている言語を表記する属性。
 プログラムの自動翻訳機能はこの属性を見て判断しています。
 
+<br><br><br>
 
 ### ```<head>```
 
@@ -91,18 +96,29 @@ HTML要素は、HTMLドキュメントの **ルート（root / 基点）** で�
 その
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_3066FA23A18E1433BC4D48A1112B9F0C6A766C9E0917C880D3A50377E5D58EB4_1520576947742_image.png)
+<br><br><br>
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_3066FA23A18E1433BC4D48A1112B9F0C6A766C9E0917C880D3A50377E5D58EB4_1520576795045_image.png)
+### ```<title>``` ```<meta name="description" 〜```
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-structure2.png)
 
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-structure3.png)
+
+<br><br><br>
 
 #### 参考
 ■ A free guide to ```<head>``` elements
-https://gethead.info/
-■HTMLページのhead内に記述する要素の総まとめ
-http://coliss.com/articles/build-websites/operation/work/list-of-head-elements.html
-■もうmeta要素を迷わない！最低限入れるべきmeta要素のまとめ
-https://qiita.com/pompom0c0/items/5c00a188aab744cfc918
 
+[https://gethead.info/](https://gethead.info/)
+
+■HTMLページのhead内に記述する要素の総まとめ
+
+[http://coliss.com/articles/build-websites/operation/work/list-of-head-elements.html](http://coliss.com/articles/build-websites/operation/work/list-of-head-elements.html)
+
+■もうmeta要素を迷わない！最低限入れるべきmeta要素のまとめ
+
+[https://qiita.com/pompom0c0/items/5c00a188aab744cfc918](https://qiita.com/pompom0c0/items/5c00a188aab744cfc918)
+
+<br><br><br>
 
 ### ```<body>```
 
@@ -110,6 +126,6 @@ https://qiita.com/pompom0c0/items/5c00a188aab744cfc918
 
 ブラウザで見ているコンテンツを記述する場所です。
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_6DC39C02081D2F0F89C1BB40AC805C4C3DCC6DA94D1CE0AB6A7FB3CF3041E463_1523085584169_HTML.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-structure4.png)
 
 

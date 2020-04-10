@@ -1,8 +1,10 @@
 # CSSレイアウト Flex伸縮系のプロパティなど
- 
+
+<br><br><br>
+
 ## Flexアイテムの伸縮系プロパティ
 
-レイアウトする際に、必要なプロパティではありませんが、
+レイアウトする際に、必要なプロパティではありませんが、  
 デバイス毎に横幅が伸び縮みして、可変する場合に効果があります。
 
 
@@ -21,7 +23,7 @@
   <li>flexアイテム</li> /* Item */
 </ul>
 ```
-
+<br><br><br>
 
 ### flex-grow
 コンテナー内の余った領域を、各アイテムにどう分配するかの割合。
@@ -42,9 +44,11 @@ li {
 }
 ```
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522051980707_flex-grow1.png)
+<br>
 
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow1.png)
 
+<br>
 
 
 2番目のFlexアイテムに  `flex-grow: 1`  を設定した。
@@ -61,10 +65,11 @@ li:nth-child(2) {
   flex-grow: 1;
 }
 ```
+<br>
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522052024358_flex-grow2.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow2.png)
 
-
+<br>
 
 
 2番目のFlexアイテムに  `flex-grow: 2`  を設定し、4番目のFlexアイテムに  `flex-grow: 1`  を設定した。
@@ -85,31 +90,37 @@ li:nth-child(4) {
 }
 ```
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522052029288_flex-grow3.png)
+<br>
 
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow3.png)
+
+<br><br><br>
 
 #### 参考1
 https://codepen.io/cshool/pen/rQJdbg
 
+<br><br><br>
+
 #### 参考2
 https://residence.nikkei.co.jp/
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522806000794_Kapture+2018-04-04+at+10.02.25.gif)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow4.gif)
 
+<br><br><br>
 
 #### 参考3
 https://www.quantamagazine.org/universal-quantum-phenomenon-found-in-superconductors-20181119/
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_A6FC300D63F4B84E73A02866CF60B09B657A6400DA32DA4CB69231FF6ED8C79A_1542849068523_+2018-11-22+10.10.41.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow5.png)
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_A6FC300D63F4B84E73A02866CF60B09B657A6400DA32DA4CB69231FF6ED8C79A_1542849105758_+2018-11-22+10.11.28.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow6.png)
 
 
-
+<br><br><br>
 
 
 ### flex-shrink
-縮む割合をコンテナー内の余った領域から、その割合をどう分配するか。
+縮む割合をコンテナー内の余った領域から、その割合をどう分配するか。  
 コンテナーが小さすぎる場合にのみ効果があります。
 
 ```html
@@ -131,10 +142,11 @@ li {
   /* flex-shrink: 1; */
 }
 ```
+<br>
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522054562528_flex-shrink1.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow7.png)
 
-
+<br>
 2番目のFlexアイテムに  `flex-shrink: 0`  を設定し、4番目のFlexアイテムに  `flex-shrink: 4`  を設定した。
 
 ```css
@@ -153,10 +165,12 @@ li:nth-child(4) {
 }
 ```
 
+<br><br><br>
+
 #### 参考1
 https://codepen.io/cshool/pen/yQvjNw
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522055935628_animation.gif)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow8.gif)
 
 
  `flex-shrink: 0;` を指定した場合、どれだけコンテナーが狭くなってもこれ以上は縮まない。
@@ -165,19 +179,19 @@ https://codepen.io/cshool/pen/yQvjNw
 
 > 例： `flex-shrink: 4;`   → 4倍の速度で縮む。
 
+<br><br><br>
 
 #### 参考2
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522806025486_Kapture+2018-04-04+at+10.03.41.gif)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow9.gif)
 
-
-
+<br><br><br>
 
 ### flex-basis
 Flexアイテムの進行方向に対する `width` のようなもの。
  `flex-direction: column;`  で縦ならびになった際は、heightと同じ効果。
 
-
+<br><br><br>
 
 ### 伸縮系flexアイテムのショートハンド
 
@@ -189,24 +203,23 @@ li {
   /* grow shrink basis */
 }
 ```
-
+<br><br><br>
 
 ### order
 
 | order       | 順番の指定                                                                                                     |
 | ----------- | --------------------------------------------------------------------------------------------------------- |
-| 0 [default] | ![image.png](https://qiita-image-store.s3.amazonaws.com/0/74438/18a379a6-85e3-6261-725a-2de585399fbb.png) |
-| 1           | ![image.png](https://qiita-image-store.s3.amazonaws.com/0/74438/8d6fc25e-6e70-5f67-77c6-361b79676fe7.png) |
-| -1          | ![image.png](https://qiita-image-store.s3.amazonaws.com/0/74438/d474b306-c991-d900-2c14-b522110d9d0c.png) |
-| 9           | ![image.png](https://qiita-image-store.s3.amazonaws.com/0/74438/074d1d04-f71e-51d6-ce4b-c14a610e6424.png) |
-
-
+| 0 [default] | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow10.png) |
+| 1           | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow11.png) |
+| -1          | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow12.png) |
+| 9           | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow13.png) |
 
 [【参考】Flexbox playground](https://codepen.io/enxaneta/pen/adLPwv)
 
+<br><br><br>
 
 ## 練習1
-![](https://paper-attachments.dropbox.com/s_A6FC300D63F4B84E73A02866CF60B09B657A6400DA32DA4CB69231FF6ED8C79A_1562410844855_+2019-07-06+20.00.32.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow14.png)
 
 - 文字色：#FFFFFF
 - メニュー全体の幅：ブラウザの幅に準ずる
@@ -222,9 +235,9 @@ li {
 - コンテナーの背景色：#EEEEEE
 - コンテナーの高さに対してアイテムを均等に分散配置する
 
-
+<br><br><br>
 
 ## 練習2
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CC1F790C680E94AE4D7E9778AAA44D521592E7AC2AC6A52752CCFB8ED2A216CE_1522118985431_flex-3.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow15.png)
 
 - 余白や色など指定はなし

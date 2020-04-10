@@ -2,12 +2,12 @@
 https://www.dropbox.com/s/znrwbcj0gxsnscq/apple_outline.txt?dl=0
 
 
-
+<br><br><br>
 
 
 ## 宿題
 
-このテキストにHTMLでタグ付けしてみましょう。
+このテキストにHTMLでタグ付けしてみましょう。  
 ※  ```---```  はタグ付けしなくて良いです。
 
 ```
@@ -54,7 +54,10 @@ Anker独自の充電技術を搭載。細部にもこだわった高品質な急
 　どんなMicro USB機器にも使えて、高耐久。
 ```
 
+
 ----------
+<br><br><br>
+
 ## チェックサービス
 
 **Markup Validation Service - W3C**

@@ -18,6 +18,8 @@
 }
 ```
 
+<br><br><br>
+
 ## 実例
 
 ファイルを用意し（`keyframes.html`）下記のコードを設定してみてください
@@ -45,8 +47,7 @@
 }
 ```
 
-
-
+<br><br><br>
 
 ## animation プロパティ一覧
 | **プロパティ**                   | **説明**                       |
@@ -61,25 +62,29 @@
 | `animation-play-state`      | アニメーションの再生・停止                |
 | `animation`                 | 8つのプロパティを一括指定できるショートハンドプロパティ |
 
+<br><br><br>
 
 ### animation-name
 
  `@keyframes`  で記述した名前を指定します。
  このプロパティだけではアニメーションはされません。
 
+<br><br><br>
 
 ### animation-duration
 
 例 
 `animation-duration: .5s;`   → 0.5秒
 
+<br><br><br>
 
 ### animation-timing-function
 
+<br><br><br>
 
 ### animation-delay
 
-
+<br><br><br>
 
 ### animation-iteration-count
 
@@ -89,6 +94,7 @@
 
 無限に繰り返したい場合は、値に `infinite` を指定します。
 
+<br><br><br>
 
 ### animation-direction
 
@@ -103,6 +109,8 @@
 | `alternate`         | 順方向、逆方向のアニメーションを交互に繰り返します。 |
 | `alternate-reverse` | 逆方向、順方向のアニメーションを交互に繰り返します。 |
 
+
+<br><br><br>
 
 ### animation-fill-mode
 
@@ -159,11 +167,13 @@
 }
 ```
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_D2733E69EAC834B8561E2B2BA9A5DC8E8070D76CCED2490693E19C6A38C31114_1534771769108_Kapture+2018-08-20+at+22.28.02.gif)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-keyframe1.gif)
 
+<br>
 
 ※アニメーション開始前は上から黒、黒、赤、赤ですが、終了後は、黒、オレンジ、黒、オレンジになっています。
 
+<br><br><br>
 
 ### animation-play-state
 
@@ -173,6 +183,7 @@
 running → アニメーション実行
 paused → アニメーション停止
 
+<br><br><br>
 
 #### ショートハンド
 
@@ -190,7 +201,7 @@ paused → アニメーション停止
 ・・・ただし、
  `animation-duration`  と  `animation-delay`  の2つのプロパティは両方とも秒数で指定するため、最初に記述した秒数が   `animation-duration`  で、次に記述した秒数が  `animation-delay`  と解釈される。
 
-
+<br>
 
 | **プロパティ**                   | **説明**          | **初期値**   | **値**                                                                                                             |
 | --------------------------- | --------------- | --------- | ----------------------------------------------------------------------------------------------------------------- |

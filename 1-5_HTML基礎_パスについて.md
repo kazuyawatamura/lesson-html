@@ -1,15 +1,16 @@
 
 # パスについて
 
-パスとは、特定のファイルやフォルダーが置いてある場所のことです。
-Webサイトには画像やCSSなど外部ファイルがたくさんあります。
-それらをパスを使って繋げていきWebサイトができていきます。
+パスとは、特定のファイルやフォルダーが置いてある場所のことです。  
+Webサイトには画像やCSSなど外部ファイルがたくさんあります。  
+それらをパスを使って繋げていきWebサイトができていきます。  
 
 
+<br><br><br>
 
 ## まず画像を表示してみよう
 
-![](https://paper-attachments.dropbox.com/s_2C690E47BA11F144E8378F284F5ED9792FA67D3EBB48367FF6A47D8A094E64EC_1569980386188_lesson-html-path-cat1.jpg)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-path-cat1.jpeg)
 
 ```html
 <img src="./cat.jpg">
@@ -18,9 +19,10 @@ Webサイトには画像やCSSなど外部ファイルがたくさんありま�
 
 ### 属性と値
 
-要素に情報を付加するもの。
+要素に情報を付加するもの。  
 srcに対して、値を与えてあげる働きがあります。
 
+<br><br><br>
 
 ## 絶対パスと相対パス
 
@@ -56,7 +58,7 @@ srcに対して、値を与えてあげる働きがあります。
 
 ### 例
 
-![](https://paper-attachments.dropbox.com/s_4AFE1D42921B49A1323F81806A5D8CA9E5A3178118A99D50F44A4B49B29FB3D8_1570888909145_link1.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-path-link1.png)
 
 
 #### 【example-a.html】に【images】フォルダーの中の【photo.jpg】を表示させる場合
@@ -77,7 +79,7 @@ example-a.htmlに上記を入力すると、
 回答するのはパスだけで構いません。
 （src=""などの属性は不要です）
 
-![](https://paper-attachments.dropbox.com/s_4AFE1D42921B49A1323F81806A5D8CA9E5A3178118A99D50F44A4B49B29FB3D8_1570888913424_link2.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-path-link2.png)
 
 **問1**：【example-a.html】から【example-b.html】にリンクを貼る場合
 

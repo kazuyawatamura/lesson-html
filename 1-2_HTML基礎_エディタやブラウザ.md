@@ -1,6 +1,5 @@
 # 使用するアプリ
 
-![](https://paper-attachments.dropbox.com/s_4AFE1D42921B49A1323F81806A5D8CA9E5A3178118A99D50F44A4B49B29FB3D8_1570884618326_vscode.png)
 
 ## テキストエディター（Visual Studio Code）
 
@@ -9,6 +8,9 @@ WIndowsやMacに付属しているメモ帳やノートパッドなども作れ�
 
 アプリケーションにはいろいろな種類がありますが、今回は **Visual Studio Code（以下VS Code）** を使います。
 （VS Codeでなくてもテキストデータを扱えるアプリであれば何でも構いません）
+
+
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-tool-vscode.png)
 
 **Visual Studio Code**
 https://www.microsoft.com/ja-jp/dev/products/code-vs.aspx
@@ -51,7 +53,7 @@ VS Code のインストールが終わったら、それに拡張機能を入れ
 
 ## ブラウザー（Google Chrome）
 
-![](https://paper-attachments.dropbox.com/s_4AFE1D42921B49A1323F81806A5D8CA9E5A3178118A99D50F44A4B49B29FB3D8_1570884754170_+2019-10-12+21.52.04.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-tool-chrome.png)
 
 HTMLの確認用に用いるブラウザは、Google製のChrome（クローム）を使います。
 

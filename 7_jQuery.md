@@ -1,10 +1,11 @@
 # 5. jQuery
 
+<br><br><br>
 
 # ハンバーガーメニューの開閉
 
 
-![こんなハンバーガーメニューを作っていくます。](https://d2mxuefqeaa7sj.cloudfront.net/s_CB2B46DB209395B6355AEEBA793F6C1CF030B75B63E768067C77F38A1E246B1B_1522402042763_Kapture+2018-03-30+at+18.27.03.gif)
+![こんなハンバーガーメニューを作っていきます。](https://laro.jp/wp-content/uploads/2020/01/lesson-jquery1.gif)
 
 
 https://jquery.com/
@@ -63,16 +64,18 @@ jQueryの最新版をダウンロードします。 `./assets/js/`  に保存し
     </script>
 ```
 
+<br><br><br>
 
 ## jQueryの基本
 
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CB2B46DB209395B6355AEEBA793F6C1CF030B75B63E768067C77F38A1E246B1B_1522629777868_jquery1.png)
+![](https://laro.jp/wp-content/uploads/2020/01/lesson-jquery2.png)
 
+<br>
 
+![](https://laro.jp/wp-content/uploads/2020/01/lesson-jquery3.png)
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_CB2B46DB209395B6355AEEBA793F6C1CF030B75B63E768067C77F38A1E246B1B_1522629785917_jquery2.png)
-
+<br>
 
 ```javascript
 console.log('出力されました');
@@ -88,8 +91,10 @@ $('.global-nav ul').slideToggle();
 
 
 
-
+<br><br><br>
 ----------
+<br><br><br>
+
 # スクロールでfixed
 
 
@@ -142,9 +147,9 @@ $(window).scroll(function(){
 });
 ```
 
-
+<br><br><br>
 ----------
-
+<br><br><br>
 
 # Slickでスライド
 
@@ -209,9 +214,9 @@ $(document).ready(function() {
 });
 ```
 
-
+<br><br><br>
 ----------
-
+<br><br><br>
 
 # jQuery.inview と animate.css でCSSアニメーション
 

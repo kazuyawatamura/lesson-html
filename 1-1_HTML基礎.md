@@ -12,8 +12,9 @@
 
 
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_6DC39C02081D2F0F89C1BB40AC805C4C3DCC6DA94D1CE0AB6A7FB3CF3041E463_1522747664688_1-1+Web.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-about1.png)
 
+<br><br><br>
 
 ### HTMLとはWEBサイトを構成する基本的で大事な言語
 
@@ -27,13 +28,20 @@
 そうすると下記のようにソースがびっしりと並んだ画面が表示されるかと思います。
 ソースコードは、いろいろなWebサイトで見ることができるので、いくつか試しに見てみるとよいでしょう。
 
-![これがHTML](https://d2mxuefqeaa7sj.cloudfront.net/s_6DC39C02081D2F0F89C1BB40AC805C4C3DCC6DA94D1CE0AB6A7FB3CF3041E463_1522744335111_+2018-04-03+17.32.00.png)
+![これがHTML](https://laro.jp/wp-content/uploads/2019/11/lesson-html-about2.png)
 
 
 ----------
+
+<br><br><br>
+
 # Webサイトを構成するファイル
+
+<br><br><br>
+
 ## HTML、CSS、JavaScriptの役割
 
+<br><br><br>
 
 ### HTML（Hyper Text Markup Language）
 
@@ -45,7 +53,7 @@
     - etc…
 
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_3066FA23A18E1433BC4D48A1112B9F0C6A766C9E0917C880D3A50377E5D58EB4_1520566501261_HTML.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-about3.png)
 
 
 検索ロボット（GoogleBotなど）が文章構造を解析・理解して、WEBサイトの内容を理解して検索結果に反映させる事もあります。
@@ -53,13 +61,14 @@
 そもそもハイパーテキストというのは何かと簡単に説明すると「リンク」です。
 それぞれ別のHTMLとHTMLをリンクでWebサイトを繋げて広げていくというのがハイパーテキストの概念です。
 
+<br><br><br>
+
 #### HTMLはプログラミング言語か
 
 正確にいうとHTMLとCSSはプログラミング言語ではありません。
 プログラミング言語とはコンピューターに演算処理（計算）をさせていますが、HTMLは前述の通り文章構造を定義するものなのでまったく違うものなのです。
 
-
-
+<br><br><br>
 
 ### CSS（Cascading Style Sheets）
 
@@ -71,13 +80,13 @@
     - etc…
 
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_3066FA23A18E1433BC4D48A1112B9F0C6A766C9E0917C880D3A50377E5D58EB4_1520567145555_CSS.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-about4.png)
 
 
 前述したHTMLで構造化したテキストを、人間が読みやすく整理したり文字の大きさを変更したり色を付けたりデザインができます。
 
 
-
+<br><br><br>
 
 ### JavaScript
 
@@ -88,11 +97,11 @@
     - etc…
 
 
-![https://ensemble-magazine.com/](https://d2mxuefqeaa7sj.cloudfront.net/s_3066FA23A18E1433BC4D48A1112B9F0C6A766C9E0917C880D3A50377E5D58EB4_1520569011249_Kapture+2018-03-09+at+13.15.31.gif)
+![https://ensemble-magazine.com/](https://laro.jp/wp-content/uploads/2019/11/lesson-html-about5.gif)
 
 --
 
-![https://ensemble-magazine.com/](https://d2mxuefqeaa7sj.cloudfront.net/s_3066FA23A18E1433BC4D48A1112B9F0C6A766C9E0917C880D3A50377E5D58EB4_1520569016215_Kapture+2018-03-09+at+13.16.26.gif)
+![https://ensemble-magazine.com/](https://laro.jp/wp-content/uploads/2019/11/lesson-html-about6.gif)
 
 
 HTMLやCSSと連携して、ユーザーの目に留まりやすいアニメーション（インタラクション）を制作する事ができます。

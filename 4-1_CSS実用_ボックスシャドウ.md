@@ -1,8 +1,8 @@
 # CSS実用、影をつけてみよう
 
 
-要素に対して影をつけることができます。
-昔は画像で影を表現していましたが、CSSのみで影をつけることができるようになりました。
+要素に対して影をつけることができます。  
+昔は画像で影を表現していましたが、CSSのみで影をつけることができるようになりました。  
 いくつかの影の種類があるので、値のルールを覚えておきましょう。
 
 **box-shadow.html**
@@ -15,7 +15,7 @@
 <div class="shadow5">内側にシャドウを付ける</div>
 <div class="shadow6">カンマ区切りで内側と外側両方に影をかける</div>
 ```
-
+<br><br><br>
 
 ## ぼかしのない影を作る
 
@@ -30,9 +30,11 @@
 
 - ひとつ目の `10px` が左右の値
 - ふたつ目の `10px` が上下の値
+<br>
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_3AFFAD81B710F086AB22545D7AB6A184015C245587269DFF7E16C5AFB7C20C7D_1542874095278_box-shadow1.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-shadow1.png)
 
+<br><br><br>
 
 ### 左に10px、上に20px伸びる影の例
 
@@ -50,8 +52,11 @@
 - 左方向に `-20px`
 - 上方向に `-10px`
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_3AFFAD81B710F086AB22545D7AB6A184015C245587269DFF7E16C5AFB7C20C7D_1542874108051_box-shadow2.png)
+<br>
 
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-shadow2.png)
+
+<br><br><br>
 
 ## 影の色を変えつつぼかす
 
@@ -73,9 +78,11 @@
 
 3つ目の値 `20px` → ぼかし距離。値が大きいほど影がぼやけます。（負の値は指定できません）
 
+<br>
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_3AFFAD81B710F086AB22545D7AB6A184015C245587269DFF7E16C5AFB7C20C7D_1542874124573_box-shadow3.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-shadow3.png)
 
+<br><br><br>
 
 ## 影を拡大し、色も指定する
 
@@ -96,8 +103,9 @@
 
 4つ目の値 `12px` → 広がりの距離。正の値を指定すると影の形状を「全方向」に拡大、負の値を指定すると縮小します。
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_3AFFAD81B710F086AB22545D7AB6A184015C245587269DFF7E16C5AFB7C20C7D_1542874144913_box-shadow4.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-shadow4.png)
 
+<br><br><br>
 
 ## 内側にシャドウを付ける
 
@@ -112,10 +120,11 @@
 
 指定すると影が内側に表示される。（内側に表示させたい時だけ書く）
 
+<br>
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_3AFFAD81B710F086AB22545D7AB6A184015C245587269DFF7E16C5AFB7C20C7D_1542874154202_box-shadow5.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-shadow5.png)
 
-
+<br><br><br>
 
 ## カンマ区切りで内側と外側両方に影をかける
 
@@ -128,17 +137,20 @@
               0px 5px 10px rgba(255,255,255,0.75) inset;
 }
 ```
+<br>
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_3AFFAD81B710F086AB22545D7AB6A184015C245587269DFF7E16C5AFB7C20C7D_1542874163755_box-shadow6.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-shadow6.png)
 
+<br>
 
 カンマ区切りで内側と外側の影を表現ができます。
 
+<br>
 
-
-
-![角丸にするとボタンっぽくなりますね](https://d2mxuefqeaa7sj.cloudfront.net/s_3AFFAD81B710F086AB22545D7AB6A184015C245587269DFF7E16C5AFB7C20C7D_1542874169864_box-shadow7.png)
+![角丸にするとボタンっぽくなりますね](https://laro.jp/wp-content/uploads/2019/11/lesson-css-shadow7.png)
 
 角丸にするとボタンっぽくなりますね
+
+<br><br><br>
 
 参考：[Box Shadowのエフェクトサンプル ＆ 便利な素材まとめ](https://www.nxworld.net/tips/box-shadow-effect.html)

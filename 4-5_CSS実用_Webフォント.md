@@ -1,5 +1,7 @@
 # Google FontsでWebフォントを表示してみよう
 
+<br><br><br>
+
 ## Webフォントとは？
 
 通常、Webサイトの字体（以下フォント）は、そのパソコンやスマホにあらかじめ入っているフォントデータを読み込んで表示されています。
@@ -7,6 +9,8 @@
 一般的なパソコンでは、あらかじめインストールされているフォントは少なく、OSのバージョンにより、標準搭載されるフォントが異なるため、使用できるフォントも限られていました。
 
 そのためデザイナーが意図したデザインで見せることが難しく、Webフォントが普及する前は画像化することが一般的でした。
+
+<br><br><br>
 
 **Windowsにインストールされているフォントの例**
 
@@ -20,46 +24,61 @@
 
 ※ 欧文フォントは他にもあります。
 
-Macは欧文フォント日本語フォントともに多くのフォントが入っています。デザイナーが好んでMacを使用する理由のひとつです。
+Macは欧文フォント日本語フォントともに多くのフォントが入っています。デザイナーが好んでMacを使用する理由のひとつです。  
 [macOS Sierra に組み込まれているフォント](https://support.apple.com/ja-jp/HT206872)
 
-
+<br><br><br>
 
 ### Webフォントのメリット
 
 ユーザーの環境に依存することなく、どのデバイスから見てもデザイナーの意図したデザインそのままに表示するためには、Webサーバー上のフォントデータを使う必要があります。
 
-デザインを再現するために画像として文字を配置することも一般的に行われていますが、Webフォントを使うと、デバイスを問わずHTMLの文字（コピー&amp;ペーストできるテキスト）としてサイトに配置でき、検索に引っかかりやすくなりSEO対策としても有利になります。
+デザインを再現するために画像として文字を配置することも一般的に行われていますが、Webフォントを使うと、デバイスを問わずHTMLの文字（コピー&amp;ペーストできるテキスト）としてサイトに配置でき、検索に引っかかりやすくなりSEO対策としても有利になります。  
 さらにフォントサイズもCSSでコントロールできるため、レスポンシブデザインに対応しやすい、などの多くの利点があります。
 
 * 導入が簡単
 * 検索に引っかかりやすく、SEOに強い
 * レスポンシブに対応し、異なるデバイスで可読性や視認性を担保できる
 
+<br><br><br>
 
 ### Webフォントのデメリット
 
-サーバーからフォントデータを読み込むので若干の遅延が発生します。
+サーバーからフォントデータを読み込むので若干の遅延が発生します。  
 ただWebフォントのサービス（Google Fontsなど）の機能改善もあり、遅延することも少なくなってきました。
+
+<br><br><br>
 
 ## 試してみよう
 
-Google Fontsは無料でWebフォントを利用できます。
-実務でもよく利用するサービスなので是非使い方を覚えておきましょう。
+Google Fontsは無料でWebフォントを利用できます。  
+実務でもよく利用するサービスなので是非使い方を覚えておきましょう。  
 今回は、`Noto Serif JP` を表示させてみましょう。
 
-**1. Google Fonts**
+<br>
+
+**1. Google Fonts**  
 https://fonts.google.com/
 
-**2. Languageを選択**
-LanguageをJapaneseに変更します。
+<br>
+
+**2. Languageを選択**  
+LanguageをJapaneseに変更します。  
 該当のフォントをクリックしてください。
 
-![](https://paper-attachments.dropbox.com/s_57618050A23610DF813AD1198DA65210FE3FC11F977BF6FD2CA4F045448EE4DA_1570873721104__2019-10-12_18_41_31.png)
+<br>
+
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-webfont1-scaled.png)
+
+<br>
 
 **3. SELECT THIS FONTを選択**
 
-![](https://paper-attachments.dropbox.com/s_57618050A23610DF813AD1198DA65210FE3FC11F977BF6FD2CA4F045448EE4DA_1570873727064__2019-10-12_18_42_17.png)
+<br>
+
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-webfont2-scaled.png)
+
+<br>
 
 **4. コードをコピペ**
 
@@ -67,14 +86,16 @@ LanguageをJapaneseに変更します。
 
 そこに専用のHTMLコードとCSSコードが表示されるのでそれをコピペします。
 
-![](https://paper-attachments.dropbox.com/s_57618050A23610DF813AD1198DA65210FE3FC11F977BF6FD2CA4F045448EE4DA_1570873730258__2019-10-12_18_42_30.png)
+<br>
 
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-webfont3.png)
 
-
+<br><br><br>
 
 **web-font.html**
 
-`<meta>` の中に `<link>` を記述します。
+`<meta>` の中に `<link>` を記述します。  
+
 ```html
 <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap" rel="stylesheet">
 ```
