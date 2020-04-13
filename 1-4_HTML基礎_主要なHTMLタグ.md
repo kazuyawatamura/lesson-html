@@ -209,8 +209,6 @@ HTMLを勉強し始めの頃は、タグの入れ子のルールが分かりづ�
 
 #### divタグ：構造・レイアウト
 
-*** ブロック要素 ***
-
 divタグは、ほぼすべてのタグを入れ子にできます。
 
 ```html
@@ -219,8 +217,6 @@ a / article / aside / blockquote / br / button / div / dl / em / figure / footer
 
 #### spanタグ：構造・レイアウト
 
-*** インライン要素 ***
-
 spanタグは、同じインライン要素のタグを入れ子にできます（厳密には違いますが左記の通り覚えておいて結構です）
 
 ```html
@@ -228,8 +224,6 @@ a / br / button / data / em / i / iframe / img / input / label /picture / select
 ```
 
 #### h1〜h6タグ：見出し、pタグ：段落
-
-*** ブロック要素 ***
 
 上記のspanと同様に同じインライン要素のタグを入れ子にできると覚えておきましょう
 
@@ -288,6 +282,7 @@ a / article / aside / blockquote / br / button / div / dl / em / figure / footer
 #### html5の入れ子タグのチートシート
 
 HTML5 入れ子チートシート
+
 [https://yoshikawaweb.com/element/](https://yoshikawaweb.com/element/)
 
 
