@@ -83,10 +83,13 @@ HTML要素は、HTMLドキュメントの **ルート（root / 基点）** で�
 <link rel="icon" href="favicon.ico">
 ```
 
+<br><br><br>
+
 ### ```<meta charset="utf-8">```
 コンピューター語を人間が読める言語（日本語など）に置き換える際の決まりごとです。
 ※ ```<head>```の中には必須なのでこういったものがあるとだけ覚えておいてください。
 
+<br><br><br>
 
 ### ```<title>```タグ ```<meta name="description"```タグについて
 
@@ -96,6 +99,7 @@ HTML要素は、HTMLドキュメントの **ルート（root / 基点）** で�
 その
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_3066FA23A18E1433BC4D48A1112B9F0C6A766C9E0917C880D3A50377E5D58EB4_1520576947742_image.png)
+
 <br><br><br>
 
 ### ```<title>``` ```<meta name="description" 〜```
