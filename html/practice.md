@@ -1,4 +1,4 @@
-# 文章構造を理解してコーディングしてみよう
+# 【練習用】実際にマークアップしてみよう
 https://www.dropbox.com/s/znrwbcj0gxsnscq/apple_outline.txt?dl=0
 
 
