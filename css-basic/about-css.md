@@ -36,17 +36,17 @@ CSSはそのHTML文章のレイアウトや装飾などの見た目を指定す�
 
 ```css
 p {
-　color: red;
-　font-weight: bold;
-　margin-left: 20px;
+  color: red;
+  font-weight: bold;
+  margin-left: 20px;
 }
 ```
 ↓
 ```css
 pタグの {
-　色を: 赤にする;
-　太さを: 太くする;
-　左側の隙間を: 20pxにする;
+  色を: 赤にする;
+  太さを: 太くする;
+  左側の隙間を: 20pxにする;
 }
 ```
 
@@ -84,12 +84,12 @@ HTMLタグのheadタグの中にCSSを書くことができます。
     <title>セレクタの練習1</title>
     <style>
       p {
-      　color: red;
+        color: red;
       }
     </style>
   </head>
   <body>
-  　<p>この文字を赤にしたい。</p>
+    <p>この文字を赤にしたい。</p>
   </body>
 </html>
 ```
@@ -111,7 +111,7 @@ HTMLファイルから該当のCSSまでのパスをきちんと書かなけれ�
     <link rel="stylesheet" href="./assets/css/style.css">
   </head>
   <body>
-  　<p>この文字を赤にしたい。。</p>
+    <p>この文字を赤にしたい。。</p>
   </body>
 </html>
 ```
@@ -119,7 +119,7 @@ HTMLファイルから該当のCSSまでのパスをきちんと書かなけれ�
 ```css
 /* style.css の中身 */
 p {
-　color: red;
+  color: red;
 }
 ```
 <br><br><br>
