@@ -31,6 +31,7 @@ pタグの他にもいろいろなタグの種類があるので、調べて勉�
   <head>
     <meta charset="utf-8">
     <title>はじめまして</title>
+    <meta name="description" content="サイトの概要">
   </head>
   <body>
     
@@ -73,14 +74,12 @@ HTML要素は、HTMLドキュメントの **ルート（root / 基点）** で�
 
 
 ```html
-<!-- サイトのタイトル -->
-<title>サンプルリファレンスサイト</title>
 <!-- 文字コードの指定（コンピュータ内部で文字を表示させるためのルール） -->
 <meta charset="utf-8">
+<!-- サイトのタイトル -->
+<title>サンプルリファレンスサイト</title>
 <!-- サイトの説明文 -->
-<meta name="description" content="HTMLやCSSをわかりやすく丁寧に解説することを心がけたリファレンスサイトです">
-<!-- ファビコン用（タブに表示される小さなアイコン） -->
-<link rel="icon" href="favicon.ico">
+<meta name="description" content="サイトの概要">
 ```
 
 <br><br><br>
@@ -96,18 +95,12 @@ HTML要素は、HTMLドキュメントの **ルート（root / 基点）** で�
 
 <br><br><br>
 
-### ```<title>```タグ ```<meta name="description"```タグについて
+### <title>タグ、<meta name="description">タグ
 
 下の画像はGoogleの検索結果の一覧ページです。
 
 そこにタイトルとサイトの説明が表示される仕組みになっています。
-その
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_3066FA23A18E1433BC4D48A1112B9F0C6A766C9E0917C880D3A50377E5D58EB4_1520576947742_image.png)
-
-<br><br><br>
-
-### ```<title>``` ```<meta name="description" 〜```
 ![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-structure2.png)
 
 ![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-structure3.png)
