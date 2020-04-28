@@ -44,6 +44,8 @@ pタグの他にもいろいろなタグの種類があるので、調べて勉�
   - ブラウザで開いた際には表示されず、ソースコード上のみ確認する事ができます
 1. ```<body>``` ブラウザに表示される文章（コンテンツ）を記述する要素
 
+<br><br><br>
+
 ![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-structure4.png)
 
 <br><br><br>
