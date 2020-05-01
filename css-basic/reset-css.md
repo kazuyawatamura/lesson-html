@@ -37,7 +37,7 @@ HTMLタグには、すでにブラウザ毎にスタイルがあらかじめ割�
 
 使いまわししやすいように `ress` リセットCSSをカスタマイズしたファイルを下記にアップしているので、こちらを利用してください。
 
-[https://github.com/kazuyawatamura/reset-css](https://github.com/kazuyawatamura/reset-css)
+[https://github.com/kazuyawatamura/reset-css](https://github.com/kazuyawatamura/reset-css/blob/master/reset.css)
 
 box-sizingの資料にあった下記のコードもこのリセットCSSに記述されています。
 
