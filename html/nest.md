@@ -44,18 +44,6 @@ HTMLタグは「入れ子（ネスト）」といってタグの中にタグを�
     </ol>
   </li>
 </ul>
-
-<!-- NG例 -->
-<ul>
-  <li>リスト</li>
-  <li>リスト</li>
-  <ol>
-    <li>リスト</li>
-    <li>リスト</li>
-    <li>リスト</li>
-    <li>リスト</li>
-  </ol>
-</ul>
 ```
 
 #### 参考
@@ -188,7 +176,7 @@ divのように多くのタグを入れ子にできる万能なタグです。
 
 #### html5の入れ子タグのチートシート
 
-HTML5 入れ子チートシート
+HTML5 入れ子チートシート  
 [https://yoshikawaweb.com/element/](https://yoshikawaweb.com/element/)
 
 
@@ -201,7 +189,6 @@ HTML5 入れ子チートシート
 ```html
 <p>HTMLは、ハイパーテキストを記述するための<strong>マークアップ言語</p>です。</strong>
 ```
-  
   
   <br>
   <br>
