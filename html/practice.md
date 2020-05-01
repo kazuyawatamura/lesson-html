@@ -1,9 +1,6 @@
 # 【練習用】実際にマークアップしてみよう
-https://www.dropbox.com/s/znrwbcj0gxsnscq/apple_outline.txt?dl=0
-
 
 <br><br><br>
-
 
 ## 演習A
 
@@ -51,8 +48,8 @@ Anker（アンカー）
 ```
 Apple
 
-Appleは、iPhone、iPad、Mac、Apple Watch、iOS、OS X、watchOSといったイノベーションで世界をリードしています。製品の情報も、購入も、サポートも、すべてAppleのウェブサイトでどうぞ。
-
+Appleは、iPhone、iPad、Mac、Apple Watch、iOS、OS X、watchOSといったイノベーションで世界をリードしています。
+製品の情報も、購入も、サポートも、すべてAppleのウェブサイトでどうぞ。（2020年5月1日）
 
 テーマ・製品カテゴリから探す
 Mac
