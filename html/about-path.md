@@ -10,10 +10,10 @@ Webサイトには画像やCSSなど外部ファイルがたくさんありま�
 
 ## まず画像を表示してみよう
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-path-cat1.jpeg)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-path-cat1.jpg)
 
 ```html
-<img src="./cat.jpg">
+<img src="./cat.jpg" alt="猫の画像">
 ```
 
 
