@@ -103,10 +103,6 @@ pタグの他にもいろいろなタグの種類があるので、調べて勉�
   サイトやコンテンツのヘッダー
 </header>
 
-<footer>
-  関連文書へのリンク、著作権などの情報
-</footer>
-
 <nav>
   ナビゲーション、メニュー
 </nav>
@@ -121,13 +117,18 @@ pタグの他にもいろいろなタグの種類があるので、調べて勉�
 
 <section>
   章、コンテンツごとの固まり
+
+  <h1>大見出し、Headerの略</h1>
+  <h2>中見出し、Headerの略</h2>
+  <h3>小見出し、Headerの略</h3>
+  <h6>小見出し、Headerの略</h6>
 </section>
 
-<h1>大見出し、Headerの略</h1>
-<h2>中見出し、Headerの略</h2>
-<h3>小見出し、Headerの略</h3>
-〜
-<h6>小見出し、Headerの略</h6>
+<aside>余談・補足情報、広告なども</aside>
+
+<footer>
+  関連文書へのリンク、著作権などの情報
+</footer>
 
 <p>
   段落・本文、Paragraphの略
@@ -150,25 +151,21 @@ pタグの他にもいろいろなタグの種類があるので、調べて勉�
   <li>箇条、Ordered Listの略</li>
 </ol>
 
+<small>免責・警告・法的規制・著作権・ライセンス要件などの注釈</small>
+
 <time datetime="2020-05-20">2020年5月20日</time>
 <!-- 日時 -->
 
-<aside>余談・補足情報、広告なども</aside>
-
-<small>免責・警告・法的規制・著作権・ライセンス要件などの注釈</small>
-
 <address>
-  <a href="mailto:user@exampple.com">user@exampple.com</a>
-  <a href="tel:0312345678">03-1234-5678</a>
+  <a href="mailto:user@example.com">user@example.com</a>
 </address>
 
-<div>意味のないブロック要素</div>
+<div>意味のないブロック要素、スタイリング用</div>
 
-<span>意味のないインライン要素</span>
+<span>意味のないインライン要素、スタイリング用</span>
 
 <br>
 <!-- 改行、Breakの略、閉じタグ無し -->
-
 ```
 
 <br><br><br>
