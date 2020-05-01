@@ -44,6 +44,18 @@ HTMLタグは「入れ子（ネスト）」といってタグの中にタグを�
     </ol>
   </li>
 </ul>
+
+<!-- NG例 -->
+<ul>
+  <li>リスト</li>
+  <li>リスト</li>
+  <ol>
+    <li>リスト</li>
+    <li>リスト</li>
+    <li>リスト</li>
+    <li>リスト</li>
+  </ol>
+</ul>
 ```
 
 #### 参考
@@ -52,7 +64,7 @@ HTMLタグは「入れ子（ネスト）」といってタグの中にタグを�
 <br><br><br>
 
 ## 要素の分類（コンテンツモデル）
-要素の分類（コンテンツモデル）とは「その要素にはどのカテゴリーのコンテンツを入れていいか」を決めているルールです。  
+要素の分類（コンテンツモデル）とは「どのタグの中にどのタグを入れて良いか」を決めているルールです。  
 
 HTMLを勉強し始めの頃は、タグの入れ子のルールが分かりづらいと思います。  
 ここではNG例とOK例をいくつか載せています。おおざっぱで構いませんので感覚を掴んでみてください。
@@ -83,7 +95,7 @@ HTMLを勉強し始めの頃は、タグの入れ子のルールが分かりづ�
   <span>pタグにspanは入れられる</span>
 </p>
 ```
-→ HTMLの仕様で、pタグの中には、aタグ・imgタグ・spanタグなどのインライン要素を入れることができます。  
+→ HTMLの仕様で、pタグの中には、aタグ・imgタグ・spanタグなどの<a href="https://kazuyawatamura.github.io/lesson-html/css-basic/block-and-inline-elements.html" target="_blank">インライン要素</a>を入れることができます。  
 最初から覚える必要はないのでパターンとして覚えておいてください。
 
 ```html
@@ -118,13 +130,14 @@ divタグは、ほぼすべてのタグを入れ子にできます。
 
 ### spanタグ：構造・レイアウト
 
-spanタグは、同じインライン要素のタグを入れ子にできます（厳密には違いますが左記の通り覚えておいて結構です）
+spanタグは、同じ<a href="https://kazuyawatamura.github.io/lesson-html/css-basic/block-and-inline-elements.html" target="_blank">インライン要素</a>のタグを入れ子にできます  
+（厳密には違いますがこの通り覚えておいて結構です）
 
 ***a / br / button / data / em / i / iframe / img / input / label /picture / select / small / span / strong / svg / textarea / time / video など***
 
 ### h1〜h6タグ：見出し、pタグ：段落
 
-上記のspanと同様に同じインライン要素のタグを入れ子にできると覚えておきましょう
+上記のspanと同様に<a href="https://kazuyawatamura.github.io/lesson-html/css-basic/block-and-inline-elements.html" target="_blank">インライン要素</a>のタグを入れ子にできると覚えておきましょう
 
 ***a / br / button / data / em / i / iframe / img / input / label /picture / select / small / span / strong / svg / textarea / time / video など***
 
@@ -141,7 +154,8 @@ divのように多くのタグを入れ子にできる万能なタグです。
 
 ***a / article / aside / blockquote / br / button / div / dl / em / figure / footer / form / h1 / h2 / h3 / h4 / h5 / h6 / header / hgroup / hr / i / iframe / img / input / label / main / nav / ol / p / picture / pre / script / section / select / small / span / strong / svg / table / template / textarea / time / ul / video***
 
-ただ、ulタグの直下にulタグを入れることはできないのでliタグの中にulタグかolタグを入れる必要があります。  
+ただ、ulタグの直下にulタグを入れることはできないのでliタグの中にulタグかolタグを入れる必要があります。
+  
 例
 
 ```html
