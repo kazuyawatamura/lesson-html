@@ -98,26 +98,78 @@ pタグの他にもいろいろなタグの種類があるので、調べて勉�
 
 ```<body>``` タグの中に下記のタグを書いてみましょう。
 
-- ```<header>```（サイトやコンテンツのヘッダー）
-- ```<footer>```（関連文書へのリンク、著作権などの情報）
-- ```<nav>```（ナビゲーション）
-- ```<main>```（ページ固有のコンテンツ/各ページにつき1回しか使用できない）
-  - ```<article>```（自己完結した内容。見出しタグ）
-  - ```<section>```（章、コンテンツごとの固まり）
-  - ```<h1> ~ <h6>```（見出し、Headerの略）
-  - ```<p>```（段落・本文、Paragraphの略）
-  - ```<strong>, <em>```（本文の強調）
-  - ```<a href="xxx">```（リンク、Ankerの略）
-  - ```<img src="xxx" alt="">```（画像）
-  - ```<ul>, <ol>```（箇条、Unodered ListとOrdered Listの略）
-  - ```<li>```（リスト）
-  - ```<time>```（日時）
-- ```<aside>```（余談・補足情報、広告なども）
-- ```<small>```（免責・警告・法的規制・著作権・ライセンス要件などの注釈）
-- ```<address>```（メアド・住所・電話番号等連絡をとるために必要な情報）
-- ```<div>```（意味のないブロック要素）
-- ```<span>```（意味のないインライン要素）
-- ```<br>```（改行、Breakの略）
+```html
+<header>
+  サイトやコンテンツのヘッダー
+</header>
+
+<footer>
+  関連文書へのリンク、著作権などの情報
+</footer>
+
+<nav>
+  ナビゲーション、メニュー
+</nav>
+
+<main>
+  ページ固有のコンテンツ/各ページにつき1回しか使用できない
+</main>
+
+<article>
+  自己完結した内容。見出しタグ
+</article>
+
+<section>
+  章、コンテンツごとの固まり
+</section>
+
+<h1>大見出し、Headerの略</h1>
+<h2>中見出し、Headerの略</h2>
+<h3>小見出し、Headerの略</h3>
+〜
+<h6>小見出し、Headerの略</h6>
+
+<p>
+  段落・本文、Paragraphの略
+</p>
+
+<em>本文内（インライン）での強調</em>
+<strong>本文内（インライン）での強い強調</strong>
+
+<a href="https://www.yahoo.co.jp/">リンク、Ankerの略</a>
+
+<img src="https://picsum.photos/300/300" alt="ダミー画像">
+<!-- 画像、閉じタグ無し -->
+
+<ul>
+  <li>箇条、Unodered Listの略</li>
+  <li>箇条、Unodered Listの略</li>
+</ul>
+<ol>
+  <li>箇条、Ordered Listの略</li>
+  <li>箇条、Ordered Listの略</li>
+</ol>
+
+<time datetime="2020-05-20">2020年5月20日</time>
+<!-- 日時 -->
+
+<aside>余談・補足情報、広告なども</aside>
+
+<small>免責・警告・法的規制・著作権・ライセンス要件などの注釈</small>
+
+<address>
+  <a href="mailto:user@exampple.com">user@exampple.com</a>
+  <a href="tel:0312345678">03-1234-5678</a>
+</address>
+
+<div>意味のないブロック要素</div>
+
+<span>意味のないインライン要素</span>
+
+<br>
+<!-- 改行、Breakの略、閉じタグ無し -->
+
+```
 
 <br><br><br>
 
