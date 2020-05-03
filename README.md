@@ -6,7 +6,7 @@
 1. [エディタやブラウザの紹介](https://kazuyawatamura.github.io/lesson-html/html/editor-browser.html)
 1. [HTML構造を知ろう](https://kazuyawatamura.github.io/lesson-html/html/html-structure.html)
 1. [タグの入れ子（ネスト）と要素ごとのルール](https://kazuyawatamura.github.io/lesson-html/html/nest.html)
-1. [HTML5タグを用いたセクショニング](https://kazuyawatamura.github.io/lesson-html/html/section-article.html)
+1. [見出しタグの使い方とセクショニング](https://kazuyawatamura.github.io/lesson-html/html/section-article.html)
 1. [ファイルを繋ぐパスについて](https://kazuyawatamura.github.io/lesson-html/html/about-path.html)
 1. [ファビコンの設置](https://kazuyawatamura.github.io/lesson-html/html/favicon.html)
 1. [ブラウザが扱える画像の形式](https://kazuyawatamura.github.io/lesson-html/html/image-format.html)
