@@ -29,46 +29,41 @@ HTMLで見出しタグは、```<h1>``` から ```<h6>``` の6種類あり、こ�
 ```<h1>``` はそのページの内容を表す1番重要な見出しです。  
 h1の中身は、そのページの主題（ページ名）を定義するようにしましょう。
 
-```text
-sectionタグを使えば、h1を複数使っても検索クローラーに意図を伝えられるようになりましたが、暗黙的に1ページにh1タグは1つにしているサイトが多いです。
-```
+> sectionタグを使えば、h1を複数使っても検索クローラーに意図を伝えられるようになりましたが、暗黙的に1ページにh1タグは1つにしているサイトが多いです。
 
 **参考**
-![4.3.11 見出しとセクション - WhatWG](https://momdo.github.io/html/sections.html#headings-and-sections)
+[4.3.11 見出しとセクション - WhatWG](https://momdo.github.io/html/sections.html#headings-and-sections)
 
-#### トップページと下層ページ
+### トップページと下層ページ
 
 トップページと下層ページでh1を使う箇所を変更することが理想です。
 h1の中身は、「そのページの主題（ページ名）を定義する」という事を念頭に置いてマークアップすると以下のようになります。
 
-- Webサイトのトップページ：Webサイト名
-- 記事ページ：各記事のタイトル（Webサイト名にはpタグなどをつける）
+- **Webサイトのトップページ**：Webサイト名
+- **記事ページ**：各記事のタイトル（Webサイト名にはpタグなどをつける）
 
 
 ![](/lesson-html/assets/images/lesson-html-head2.png)
 
 こうすることでページの主題がはっきりして検索クローサーにも意図を伝えやすくなります。
 
+---
 
-## ```<article>``` について
+
+## articleタグ について
 
 - その内容を取り出しても独立したコンテンツとして成り立つ場合に使用する。
 （赤枠がarticle）
 
-## ```<section>``` について
+## sectionタグ について
 
 - 章や節など、意味的に関係のある要素をまとめる場合に使用する。
 - タグの中に見出しタグ（h1 〜 h6）が1つ以上必要。
 （緑枠がsection）
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-tag3.png)
-（黄色はaside）
 
-
-
-![水色がnav、赤枠がarticle、緑枠がsection、黄枠はaside、青がp](https://laro.jp/wp-content/uploads/2019/11/lesson-html-tag4.png)  
-※水色がnav、赤枠がarticle、緑枠がsection、黄枠はaside、青がp
+![](/lesson-html/assets/images/lesson-html-head3.png)
 
 <br><br><br>
 
