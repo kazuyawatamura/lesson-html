@@ -67,13 +67,13 @@ pタグの他にもいろいろなタグの種類があるので、調べて勉�
 
 <br><br><br>
 
-#### ```<meta charset="utf-8">``` タグ
+#### <meta charset="utf-8"> タグ
 コンピューター語を人間が読める言語（日本語など）に置き換える際の決まりごとです。  
 ※ ```<head>```の中には必須なのでこういったものがあるとだけ覚えておいてください。
 
 <br><br><br>
 
-#### ```<title>``` タグ、 ```<meta name="description">``` タグ
+#### <title> タグ、 <meta name="description"> タグ
 
 下の画像はGoogleの検索結果の一覧ページです。  
 
@@ -193,7 +193,7 @@ HTMLタグはその種類に応じて設定を付加できます。
 ![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-tag1.png)
 
 
-### ```<img>``` タグの属性と属性値
+### <img> タグの属性と属性値
 
 ```img``` タグは、画像を表示させるタグです。
 
