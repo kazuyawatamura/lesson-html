@@ -218,8 +218,6 @@ HTML5で登場したheader, nav, main, section, article, aside, footerを使っ�
 
 ---
 
-<br><br><br>
-
 ## HTMLは国語のようなものです
 
 言葉にはいろいろな言い方や表現があります。
