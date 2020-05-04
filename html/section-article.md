@@ -92,6 +92,8 @@ HTML5で登場したheader, nav, main, section, article, aside, footerを使っ�
 
 一般的なサイトをどのようにマークアップするかを例にしました。
 
+<br><br><br>
+
 ![](/lesson-html/assets/images/lesson-html-head3.png)
 
 このデザインは比較的わかりやすい構成なので、シンプルなHTMLになりましたが、たくさんコンテンツがあるサイトでは多くの
