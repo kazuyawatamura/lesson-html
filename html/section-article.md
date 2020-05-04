@@ -90,9 +90,9 @@ HTML5で登場したheader, nav, main, section, article, aside, footerを使っ�
 
 ## マークアップ例でみる使い分け方
 
-一般的なサイトをどのようにマークアップするかを例にしました。
+一般的なサイトをどのようにマークアップするかを例にしました。  
 
-<br><br><br>
+<br>
 
 ![](/lesson-html/assets/images/lesson-html-head3.png)
 
@@ -187,5 +187,5 @@ HTML5で登場したheader, nav, main, section, article, aside, footerを使っ�
 それと一緒で、WEBサイトのデザインを解釈し、どのタグでマークアップするかはHTMLコーダーの裁量になります。  
 ある程度のHTMLの決まり事はありますが、マークアップする人によって書き方はさまざまと言って良いでしょう。  
 また所属する部署や組織のルールによって、どんなルールで書くかはそれぞれです。  
-  
+
 ChromeのデベロッパーツールでいろいろなサイトのHTMLを見て、たくさんのコードをみて覚えていきましょう。
