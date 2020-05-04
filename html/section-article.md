@@ -106,32 +106,32 @@ HTML5で登場したheader, nav, main, section, article, aside, footerを使っ�
 
 ```html
 <header>
-	サイトロゴ
-	<nav>
-		<ul>
-			<li><a href="#">メニュー1</a></li>
-			<li><a href="#">メニュー2</a></li>
-		</ul>
-	</nav>
+  サイトロゴ
+  <nav>
+    <ul>
+      <li><a href="#">メニュー1</a></li>
+      <li><a href="#">メニュー2</a></li>
+    </ul>
+  </nav>
 </header>
 <main>
-	<article>
-		<h1>ページタイトル</h1>
-		<section>
-			<h2>中見出し</h2>
-			<p>本文ダミーテキスト</p>
-			<section>
-				<h3>小見出し</h3>
-				<p>本文ダミーテキスト</p>
-			</section>
-		</section>
-	</article>
-	<aside>
-		広告バナー
-	</aside>
+  <article>
+    <h1>ページタイトル</h1>
+    <section>
+      <h2>中見出し</h2>
+      <p>本文ダミーテキスト</p>
+      <section>
+        <h3>小見出し</h3>
+        <p>本文ダミーテキスト</p>
+      </section>
+    </section>
+  </article>
+  <aside>
+    広告バナー
+  </aside>
 </main>
 <footer>
-	copyright 2020
+  copyright 2020
 </footer>
 ```
 
