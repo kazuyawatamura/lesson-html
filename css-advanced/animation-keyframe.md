@@ -50,17 +50,18 @@
 <br><br><br>
 
 ## animation プロパティ一覧
+
 | プロパティ                    | 説明                       |
 | --------------------------- | ---------------------------- |
-| `animation-name`            | アニメーションの名前                   |
-| `animation-duration`        | アニメーションが始まって終わるまでの時間         |
-| `animation-timing-function` | アニメーションの進行の度合い               |
-| `animation-delay`           | アニメーションが始まる時間                |
-| `animation-iteration-count` | アニメーションの繰り返し回数               |
-| `animation-direction`       | アニメーションの再生方向                 |
-| `animation-fill-mode`       | アニメーションの開始前、終了後のスタイル         |
-| `animation-play-state`      | アニメーションの再生・停止                |
-| `animation`                 | 8つのプロパティを一括指定できるショートハンドプロパティ |
+| animation-name            | アニメーションの名前                   |
+| animation-duration        | アニメーションが始まって終わるまでの時間         |
+| animation-timing-function | アニメーションの進行の度合い               |
+| animation-delay           | アニメーションが始まる時間                |
+| animation-iteration-count | アニメーションの繰り返し回数               |
+| animation-direction       | アニメーションの再生方向                 |
+| animation-fill-mode       | アニメーションの開始前、終了後のスタイル         |
+| animation-play-state      | アニメーションの再生・停止                |
+| animation                 | 8つのプロパティを一括指定できるショートハンドプロパティ |
 
 <br><br><br>
 
