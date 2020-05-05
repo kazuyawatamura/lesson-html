@@ -143,14 +143,12 @@ background-color: transparent;
 
 ## 単位について
 
-<br><br><br>
 
 ### px（ピクセル）
 
 - 絶対値
 - CSSで数値を指定するさいの基本的な単位は `px` ピクセルと覚えておきましょう。
 
-<br><br><br>
 
 ### %（パーセント）
 
@@ -168,7 +166,6 @@ background-color: transparent;
 
 [PXtoEM.com PX to EM conversion made simple.](http://pxtoem.com/)
 
-<br><br><br>
 
 ### rem（レム / ルートエム）
 
@@ -214,7 +211,6 @@ body {
 
 <br><br><br>
 ---
-<br><br><br>
 
 ## 文字を左右中央に寄せる
 
@@ -233,7 +229,6 @@ body {
 
 <br><br><br>
 ---
-<br><br><br>
 
 ## 行間を指定する
 
@@ -260,7 +255,6 @@ body {
 
 <br><br><br>
 ---
-<br><br><br>
 
 ## 背景色の指定
 
@@ -290,7 +284,6 @@ CSSでも指定の仕方は3通りあります
 
 <br><br><br>
 ---
-<br><br><br>
 
 ## 線を引く
 
@@ -312,8 +305,6 @@ CSSでも指定の仕方は3通りあります
 }
 ```
 
-<br><br><br>
-
 ### ショートハンド
 
 ```css
@@ -321,7 +312,6 @@ CSSでも指定の仕方は3通りあります
   border: 1px solid palegreen;
 }
 ```
-<br><br><br>
 
 ### 線スタイルの種類
 
@@ -342,7 +332,6 @@ CSSでも指定の仕方は3通りあります
 .dashed { border: 2px dashed gray;}
 .double { border: 5px double gray;}
 ```
-<br><br><br>
 
 ### 上下左右、個別に線をひく
 
@@ -361,7 +350,6 @@ CSSでも指定の仕方は3通りあります
   border-bottom-color: gray;
 }
 ```
-<br><br><br>
 
 ### ショートハンド
 ```css
@@ -370,7 +358,6 @@ CSSでも指定の仕方は3通りあります
 
 <br><br><br>
 ---
-<br><br><br>
 
 ## 背景画像
 
@@ -388,12 +375,10 @@ CSSでも指定の仕方は3通りあります
   background-position: 0 0;
 }
 ```
-<br><br><br>
 
 ### background-image
 背景画像を指定するプロパティ
 
-<br><br><br>
 
 ### background-repeat
 背景画像のリピートの仕方を指定するプロパティ
@@ -404,7 +389,6 @@ background-repeat: repeat;
 background-repeat: repeat-x;
 background-repeat: repeat-y;
 ```
-<br><br><br>
 
 ### background-position
 
@@ -437,14 +421,12 @@ background-position: 10px 40px;
 background-position: bottom 10px right 30%;
 ```
 
-<br><br><br>
 
 ### ショートハンド
 
 ```css
 background: #FFFFFF url(../assets/images/logo.png) no-repeat 10px 40px;
 ```
-<br><br><br>
 
 ### おまけ：background-size
 
@@ -464,8 +446,6 @@ background-size: 100% 40%;
 <br><br><br>
 
 ---
-
-<br><br><br>
 
 ## フォントを指定する
 
@@ -489,8 +469,6 @@ Webサイトに表示される文字（フォント）の指定を、font-family
 ![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-property7.png)
 
 
-<br><br><br>
-
 
 ### 基本的に複数のフォントを指定する
 
@@ -498,13 +476,11 @@ OS毎（Mac / Windows / iOS）にインストールされているフォンが�
 （Macにしか入っていないフォントを指定してもWindowsパソコンで表示されない等…）
 
 
-<br><br><br>
 
 ### 左に指定されているフォントから優先される
 
 下記だと  ```Avenir Next```  が無かったら、 ```Gadugi```  →  ```ヒラギノ丸ゴ```  →  ```メイリオ```  の順
 
-<br><br><br>
 
 ### 英語フォントを先に記述する
 
@@ -525,14 +501,12 @@ OS毎（Mac / Windows / iOS）にインストールされているフォンが�
 
 ![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-property9.png)
 
-<br><br><br>
 
 ### 総称フォントとは？
 
 指定したフォントがまったく入っていなかったら「せめてこういう系統のフォントを表示したい」という指定になります。  
 ざっくりとした指定なので、実際にどんなフォントが使われるかはブラウザしだになります。
 
-<br><br><br>
 
 ### sans-serif　or　serif
 
@@ -548,7 +522,6 @@ font-family: sans-serif;
 
 <br><br><br>
 ----------
-<br><br><br>
 
 もっとたくさんのスタイルシートみる
 [スタイルシートリファレンス（目的別）](http://www.htmq.com/style/)
