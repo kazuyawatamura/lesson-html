@@ -43,13 +43,11 @@
 下の要素は  `background-color`  を指定しているため、それ以外のプロパティを変更しても
 アニメーションが適用されません。
 
-<br><br><br>
 
 ### all
 
 ![全てのプロパティに対してアニメーションが適用](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition2.gif)
 
-<br><br><br>
 
 ### background-color
 
@@ -67,13 +65,9 @@
 例 
  `transition-duration: .5s;`   → 0.5秒
 
-<br><br><br>
-
 ### 3秒
 
 ![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition4.gif)
-
-<br><br><br>
 
 ### 0.5秒
 
@@ -87,13 +81,9 @@
 
 初期値は、 `0` 
 
-<br><br><br>
-
 ### 1秒
 
 ![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition6.gif)
-
-<br><br><br>
 
 ### 0秒
 
@@ -111,35 +101,30 @@
 ![via: https://developers.google.com/web/fundamentals/design-and-ux/animations/the-basics-of-easing?hl=ja](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition8.png)
 via: https://developers.google.com/web/fundamentals/design-and-ux/animations/the-basics-of-easing?hl=ja
 
-<br><br><br>
 
 ### linear
 一定
 
 ![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition9.gif)
 
-<br><br><br>
 
 ### ease-out
 ゆっくり終わる
 
 ![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition10.gif)
 
-<br><br><br>
 
 ### ease-in
 ゆっくり始まる
 
 ![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition11.gif)
 
-<br><br><br>
 
 ### ease-in-out
 ゆっくり始まってゆっくり終わる
 
 ![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition12.gif)
 
-<br><br><br>
 
 ### cubic-bezier()
 3次ベジェ曲線のP1とP2を (x1, y1, x2, y2) で指定
@@ -150,7 +135,6 @@ via: https://developers.google.com/web/fundamentals/design-and-ux/animations/the
 
 http://cubic-bezier.com/
 
-<br><br><br>
 
 ### ショートハンド
 
