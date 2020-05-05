@@ -19,7 +19,6 @@
   text-decoration: underline; /* none, underline */
 }
 ```
-<br><br><br>
 
 ### 何も指定していない時のそれぞれの初期値（デフォルト）
 
@@ -38,13 +37,10 @@
 
 ---
 
-<br><br><br>
-
 ## カラーコードについて
 
 CSSで色を設定する際に3通りの指定方法があります。
 
-<br><br><br>
 
 ### 16進数のカラーコード
 
@@ -52,7 +48,7 @@ CSSで色を設定する際に3通りの指定方法があります。
 耳慣れない16進数という言葉ですが、Photoshopなどのデザインツールから値をコピーしてCSSに貼り付けることが多いため、「この値は○○色」と具体的に覚えなくても大丈夫です。  
 ※ 無彩色の数種類は覚えても良いかもしれません。  
 
-**無彩色カラーの一部**
+**無彩色カラーの一部**  
 `#FFFFFF` →　白  
 `#FAFAFA` →　限りなく薄いグレー  
 `#CCCCCC` →　グレー  
@@ -85,7 +81,6 @@ color: #FF0000;
 /*背景色*/
 background-color:  #FF00FF;
 ```
-<br><br><br>
 
 ### rgba
 
@@ -106,7 +101,6 @@ color: rgba(255, 0, 0, 1);
 /*背景色*/
 background-color:  rgba(0, 0, 0, 0.5);
 ```
-<br><br><br>
 
 ### カラーネーム
 
@@ -120,7 +114,6 @@ color: paleGreen;
 background-color: skyblue;
 ```
 
-<br><br><br>
 
 ### `color` と　`background-color` の初期値
 
@@ -139,7 +132,6 @@ background-color: transparent;
 * [カラーコード変換ツール](https://tech-unlimited.com/color.html)
 <br><br><br>
 ---
-<br><br><br>
 
 ## 単位について
 
