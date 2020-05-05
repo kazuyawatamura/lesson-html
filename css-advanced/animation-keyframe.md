@@ -50,7 +50,7 @@
 <br><br><br>
 
 ## animation プロパティ一覧
-| **プロパティ**                   | **説明**                       |
+| プロパティ                    | 説明                       |
 | --------------------------- | ---------------------------- |
 | `animation-name`            | アニメーションの名前                   |
 | `animation-duration`        | アニメーションが始まって終わるまでの時間         |
@@ -69,22 +69,18 @@
  `@keyframes`  で記述した名前を指定します。
  このプロパティだけではアニメーションはされません。
 
-<br><br><br>
 
 ### animation-duration
 
 例 
 `animation-duration: .5s;`   → 0.5秒
 
-<br><br><br>
 
 ### animation-timing-function
 
-<br><br><br>
 
 ### animation-delay
 
-<br><br><br>
 
 ### animation-iteration-count
 
