@@ -7,6 +7,9 @@
 **position-basic.html**
 
 Positionは、要素の位置を座標で決めるためのプロパティです。  
+座標でパーツを配置できるので自由度が上がります。その反面、デバイスの幅が変化したさいに画面外へ、はみ出してしまったりコントロールがしにくいデメリットもあります。  
+
+
 全体的なレイアウトはFlexboxで行い、部分的なパーツのレイアウトはPositionで行うと良いかと思います。
 
 
@@ -40,7 +43,7 @@ Positionは、要素の位置を座標で決めるためのプロパティです
 - right　　 ←右からの距離
 
 
-##### 実際の使い方（1）
+#### 実際の使い方（1）
 
 ```html
 <div class="relative">
@@ -66,7 +69,7 @@ Positionは、要素の位置を座標で決めるためのプロパティです
 
 <br>
 
-##### 実際の使い方（position-photo.html）
+#### 実際の使い方（position-photo.html）
 
 ```html
 <div class="relative">
@@ -78,14 +81,14 @@ Positionは、要素の位置を座標で決めるためのプロパティです
   position: relative;
   width: 500px;
   height: 300px;
-  background: url(../assets/images/town.jpg)
+  background: url(https://picsum.photos/500/300/)
 }
 .absolute {
   position: absolute;
   bottom: 20px;
   right: 20px;
   color: #ffffff;
-  foont-size: 22px;
+  font-size: 22px;
   font-family: sans-serif;
   padding: 8px;
   background-color: red;
@@ -103,14 +106,19 @@ Positionは、要素の位置を座標で決めるためのプロパティです
 
 #### 注意
 
-* `absolute`  を使って位置調整するときは、親要素に  `relative`  を指定しておきましょう。
+* `absolute`  を使って位置調整するときは、親要素に  `position: relative`  を指定しておきましょう。  
 基準位置がずれて定まらず、思った位置になりません。
 * `absolute`  を使うときは、おまじないのように親要素もセットで変えるようにしましょう。
 
 
-### 固定位置（position-fixed.html）
+<br><br><br>
 
-画面の決まった位置に固定表示をさせるプロパティです。
+## 固定位置
+
+**position-fixed.html**  
+
+画面の決まった位置に固定表示をさせるプロパティです。  
+下記のサイトのように下にスクロールしてもヘッダーやナビゲーションがついてくるようにできます。  
 
 
 ![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-position3.gif)
@@ -140,9 +148,12 @@ Positionは、要素の位置を座標で決めるためのプロパティです
 <div class="fixed">固定領域</div>
 ```
 ```css
+p {
+  margin-top: 30px;
+}
 .fixed {
   position: fixed;
-  bottom: 0;
+  top: 0;
   left: 0;
   width: 100%;
   background-color: orange;
@@ -150,7 +161,7 @@ Positionは、要素の位置を座標で決めるためのプロパティです
 ```
 
 ※位置の基準は親要素ではなく「ウィンドウ全体」  
-※「Page top」にも有効
+よくみるページトップ戻るボタンにも有効です
 
 ```html
 <div class="fixed">ページトップ</div>
