@@ -57,7 +57,6 @@ strong {
 ブロック要素とインライン要素それぞれの特徴を併せ持っている要素。  
 文章中の指定した文字に対して装飾をしたい時に便利なdisplay属性です。
 
-<br><br><br>
 
 ### 例
 
@@ -74,23 +73,29 @@ li {
   display: inline-block;
   margin-right: 10px;
 }
-li:after {
+li::after {
   content: ">";
   margin-left: 10px;
 }
-li:last-child:after {
+li:last-of-type::after {
   content: "";
   margin-left: 0;
 }
 a {
   color: #333;
 }
-
 .current {
   padding: 16px;
   background-color: palegreen;
 }
 ```
+
+<p class="codepen" data-height="300" data-theme-id="light" data-default-tab="result" data-user="cotton" data-slug-hash="XWmVgpM" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="inline-blickでパンくずを作る">
+  <span>See the Pen <a href="https://codepen.io/cotton/pen/XWmVgpM">
+  inline-blickでパンくずを作る</a> by cotton (<a href="https://codepen.io/cotton">@cotton</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 外側はインライン要素、内側はブロック要素。
 
