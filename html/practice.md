@@ -100,8 +100,6 @@ iPhone
 Copyright © 2020 Apple Inc. All rights reserved.
 ```
 
-[サンプルHTMLはこちら](/lesson-html/assets/code/apple_outline.html)
-
 <br><br><br>
 
 ## チェックサービス
