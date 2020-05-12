@@ -1,4 +1,4 @@
-## box-sizingプロパティについて
+# box-sizingプロパティについて
 
 
 要素の幅（width）や高さ（height）の中にpaddingとborderを含めるかどうかというプロパティです。
@@ -11,9 +11,7 @@ box-sizing: content-box; /* 初期値 */
 box-sizing: border-box;
 ```
 
-<br><br><br>
-
-#### 書き方の例
+### 書き方の例
 ```html
 <p class="box-sizing">要素の幅や高さに含めるかどうか。</p>
 ```
@@ -27,15 +25,12 @@ box-sizing: border-box;
 ```
 <br><br><br>
 
-### content-boxの場合
-
+## content-boxの場合
 
 paddingとborderを幅（width）と高さ（height)に含めない。  
 幅（width）と高さ（height）に足されるため、レイアウトがしづらい。
 
-<br><br><br>
-
-#### 400pxのボックスを作りたい場合
+### 400pxのボックスを作りたい場合
 
 356px = 400px - ( 20px x 2 ) + ( 2px x 2 )  
 ※ 2というのは両端辺の数です。
@@ -54,7 +49,7 @@ paddingとborderを幅（width）と高さ（height)に含めない。
 
 <br><br><br>
 
-### border-box の場合
+## border-box の場合
 
 上記の `content-box` のデメリットを解決できるのが、`box-sizing: border-box;` です。  
 paddingとborderを幅（width）と高さ（height）に含めることができます。
@@ -81,7 +76,7 @@ html {
 
 <br><br><br>
 
-### width:100%とautoの違いは？
+## width:100%とautoの違いは？
 
 ![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-boxsizing3.png)
 
