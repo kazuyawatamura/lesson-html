@@ -358,6 +358,7 @@ CSSでも指定の仕方は3通りあります
 ```html
 <div class="background">背景画像の指定</div>
 ```
+
 ```css
 .background {
   width: 100px;
