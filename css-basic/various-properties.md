@@ -248,35 +248,6 @@ body {
 <br><br><br>
 ---
 
-## 背景色の指定
-
-```html
-<div class="background-color">背景色の指定</div>
-```
-
-CSSでも指定の仕方は3通りあります
-
-```css
-.background-color {
-  background-color: #FF0000;
-}
-```
-
-```css
-.background-color {
-  background-color: rgba(255, 0, 0, 1);
-}
-```
-
-```css
-.background-color {
-  background-color: red;
-}
-```
-
-<br><br><br>
----
-
 ## 線を引く
 
 要素の上下左右にそれぞれ線を引くことができます。  
@@ -351,7 +322,36 @@ CSSでも指定の仕方は3通りあります
 <br><br><br>
 ---
 
-## 背景画像
+## 背景色の指定
+
+```html
+<div class="background-color">背景色の指定</div>
+```
+
+CSSでも指定の仕方は3通りあります
+
+```css
+.background-color {
+  background-color: #FF0000;
+}
+```
+
+```css
+.background-color {
+  background-color: rgba(255, 0, 0, 1);
+}
+```
+
+```css
+.background-color {
+  background-color: red;
+}
+```
+
+<br><br><br>
+---
+
+## 背景画像の指定
 
 **properties2.html**
 
