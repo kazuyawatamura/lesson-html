@@ -465,14 +465,14 @@ Webサイトに表示される文字（フォント）の指定を、font-family
 
 ### 基本的に複数のフォントを指定する
 
-OS毎（Mac / Windows / iOS）にインストールされているフォンが違うため、基本的には複数指定します。  
+OS毎（Mac / Windows / iOS）にインストールされているフォントが違うため、基本的には複数指定します。  
 （Macにしか入っていないフォントを指定してもWindowsパソコンで表示されない等…）
 
 
 
 ### 左に指定されているフォントから優先される
 
-下記だと  ```Avenir Next```  が無かったら、 ```Gadugi```  →  ```ヒラギノ丸ゴ```  →  ```メイリオ```  の順
+下記だと  ```Avenir Next```  が無かったら、 ```Gadugi（ガジュギ）```  →  ```ヒラギノ丸ゴ```  →  ```メイリオ```  の順
 
 
 ### 英語フォントを先に記述する
@@ -510,15 +510,15 @@ font-family: sans-serif;
 ```
 でも構いません。
 
-**Font-familyを生成してくれる便利なWebサービス（若干情報が古いです）**
+**Font-familyを生成してくれる便利なWebサービス（若干情報が古いです）**  
 [Font-familyメーカー](https://saruwakakun.com/font-family)
+
+もっとたくさんのスタイルシートみる  
+[スタイルシートリファレンス（目的別）](http://www.htmq.com/style/)
 
 <br><br><br>
 ----------
 
-もっとたくさんのスタイルシートみる
-[スタイルシートリファレンス（目的別）](http://www.htmq.com/style/)
-
-### 画像（imgタグ）下の隙間
+## 画像（imgタグ）下の隙間
 
 [画像（imgタグ）の下にできる隙間を無くす方法](https://technical-creator.com/img-tag-vertical-align/)
