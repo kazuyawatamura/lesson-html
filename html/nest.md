@@ -88,20 +88,22 @@ HTMLを勉強し始めの頃は、タグの入れ子のルールが分かりづ�
 
 ```html
 <!-- NG -->
-<article>
+<section>
+  <h1>タイトル</h1>
   <li>リスト</li>
   <li>リスト</li>
   <li>リスト</li>
-</article>
+</section>
 
 <!-- OK -->
-<article>
+<section>
+  <h1>タイトル</h1>
   <ul>
     <li>リスト</li>
     <li>リスト</li>
     <li>リスト</li>
   </ul>
-</article>
+</section>
 ```
 → liタグを囲めるのは、ulタグかolタグのみです  
 
