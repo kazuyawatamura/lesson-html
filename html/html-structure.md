@@ -27,7 +27,9 @@ pタグの他にもいろいろなタグの種類があるので、調べて勉�
 <!DOCTYPE html>
 <html lang="ja">
   <head>
+    <meta charset="utf-8">
     <title>はじめまして</title>
+    <meta name="description" content="サイトの概要">
   </head>
   <body>
     
@@ -67,13 +69,13 @@ pタグの他にもいろいろなタグの種類があるので、調べて勉�
 
 <br><br><br>
 
-#### <meta charset="utf-8"> タグ
+#### meta charset="utf-8" タグ
 コンピューター語を人間が読める言語（日本語など）に置き換える際の決まりごとです。  
 ※ ```<head>```の中には必須なのでこういったものがあるとだけ覚えておいてください。
 
 <br><br><br>
 
-#### <title> タグ、 <meta name="description"> タグ
+#### titleタグ、meta name="description" タグ
 
 下の画像はGoogleの検索結果の一覧ページです。  
 
