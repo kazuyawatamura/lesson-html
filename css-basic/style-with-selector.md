@@ -267,7 +267,7 @@ HTMLタグの入れ子をした状態で細かく指定できることが大き�
 
 ```css
 .news-area .news-area-main li + li {
-  background-color: pink;
+  margin-left: 10px;
 }
 ```
 
