@@ -108,4 +108,4 @@ Copyright © 2020 Apple Inc. All rights reserved.
 [https://validator.w3.org/nu/#textarea](https://validator.w3.org/nu/#textarea)
 
 **HTML 5 Outliner**  
-[http://gsnedders.html5.org/outliner/](https://validator.w3.org/nu/#textarea)
+[http://gsnedders.html5.org/outliner/](http://gsnedders.html5.org/outliner/)
