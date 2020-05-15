@@ -30,16 +30,16 @@ box-sizing: border-box;
 paddingとborderを幅（width）と高さ（height)に含めない。  
 幅（width）と高さ（height）に足されるため、レイアウトがしづらい。
 
-### 400pxのボックスを作りたい場合
+### 300pxのボックスを作りたい場合
 
-356px = 400px - ( 20px x 2 ) + ( 2px x 2 )  
+254px = 300px - ( 26px x 2 ) + ( 3px x 2 )  
 ※ 2というのは両端辺の数です。
 
 ```css
 .content-box {
-  width: 356px;
-  padding: 20px;
-  border: 2px solid #000;
+  width: 254px;
+  padding: 26px;
+  border: 3px solid #CCC;
 }
 ```
 
