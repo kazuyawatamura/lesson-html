@@ -49,6 +49,9 @@ Anker（アンカー）
 ## 演習B
 
 演習Aが終わったら下記のテキストもマークアップしてみましょう。
+原稿や埋め込み用の画像は下記からダウンロードしてください。
+
+[演習B用素材](https://kazuyawatamura.github.io/lesson-html/html/practice-assets.zip)
 
 課題説明
 ・ブラウザでの見た目は無視してください（見た目はCSSで変更します）
