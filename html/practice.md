@@ -49,16 +49,17 @@ Anker（アンカー）
 ## 演習B
 
 演習Aが終わったら下記のテキストもマークアップしてみましょう。
+
 原稿や埋め込み用の画像は下記からダウンロードしてください。
 
 [演習B用素材](https://kazuyawatamura.github.io/lesson-html/html/practice-assets.zip)
 
 課題説明
-・ブラウザでの見た目は無視してください（見た目はCSSで変更します）
-・<DOCTYPE>〜<body>用意してください
-・<header><nav><article><section>などできるだけ詳細な定義付けをしてください。
-・リンクのhrefの値は # を入れてください。
-・imgタグのalt属性も適宜入力をお願いします。（装飾目的の画像は空）
+* ブラウザでの見た目は無視してください（見た目はCSSで変更します）
+* <DOCTYPE>〜<body>用意してください
+* <header><nav><article><section>などできるだけ詳細な定義付けをしてください。
+* リンクのhrefの値は # を入れてください。
+* imgタグのalt属性も適宜入力をお願いします。（装飾目的の画像は空）
 
 ```
 Apple
