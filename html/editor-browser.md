@@ -10,7 +10,7 @@ WIndowsやMacに付属しているメモ帳やノートパッドなども作れ�
 （VS Codeでなくてもテキストデータを扱えるアプリであれば何でも構いません）
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-tool-vscode.png)
+![](https://laro.jp/lesson/images/lesson-html-tool-vscode.png)
 
 **Visual Studio Code**
 https://www.microsoft.com/ja-jp/dev/products/code-vs.aspx
@@ -53,7 +53,7 @@ VS Code のインストールが終わったら、それに拡張機能を入れ
 
 ## ブラウザー（Google Chrome）
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-tool-chrome.png)
+![](https://laro.jp/lesson/images/lesson-html-tool-chrome.png)
 
 HTMLの確認用に用いるブラウザは、Google製のChrome（クローム）を使います。
 

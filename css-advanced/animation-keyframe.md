@@ -164,7 +164,7 @@
 }
 ```
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-keyframe1.gif)
+![](https://laro.jp/lesson/images/lesson-css-keyframe1.gif)
 
 <br>
 

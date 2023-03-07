@@ -5,7 +5,7 @@
 
 <br><br><br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-before1.png)
+![](https://laro.jp/lesson/images/lesson-css-before1.png)
 
 
 HTMLには書かれていない要素もどき（疑似的に）をCSSで作ることが可能になります。  
@@ -16,7 +16,7 @@ HTMLには書かれていない要素もどき（疑似的に）をCSSで作る�
 
 <br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-before2.png)
+![](https://laro.jp/lesson/images/lesson-css-before2.png)
 
 
 こういったパーツが実現できます。  
@@ -140,7 +140,7 @@ HTMLには書かれていない要素もどき（疑似的に）をCSSで作る�
 
 <br>
 
-![ico-new.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-before3.png)
+![ico-new.png](https://laro.jp/lesson/images/lesson-css-before3.png)
 
 <br><br><br>
 
@@ -149,7 +149,7 @@ https://www.dropbox.com/s/ii3ft2n116vyc5p/icon.zip?dl=0
 
 <br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-before4.png)
+![](https://laro.jp/lesson/images/lesson-css-before4.png)
 
 <br>
 
@@ -167,7 +167,7 @@ https://www.dropbox.com/s/ii3ft2n116vyc5p/icon.zip?dl=0
 
 ### ヒント
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-before5.png)
+![](https://laro.jp/lesson/images/lesson-css-before5.png)
 
 
 

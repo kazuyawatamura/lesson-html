@@ -6,11 +6,11 @@ CSSはそのHTML文章のレイアウトや装飾などの見た目を指定す�
 
 <br><br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-cssbasic1.png)
+![](https://laro.jp/lesson/images/lesson-html-cssbasic1.png)
 
 <br><br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-cssbasic2.png)
+![](https://laro.jp/lesson/images/lesson-html-cssbasic2.png)
 
 <br><br><br>
 
@@ -18,7 +18,7 @@ CSSはそのHTML文章のレイアウトや装飾などの見た目を指定す�
 ## CSSの基本的な書き方
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-cssbasic3.png)
+![](https://laro.jp/lesson/images/lesson-html-cssbasic3.png)
 
 
 

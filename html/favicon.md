@@ -1,6 +1,6 @@
 # ファビコンの設置
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-favicon1.png)
+![](https://laro.jp/lesson/images/lesson-html-favicon1.png)
 
 ブラウザでWebサイトを訪問したときタブに表示されるアイコンのことをファビコンといいます。
 

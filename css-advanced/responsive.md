@@ -4,7 +4,7 @@
 
 <br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-responsive1.png)
+![](https://laro.jp/lesson/images/lesson-css-responsive1.png)
 
 ```html
 <div class="responsive">
@@ -115,7 +115,7 @@ head内に記述します。
 
 <br>
 
-![クスールサイトのブレークポイントは 768px の1つです](https://laro.jp/wp-content/uploads/2019/11/lesson-css-responsive2.png)
+![クスールサイトのブレークポイントは 768px の1つです](https://laro.jp/lesson/images/lesson-css-responsive2.png)
 
 
 <br>

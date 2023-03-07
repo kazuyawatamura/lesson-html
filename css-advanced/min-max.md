@@ -42,7 +42,7 @@
 
 <br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-minmax1.gif)
+![](https://laro.jp/lesson/images/lesson-css-minmax1.gif)
 
 <br><br><br>
 
@@ -78,7 +78,7 @@ PCや大きなタブレットなど大きなデバイスやブラウザの幅を
 
 <br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-minmax2.gif)
+![](https://laro.jp/lesson/images/lesson-css-minmax2.gif)
 
 <br><br><br>
 

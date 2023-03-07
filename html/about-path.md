@@ -10,7 +10,7 @@ Webサイトには画像やCSSなど外部ファイルがたくさんありま�
 
 ## まず画像を表示してみよう
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-path-cat1.jpg)
+![](https://laro.jp/lesson/images/lesson-html-path-cat1.jpg)
 
 ```html
 <img src="./cat.jpg" alt="猫の画像">
@@ -58,7 +58,7 @@ srcに対して、値を与えてあげる働きがあります。
 
 ### 例
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-path-link1.png)
+![](https://laro.jp/lesson/images/lesson-html-path-link1.png)
 
 
 #### 【example-a.html】に【images】フォルダーの中の【photo.jpg】を表示させる場合
@@ -79,7 +79,7 @@ example-a.htmlに上記を入力すると、
 回答するのはパスだけで構いません。
 （src=""などの属性は不要です）
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-path-link2.png)
+![](https://laro.jp/lesson/images/lesson-html-path-link2.png)
 
 **問1**：【example-a.html】から【example-b.html】にリンクを貼る場合
 

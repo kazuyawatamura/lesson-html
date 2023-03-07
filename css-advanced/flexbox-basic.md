@@ -82,10 +82,10 @@ Flexアイテムが並ぶ方向を決める為のプロパティ
 
 | flex-direction | flexアイテムを並べる方向                                                                                            |
 | -------------- | --------------------------------------------------------------------------------------------------------- |
-| row [default]  | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex2.png) |
-| row-reverse    | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex3.png) |
-| column         | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex4.png) |
-| column-reverse | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex5.png) |
+| row [default]  | ![image.png](https://laro.jp/lesson/images/lesson-css-flex2.png) |
+| row-reverse    | ![image.png](https://laro.jp/lesson/images/lesson-css-flex3.png) |
+| column         | ![image.png](https://laro.jp/lesson/images/lesson-css-flex4.png) |
+| column-reverse | ![image.png](https://laro.jp/lesson/images/lesson-css-flex5.png) |
 
 <br><br><br>
 
@@ -95,9 +95,9 @@ Flexアイテムが並ぶ方向を決める為のプロパティ
 
 | flex-wrap        | flexアイテムの折り返し                                                                                             |
 | ---------------- | --------------------------------------------------------------------------------------------------------- |
-| nowrap [default] | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex6.png) |
-| wrap             | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex7.png) |
-| wrap-reverse     | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex8.png) |
+| nowrap [default] | ![image.png](https://laro.jp/lesson/images/lesson-css-flex6.png) |
+| wrap             | ![image.png](https://laro.jp/lesson/images/lesson-css-flex7.png) |
+| wrap-reverse     | ![image.png](https://laro.jp/lesson/images/lesson-css-flex8.png) |
 
 <br><br><br>
 
@@ -107,11 +107,11 @@ Flexアイテムを配置する際の間隔を設定するプロパティ
 
 | justify-content      | 左右位置                                                                                                      |
 | -------------------- | --------------------------------------------------------------------------------------------------------- |
-| flex-start [default] | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex9.png) |
-| flex-end             | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex10.png) |
-| center               | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex11.png) |
-| space-between        | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex12.png) |
-| space-around         | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex13.png) |
+| flex-start [default] | ![image.png](https://laro.jp/lesson/images/lesson-css-flex9.png) |
+| flex-end             | ![image.png](https://laro.jp/lesson/images/lesson-css-flex10.png) |
+| center               | ![image.png](https://laro.jp/lesson/images/lesson-css-flex11.png) |
+| space-between        | ![image.png](https://laro.jp/lesson/images/lesson-css-flex12.png) |
+| space-around         | ![image.png](https://laro.jp/lesson/images/lesson-css-flex13.png) |
 
 <br><br><br>
 
@@ -121,11 +121,11 @@ Flexアイテムを垂直に揃えるためのプロパティ
 
 | align-items       | 上下位置                                                                                                      |
 | ----------------- | --------------------------------------------------------------------------------------------------------- |
-| flex-start        | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex14.png) |
-| flex-end          | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex15.png) |
-| center            | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex16.png) |
-| baseline          | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex17.png) |
-| stretch [default] | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex18.png) |
+| flex-start        | ![image.png](https://laro.jp/lesson/images/lesson-css-flex14.png) |
+| flex-end          | ![image.png](https://laro.jp/lesson/images/lesson-css-flex15.png) |
+| center            | ![image.png](https://laro.jp/lesson/images/lesson-css-flex16.png) |
+| baseline          | ![image.png](https://laro.jp/lesson/images/lesson-css-flex17.png) |
+| stretch [default] | ![image.png](https://laro.jp/lesson/images/lesson-css-flex18.png) |
 | （align-selfは省きます） |                                                                                                           |
 
 <br><br><br>
@@ -137,12 +137,12 @@ Flexアイテムが2行以上になった場合にどう揃えるかを設定す
 
 | align-content     | 行の揃え方                                                                                                     |
 | ----------------- | --------------------------------------------------------------------------------------------------------- |
-| stretch [default] | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex19.png) |
-| flex-start        | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex21.png) |
-| flex-end          | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex22.png) |
-| center            | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex23.png) |
-| space-between     | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex24.png) |
-| space-around      | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex25.png) |
+| stretch [default] | ![image.png](https://laro.jp/lesson/images/lesson-css-flex19.png) |
+| flex-start        | ![image.png](https://laro.jp/lesson/images/lesson-css-flex21.png) |
+| flex-end          | ![image.png](https://laro.jp/lesson/images/lesson-css-flex22.png) |
+| center            | ![image.png](https://laro.jp/lesson/images/lesson-css-flex23.png) |
+| space-between     | ![image.png](https://laro.jp/lesson/images/lesson-css-flex24.png) |
+| space-around      | ![image.png](https://laro.jp/lesson/images/lesson-css-flex25.png) |
 
 <br><br><br>
 
@@ -153,7 +153,7 @@ Flexアイテムが2行以上になった場合にどう揃えるかを設定す
 
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex26.png)
+![](https://laro.jp/lesson/images/lesson-css-flex26.png)
 
 
 - 文字色：#333333
@@ -173,7 +173,7 @@ Flexアイテムが2行以上になった場合にどう揃えるかを設定す
 
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex27.png)
+![](https://laro.jp/lesson/images/lesson-css-flex27.png)
 
 
 - 背景色（マウスオン時）：palegreen
@@ -187,4 +187,4 @@ Flexアイテムが2行以上になった場合にどう揃えるかを設定す
 
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex28.png)
+![](https://laro.jp/lesson/images/lesson-css-flex28.png)

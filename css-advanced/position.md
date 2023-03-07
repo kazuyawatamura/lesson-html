@@ -65,7 +65,7 @@ Positionは、要素の位置を座標で決めるためのプロパティです
 }
 ```
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-position1.png)
+![](https://laro.jp/lesson/images/lesson-css-position1.png)
 
 <br>
 
@@ -96,7 +96,7 @@ Positionは、要素の位置を座標で決めるためのプロパティです
 ```
 <br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-position2.png)
+![](https://laro.jp/lesson/images/lesson-css-position2.png)
 
 <br>
 
@@ -121,7 +121,7 @@ Positionは、要素の位置を座標で決めるためのプロパティです
 下記のサイトのように下にスクロールしてもヘッダーやナビゲーションがついてくるようにできます。  
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-position3.gif)
+![](https://laro.jp/lesson/images/lesson-css-position3.gif)
 
 
 ```html

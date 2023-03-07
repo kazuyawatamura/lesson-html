@@ -68,7 +68,7 @@ LanguageをJapaneseに変更します。
 
 <br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-webfont1-scaled.png)
+![](https://laro.jp/lesson/images/lesson-css-webfont1-scaled.png)
 
 <br>
 
@@ -76,7 +76,7 @@ LanguageをJapaneseに変更します。
 
 <br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-webfont2-scaled.png)
+![](https://laro.jp/lesson/images/lesson-css-webfont2-scaled.png)
 
 <br>
 
@@ -88,7 +88,7 @@ LanguageをJapaneseに変更します。
 
 <br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-webfont3.png)
+![](https://laro.jp/lesson/images/lesson-css-webfont3.png)
 
 <br><br><br>
 

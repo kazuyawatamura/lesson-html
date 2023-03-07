@@ -32,7 +32,7 @@
 - ふたつ目の `10px` が上下の値
 <br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-shadow1.png)
+![](https://laro.jp/lesson/images/lesson-css-shadow1.png)
 
 <br><br><br>
 
@@ -54,7 +54,7 @@
 
 <br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-shadow2.png)
+![](https://laro.jp/lesson/images/lesson-css-shadow2.png)
 
 <br><br><br>
 
@@ -80,7 +80,7 @@
 
 <br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-shadow3.png)
+![](https://laro.jp/lesson/images/lesson-css-shadow3.png)
 
 <br><br><br>
 
@@ -103,7 +103,7 @@
 
 4つ目の値 `12px` → 広がりの距離。正の値を指定すると影の形状を「全方向」に拡大、負の値を指定すると縮小します。
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-shadow4.png)
+![](https://laro.jp/lesson/images/lesson-css-shadow4.png)
 
 <br><br><br>
 
@@ -122,7 +122,7 @@
 
 <br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-shadow5.png)
+![](https://laro.jp/lesson/images/lesson-css-shadow5.png)
 
 <br><br><br>
 
@@ -139,7 +139,7 @@
 ```
 <br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-shadow6.png)
+![](https://laro.jp/lesson/images/lesson-css-shadow6.png)
 
 <br>
 
@@ -147,7 +147,7 @@
 
 <br>
 
-![角丸にするとボタンっぽくなりますね](https://laro.jp/wp-content/uploads/2019/11/lesson-css-shadow7.png)
+![角丸にするとボタンっぽくなりますね](https://laro.jp/lesson/images/lesson-css-shadow7.png)
 
 角丸にするとボタンっぽくなりますね
 

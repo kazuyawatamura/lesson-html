@@ -33,7 +33,7 @@ p {
   color: red;
 }
 ```
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-selector1.png)
+![](https://laro.jp/lesson/images/lesson-css-selector1.png)
 
 
 
@@ -275,7 +275,7 @@ HTMLタグの入れ子をした状態で細かく指定できることが大き�
 すべてのナビゲーションの左側に `margin-left: 10px;` させてしまうと一番左側にも10pxの余白ができてしまってデザイン通りにはならないと思います。  
 そういった時にこのテクニックは有効です。
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-selector2.png)
+![](https://laro.jp/lesson/images/lesson-css-selector2.png)
 
 
 

@@ -46,7 +46,7 @@ li {
 
 <br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow1.png)
+![](https://laro.jp/lesson/images/lesson-css-flexgrow1.png)
 
 <br>
 
@@ -67,7 +67,7 @@ li:nth-child(2) {
 ```
 <br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow2.png)
+![](https://laro.jp/lesson/images/lesson-css-flexgrow2.png)
 
 <br>
 
@@ -92,7 +92,7 @@ li:nth-child(4) {
 
 <br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow3.png)
+![](https://laro.jp/lesson/images/lesson-css-flexgrow3.png)
 
 <br><br><br>
 
@@ -104,16 +104,16 @@ https://codepen.io/cshool/pen/rQJdbg
 #### 参考2
 https://residence.nikkei.co.jp/
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow4.gif)
+![](https://laro.jp/lesson/images/lesson-css-flexgrow4.gif)
 
 <br><br><br>
 
 #### 参考3
 https://www.quantamagazine.org/universal-quantum-phenomenon-found-in-superconductors-20181119/
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow5.png)
+![](https://laro.jp/lesson/images/lesson-css-flexgrow5.png)
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow6.png)
+![](https://laro.jp/lesson/images/lesson-css-flexgrow6.png)
 
 
 <br><br><br>
@@ -144,7 +144,7 @@ li {
 ```
 <br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow7.png)
+![](https://laro.jp/lesson/images/lesson-css-flexgrow7.png)
 
 <br>
 2番目のFlexアイテムに  `flex-shrink: 0`  を設定し、4番目のFlexアイテムに  `flex-shrink: 4`  を設定した。
@@ -170,7 +170,7 @@ li:nth-child(4) {
 #### 参考1
 https://codepen.io/cshool/pen/yQvjNw
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow8.gif)
+![](https://laro.jp/lesson/images/lesson-css-flexgrow8.gif)
 
 
  `flex-shrink: 0;` を指定した場合、どれだけコンテナーが狭くなってもこれ以上は縮まない。
@@ -183,7 +183,7 @@ https://codepen.io/cshool/pen/yQvjNw
 
 #### 参考2
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow9.gif)
+![](https://laro.jp/lesson/images/lesson-css-flexgrow9.gif)
 
 <br><br><br>
 
@@ -209,17 +209,17 @@ li {
 
 | order       | 順番の指定                                                                                                     |
 | ----------- | --------------------------------------------------------------------------------------------------------- |
-| 0 [default] | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow10.png) |
-| 1           | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow11.png) |
-| -1          | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow12.png) |
-| 9           | ![image.png](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow13.png) |
+| 0 [default] | ![image.png](https://laro.jp/lesson/images/lesson-css-flexgrow10.png) |
+| 1           | ![image.png](https://laro.jp/lesson/images/lesson-css-flexgrow11.png) |
+| -1          | ![image.png](https://laro.jp/lesson/images/lesson-css-flexgrow12.png) |
+| 9           | ![image.png](https://laro.jp/lesson/images/lesson-css-flexgrow13.png) |
 
 [【参考】Flexbox playground](https://codepen.io/enxaneta/pen/adLPwv)
 
 <br><br><br>
 
 ## 練習1
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow14.png)
+![](https://laro.jp/lesson/images/lesson-css-flexgrow14.png)
 
 - 文字色：#FFFFFF
 - メニュー全体の幅：ブラウザの幅に準ずる
@@ -238,6 +238,6 @@ li {
 <br><br><br>
 
 ## 練習2
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flexgrow15.png)
+![](https://laro.jp/lesson/images/lesson-css-flexgrow15.png)
 
 - 余白や色など指定はなし

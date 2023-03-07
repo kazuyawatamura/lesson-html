@@ -58,7 +58,7 @@ CSSで色を設定する際に3通りの指定方法があります。
 6桁の値の2桁ずつがRGBのそれぞれの値です。  
 RGBは「加法混色」といって、赤青緑の3種類の色を混ぜれば混ぜるほど白に近づきます。
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-property1.png)
+![](https://laro.jp/lesson/images/lesson-css-property1.png)
 
 * [RGBとは](https://www.designmeishi.net/meishidatabase/color/)
 
@@ -70,7 +70,7 @@ RGBは「加法混色」といって、赤青緑の3種類の色を混ぜれば�
 
 **黒** ← 　0, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f　→ **白**
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-property2.png)
+![](https://laro.jp/lesson/images/lesson-css-property2.png)
 
 
 
@@ -92,7 +92,7 @@ RGBの値を0〜255までの数字で指定する方法です。
 * 透明← `0` 〜 `1` →不透明
   * `0.5` を `.5` と記述することもできます。
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-property3.png)
+![](https://laro.jp/lesson/images/lesson-css-property3.png)
 
 ```css
 /* 文字色 */
@@ -239,11 +239,11 @@ body {
 - 単位は付けずに記述することが一般的
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-property4.png)
+![](https://laro.jp/lesson/images/lesson-css-property4.png)
 
 <br><br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-property5.png)
+![](https://laro.jp/lesson/images/lesson-css-property5.png)
 
 <br><br><br>
 ---
@@ -442,7 +442,7 @@ background-size: 100% 40%;
 
 ## フォントを指定する
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-property6-scaled.png)
+![](https://laro.jp/lesson/images/lesson-css-property6-scaled.png)
 
 
 Webサイトに表示される文字（フォント）の指定を、font-familyというプロパティで設定します。  
@@ -459,7 +459,7 @@ Webサイトに表示される文字（フォント）の指定を、font-family
 
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-property7.png)
+![](https://laro.jp/lesson/images/lesson-css-property7.png)
 
 
 
@@ -487,12 +487,12 @@ OS毎（Mac / Windows / iOS）にインストールされているフォント�
 > Macのスクリーンショット（Futuraとヒラギノ丸ゴ ProNが適用されている）
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-property8.png)
+![](https://laro.jp/lesson/images/lesson-css-property8.png)
 
 > Windowsのスクリーンショット（Gadugiとメイリオが適用されている）
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-property9.png)
+![](https://laro.jp/lesson/images/lesson-css-property9.png)
 
 
 ### 総称フォントとは？

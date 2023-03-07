@@ -8,7 +8,7 @@ displayプロパティとは、要素の「表示形式」を指定するプロ�
 
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-display1.png)
+![](https://laro.jp/lesson/images/lesson-css-display1.png)
 
 <br><br><br>
 
@@ -48,7 +48,7 @@ strong {
 ```
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-display2.png)
+![](https://laro.jp/lesson/images/lesson-css-display2.png)
 
 <br><br><br>
 
@@ -90,7 +90,7 @@ a {
 }
 ```
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-display3.png))
+![](https://laro.jp/lesson/images/lesson-css-display3.png))
 
 外側はインライン要素、内側はブロック要素。
 

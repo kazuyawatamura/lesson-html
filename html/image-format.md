@@ -14,7 +14,7 @@ WEBサイトを構成するHTMLの中に画像は頻繁に使用されていま�
 1,677万色を扱うことのできる圧縮形式。
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-pngjpgsvg1.png)
+![](https://laro.jp/lesson/images/lesson-html-pngjpgsvg1.png)
 
 - 用途：透過、文字や図が含まれる画像に適している
 - メリット　：透過が可能で、低画質で保存しても元の画質に戻せる
@@ -31,10 +31,10 @@ WEBサイトを構成するHTMLの中に画像は頻繁に使用されていま�
 画像サイズを下げることによってWebサイトの読み込みスピードが早くなるメリットがあるが、画質を下げ過ぎると下の猫画像のように荒くなってしまうので、バランスを見て調整しよう。
 
 
-![画質100%　396.3KB](https://laro.jp/wp-content/uploads/2019/11/lesson-html-pngjpgsvg2.jpg)  
+![画質100%　396.3KB](https://laro.jp/lesson/images/lesson-html-pngjpgsvg2.jpg)  
 ↑ 画質100%　396.3KB
 
-![画質1%　19.7KB](https://laro.jp/wp-content/uploads/2019/11/lesson-html-pngjpgsvg3.jpg)  
+![画質1%　19.7KB](https://laro.jp/lesson/images/lesson-html-pngjpgsvg3.jpg)  
 ↑ 画質1%　19.7KB
 
 - 用途：写真や繊細な色表現の細かい色調を持った画像
@@ -47,7 +47,7 @@ WEBサイトを構成するHTMLの中に画像は頻繁に使用されていま�
 
 256色しか扱えない形式
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-pngjpgsvg4.png)
+![](https://laro.jp/lesson/images/lesson-html-pngjpgsvg4.png)
 
 
 - 用途：単色のアイコンやベタ塗りの画像
@@ -67,7 +67,7 @@ Retinaディスプレイなどで拡大してもボヤケず、スマホやタ�
 
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-pngjpgsvg5.png)
+![](https://laro.jp/lesson/images/lesson-html-pngjpgsvg5.png)
 
 
 
@@ -90,7 +90,7 @@ Retinaディスプレイなどで拡大してもボヤケず、スマホやタ�
 ```
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-pngjpgsvg6.svg)
+![](https://laro.jp/lesson/images/lesson-html-pngjpgsvg6.svg)
 
 
 

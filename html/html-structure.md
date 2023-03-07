@@ -5,7 +5,7 @@
 HTMLとは、テキストにタグを付けて文章構造を与えるための言語です。  
 タグをつけたテキストは、それぞれ役割を持った「要素」となり、その集合体がWebサイトを作っています。
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-structure1.png)
+![](https://laro.jp/lesson/images/lesson-html-structure1.png)
 
 上の例は「pタグ」といいます。  
 pとは、Paragraph（パラグラフ）=文節・段落という意味で、このpタグで囲まれたテキストは段落という意味になります。  
@@ -48,7 +48,7 @@ pタグの他にもいろいろなタグの種類があるので、調べて勉�
 
 <br><br><br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-structure4.png)
+![](https://laro.jp/lesson/images/lesson-html-structure4.png)
 
 <br><br><br>
 
@@ -81,9 +81,9 @@ pタグの他にもいろいろなタグの種類があるので、調べて勉�
 
 そこにタイトルとサイトの説明が表示される仕組みになっています。
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-structure2.png)
+![](https://laro.jp/lesson/images/lesson-html-structure2.png)
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-structure3.png)
+![](https://laro.jp/lesson/images/lesson-html-structure3.png)
 
 <br><br><br>
 
@@ -192,7 +192,7 @@ HTMLタグはその種類に応じて設定を付加できます。
 ```<a href="~~"> **ここにリンクしたいテキストを書きます** </a>```
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-tag1.png)
+![](https://laro.jp/lesson/images/lesson-html-tag1.png)
 
 
 ### <img> タグの属性と属性値
@@ -204,7 +204,7 @@ HTMLタグはその種類に応じて設定を付加できます。
 
 <br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-tag2.png)
+![](https://laro.jp/lesson/images/lesson-html-tag2.png)
 
 <br><br><br>
 

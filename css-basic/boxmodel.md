@@ -19,7 +19,7 @@
 
 ### 初期値： auto
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-boxmodel1.png)
+![](https://laro.jp/lesson/images/lesson-css-boxmodel1.png)
 
 ブロック要素（後述します）何も指定しないと要素の幅は自動でブラウザ幅いっぱいに広がります。
 
@@ -42,13 +42,13 @@
 はみ出してしまうとレイアウトが難しくなるので、親要素の幅以内にしておきましょう。  
 または、 `width: auto`（初期値のまま）で構いません。
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-boxmodel2.png)
+![](https://laro.jp/lesson/images/lesson-css-boxmodel2.png)
 
 <br><br><br>
 
 ### 親要素を固定、 % での指定
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-boxmodel3.png)
+![](https://laro.jp/lesson/images/lesson-css-boxmodel3.png)
 
 <br><br><br>
 
@@ -62,7 +62,7 @@ Webサイトをレイアウトする上で、高さは可変するものだと�
 
 ### 初期値：auto
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-boxmodel4.png)
+![](https://laro.jp/lesson/images/lesson-css-boxmodel4.png)
 
 
 `width: auto` と異なり、`height` は縦いっぱいには広がりません。  
@@ -85,7 +85,7 @@ Webサイトをレイアウトする上で、高さは可変するものだと�
 
 こちらもあまり指定することはありませんが、高さを % パーセントで設定したい時は覚えておきましょう。
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-boxmodel5.png)
+![](https://laro.jp/lesson/images/lesson-css-boxmodel5.png)
 
 <br><br><br>
 
@@ -100,13 +100,13 @@ Webサイトをレイアウトする上で、高さは可変するものだと�
 
 ### ボックスモデルの概念図
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-boxmodel6.png)
+![](https://laro.jp/lesson/images/lesson-css-boxmodel6.png)
 
 <br><br><br>
 
 #### Google Chrome の Developer Tool の右下にも
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-boxmodel7.png)
+![](https://laro.jp/lesson/images/lesson-css-boxmodel7.png)
 
 
 <br><br><br>
@@ -185,9 +185,9 @@ Webサイトをレイアウトする上で、高さは可変するものだと�
 
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-boxmodel8.png)
+![](https://laro.jp/lesson/images/lesson-css-boxmodel8.png)
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-boxmodel9.png)
+![](https://laro.jp/lesson/images/lesson-css-boxmodel9.png)
 
 
 ※左右のマージンは相殺されない
@@ -216,12 +216,12 @@ Webサイトをレイアウトする上で、高さは可変するものだと�
 ```
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-boxmodel10.png)
+![](https://laro.jp/lesson/images/lesson-css-boxmodel10.png)
 
 
 また、横幅（width: 100px）を指定した状態で、marginの左右のどちらかにautoを指定すると、指定した方に数値を自動的に算出します。
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-boxmodel11.png)
+![](https://laro.jp/lesson/images/lesson-css-boxmodel11.png)
 
 <br><br><br>
 

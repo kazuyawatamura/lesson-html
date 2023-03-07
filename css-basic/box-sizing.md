@@ -44,7 +44,7 @@ paddingとborderを幅（width）と高さ（height)に含めない。
 ```
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-boxsizing1.png)
+![](https://laro.jp/lesson/images/lesson-css-boxsizing1.png)
 
 
 <br><br><br>
@@ -55,7 +55,7 @@ paddingとborderを幅（width）と高さ（height)に含めない。
 paddingとborderを幅（width）と高さ（height）に含めることができます。
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-boxsizing2.png)
+![](https://laro.jp/lesson/images/lesson-css-boxsizing2.png)
 
 
 content-boxの場合、width + padding + border を足した幅を計算しなければならず使いづらいので理由がない限り、border-boxを指定します。
@@ -78,7 +78,7 @@ html {
 
 ## width:100%とautoの違いは？
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-boxsizing3.png)
+![](https://laro.jp/lesson/images/lesson-css-boxsizing3.png)
 
 - auto：widthの中にpaddingとborderが含まれる。
 - 100%：widthにはpaddingとborderの分が含まれません。

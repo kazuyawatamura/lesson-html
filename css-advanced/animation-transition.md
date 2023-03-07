@@ -6,7 +6,7 @@
 
 <br>
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition1.gif)
+![](https://laro.jp/lesson/images/lesson-css-transition1.gif)
 
 <br><br><br>
 
@@ -46,12 +46,12 @@
 
 ### all
 
-![全てのプロパティに対してアニメーションが適用](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition2.gif)
+![全てのプロパティに対してアニメーションが適用](https://laro.jp/lesson/images/lesson-css-transition2.gif)
 
 
 ### background-color
 
-![背景色のみアニメーションが適用](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition3.gif)
+![背景色のみアニメーションが適用](https://laro.jp/lesson/images/lesson-css-transition3.gif)
 
 <br><br><br>
 
@@ -67,11 +67,11 @@
 
 ### 3秒
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition4.gif)
+![](https://laro.jp/lesson/images/lesson-css-transition4.gif)
 
 ### 0.5秒
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition5.gif)
+![](https://laro.jp/lesson/images/lesson-css-transition5.gif)
 
 <br><br><br>
 
@@ -83,11 +83,11 @@
 
 ### 1秒
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition6.gif)
+![](https://laro.jp/lesson/images/lesson-css-transition6.gif)
 
 ### 0秒
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition7.gif)
+![](https://laro.jp/lesson/images/lesson-css-transition7.gif)
 
 <br><br><br>
 
@@ -98,39 +98,39 @@
 初期値は、  `ease` 
 
 
-![via: https://developers.google.com/web/fundamentals/design-and-ux/animations/the-basics-of-easing?hl=ja](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition8.png)
+![via: https://developers.google.com/web/fundamentals/design-and-ux/animations/the-basics-of-easing?hl=ja](https://laro.jp/lesson/images/lesson-css-transition8.png)
 via: https://developers.google.com/web/fundamentals/design-and-ux/animations/the-basics-of-easing?hl=ja
 
 
 ### linear
 一定
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition9.gif)
+![](https://laro.jp/lesson/images/lesson-css-transition9.gif)
 
 
 ### ease-out
 ゆっくり終わる
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition10.gif)
+![](https://laro.jp/lesson/images/lesson-css-transition10.gif)
 
 
 ### ease-in
 ゆっくり始まる
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition11.gif)
+![](https://laro.jp/lesson/images/lesson-css-transition11.gif)
 
 
 ### ease-in-out
 ゆっくり始まってゆっくり終わる
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition12.gif)
+![](https://laro.jp/lesson/images/lesson-css-transition12.gif)
 
 
 ### cubic-bezier()
 3次ベジェ曲線のP1とP2を (x1, y1, x2, y2) で指定
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-transition13.gif)
+![](https://laro.jp/lesson/images/lesson-css-transition13.gif)
 
 
 http://cubic-bezier.com/

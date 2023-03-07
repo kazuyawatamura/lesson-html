@@ -11,7 +11,7 @@
 たとえば、文章中の画像に回り込ませる為のCSSでした。  
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-float1.png)
+![](https://laro.jp/lesson/images/lesson-css-float1.png)
 
 
 ```html
@@ -71,7 +71,7 @@
 }
 ```
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-float2.png)
+![](https://laro.jp/lesson/images/lesson-css-float2.png)
 
 <br><br><br>
 
@@ -80,7 +80,7 @@
 `.red`  要素から  `float: left;`  を削除してみると。。。
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-float3.png)
+![](https://laro.jp/lesson/images/lesson-css-float3.png)
 
 
 
@@ -92,7 +92,7 @@ floatプロパティを適応した要素は、「浮いてしまう」ような
 
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-float4.png)
+![](https://laro.jp/lesson/images/lesson-css-float4.png)
 
 <br><br><br>
 
@@ -145,7 +145,7 @@ floatプロパティを適応した要素は、「浮いてしまう」ような
 ```
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-float5.png)
+![](https://laro.jp/lesson/images/lesson-css-float5.png)
 
 <br><br><br>
 

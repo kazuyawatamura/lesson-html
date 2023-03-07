@@ -12,7 +12,7 @@
 
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-about1.png)
+![](https://laro.jp/lesson/images/lesson-html-about1.png)
 
 <br><br><br>
 
@@ -28,7 +28,7 @@
 そうすると下記のようにソースがびっしりと並んだ画面が表示されるかと思います。
 ソースコードは、いろいろなWebサイトで見ることができるので、いくつか試しに見てみるとよいでしょう。
 
-![これがHTML](https://laro.jp/wp-content/uploads/2019/11/lesson-html-about2.png)
+![これがHTML](https://laro.jp/lesson/images/lesson-html-about2.png)
 
 
 ----------
@@ -53,7 +53,7 @@
     - etc…
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-about3.png)
+![](https://laro.jp/lesson/images/lesson-html-about3.png)
 
 
 検索ロボット（GoogleBotなど）が文章構造を解析・理解して、WEBサイトの内容を理解して検索結果に反映させる事もあります。
@@ -80,7 +80,7 @@
     - etc…
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-html-about4.png)
+![](https://laro.jp/lesson/images/lesson-html-about4.png)
 
 
 前述したHTMLで構造化したテキストを、人間が読みやすく整理したり文字の大きさを変更したり色を付けたりデザインができます。
@@ -97,11 +97,11 @@
     - etc…
 
 
-![https://ensemble-magazine.com/](https://laro.jp/wp-content/uploads/2019/11/lesson-html-about5.gif)
+![https://ensemble-magazine.com/](https://laro.jp/lesson/images/lesson-html-about5.gif)
 
 --
 
-![https://ensemble-magazine.com/](https://laro.jp/wp-content/uploads/2019/11/lesson-html-about6.gif)
+![https://ensemble-magazine.com/](https://laro.jp/lesson/images/lesson-html-about6.gif)
 
 
 HTMLやCSSと連携して、ユーザーの目に留まりやすいアニメーション（インタラクション）を制作する事ができます。
