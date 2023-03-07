@@ -24,7 +24,7 @@ WEBサイトをレイアウトする為に実装され、スマートフォン�
 ```
 
 
-![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-flex1.png)
+![](https://laro.jp/lesson/images/lesson-css-flex1.png)
 
 <br><br><br>
 
