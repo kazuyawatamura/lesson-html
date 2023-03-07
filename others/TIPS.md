@@ -62,7 +62,7 @@
 ビューポートの幅化高さの値が大きい方
 
 
-![](https://laro.jp/wp-content/uploads/2020/01/lesson-tips1.png)
+![](https://laro.jp/lesson/images/lesson-tips1.png)
 
 
 ※幅いっぱいにする場合、`vw`にすると横スクロールが出てしまう可能性があるので、パーセント指定をする方が良い。

@@ -108,7 +108,7 @@ PCや大きなタブレットなど大きなデバイスやブラウザの幅を
 
 <br>
 
-![](https://laro.jp/wp-content/uploads/2020/01/lesson-css-minmax3-github.gif)
+![](https://laro.jp/lesson/images/lesson-css-minmax3-github.gif)
 
 <br>
 
@@ -130,4 +130,4 @@ PCや大きなタブレットなど大きなデバイスやブラウザの幅を
 ```
 <br>
 
-![](https://laro.jp/wp-content/uploads/2020/01/lesson-css-minmax4-github.gif)
+![](https://laro.jp/lesson/images/lesson-css-minmax4-github.gif)

@@ -5,7 +5,7 @@
 # ハンバーガーメニューの開閉
 
 
-![こんなハンバーガーメニューを作っていきます。](https://laro.jp/wp-content/uploads/2020/01/lesson-jquery1.gif)
+![こんなハンバーガーメニューを作っていきます。](https://laro.jp/lesson/images/lesson-jquery1.gif)
 
 
 https://jquery.com/
@@ -69,11 +69,11 @@ jQueryの最新版をダウンロードします。 `./assets/js/`  に保存し
 ## jQueryの基本
 
 
-![](https://laro.jp/wp-content/uploads/2020/01/lesson-jquery2.png)
+![](https://laro.jp/lesson/images/lesson-jquery2.png)
 
 <br>
 
-![](https://laro.jp/wp-content/uploads/2020/01/lesson-jquery3.png)
+![](https://laro.jp/lesson/images/lesson-jquery3.png)
 
 <br>
 
