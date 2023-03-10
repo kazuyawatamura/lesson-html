@@ -11,12 +11,12 @@ Flexboxと比べてメリット・デメリットがありうまく使い分け�
 
 ```html
 <ul class="container">
-	<li class="item">Item1</li>
-	<li class="item">Item2</li>
-	<li class="item">Item3</li>
-	<li class="item">Item4</li>
-	<li class="item">Item5</li>
-	<li class="item">Item6</li>
+  <li class="item">Item1</li>
+  <li class="item">Item2</li>
+  <li class="item">Item3</li>
+  <li class="item">Item4</li>
+  <li class="item">Item5</li>
+  <li class="item">Item6</li>
 </ul>
 ```
 ```css
@@ -167,7 +167,7 @@ Flexboxでもgapプロパティを用いて余白の調整が可能です。
   display: grid;
   min-height: 100vh; /* ブラウザ高さいっぱいにする */
   gap: 10px 30px;
-	grid-template:
+  grid-template:
     "header header header" 60px
     "aside  main   nav   " 1fr
     "footer footer footer" 90px

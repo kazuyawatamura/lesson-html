@@ -56,6 +56,7 @@ Flexbox関連のプロパティはたくさんあります。
 - **justify-content**　-　左右中央
 - **align-item（align-self）** -　上下位置
 - **align-content**　-　行の揃え方
+- **gap** - 各アイテム間の余白
 
 <br><br><br>
 
