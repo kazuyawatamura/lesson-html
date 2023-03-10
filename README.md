@@ -28,6 +28,7 @@
 1. [Floatで回り込み](https://kazuyawatamura.github.io/lesson-html/css-advanced/float.html)
 1. [Flexboxでレイアウトしてみよう](https://kazuyawatamura.github.io/lesson-html/css-advanced/flexbox-basic.html)
 1. [Flexboxアイテムの伸縮系プロパティ](https://kazuyawatamura.github.io/lesson-html/css-advanced/flexbox-elasticity.html)
+1. [CSS Grid Layout の仕組みを知ろう](https://kazuyawatamura.github.io/lesson-html/css-advanced/gridlayout-basic.html)
 1. [Positionで自由にレイアウトしよう](https://kazuyawatamura.github.io/lesson-html/css-advanced/position.html)
 1. [ボックスシャドウで要素に影をつけよう](https://kazuyawatamura.github.io/lesson-html/css-advanced/box-shadow.html)
 1. [角丸とグラデーションで表現の幅を広げよう](https://kazuyawatamura.github.io/lesson-html/css-advanced/radius-gradient.html)
