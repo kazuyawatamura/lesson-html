@@ -28,7 +28,7 @@ Flexboxと比べてメリット・デメリットがありうまく使い分け�
   gap: 10px;
 }
 .item {
-	background-color: #faa; /* 色指定 */
+  background-color: #faa; /* 色指定 */
 }
 ```
 
@@ -168,10 +168,10 @@ Flexboxでもgapプロパティを用いて余白の調整が可能です。
   min-height: 100vh; /* ブラウザ高さいっぱいにする */
   gap: 10px 30px;
 	grid-template:
-  	"header header header" 60px
-  	"aside  main   nav   " 1fr
+    "header header header" 60px
+    "aside  main   nav   " 1fr
     "footer footer footer" 90px
-		/ 180px   1fr   80px;
+    / 180px   1fr   80px;
 }
 /* エリアに名前をつける */  
 .header {
@@ -283,41 +283,19 @@ auto-fitとauto-fillは後述するminmax()関数と合わせて使うと効果�
 
 ```html
 <div class="container">
-  <div>
-    サイズ：50px.
-  </div>
-  <div>
-    サイズ：1fr.
-  </div>
-  <div>
-    サイズ：50px.
-  </div>
-  <div>
-    サイズ：1fr.
-  </div>
-  <div>
-    サイズ：100px.
-  </div>
+  <div>サイズ：50px.</div>
+  <div>サイズ：1fr.</div>
+  <div>サイズ：50px.</div>
+  <div>サイズ：1fr.</div>
+  <div>サイズ：100px.</div>
 </div>
 <div class="container minmax">
-  <div>
-    Item
-  </div>
-  <div>
-    Item
-  </div>
-  <div>
-    Item
-  </div>
-  <div>
-    Item
-  </div>
-  <div>
-    Item
-  </div>
-  <div>
-    Item
-  </div>
+  <div>Item</div>
+  <div>Item</div>
+  <div>Item</div>
+  <div>Item</div>
+  <div>Item</div>
+  <div>Item</div>
 </div>
 ```
 
