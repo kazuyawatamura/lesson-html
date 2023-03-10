@@ -1,5 +1,12 @@
-# box-sizingプロパティについて
+- [box-sizingプロパティについて](#box-sizingプロパティについて)
+    - [書き方の例](#書き方の例)
+  - [content-boxの場合](#content-boxの場合)
+    - [300pxのボックスを作りたい場合](#300pxのボックスを作りたい場合)
+  - [border-box の場合](#border-box-の場合)
+  - [width:100%とautoの違いは？](#width100とautoの違いは)
 
+
+# box-sizingプロパティについて
 
 要素の幅（width）や高さ（height）の中にpaddingとborderを含めるかどうかというプロパティです。
 

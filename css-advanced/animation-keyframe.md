@@ -1,3 +1,17 @@
+- [タイムラインで自由度の高いアニメーション](#タイムラインで自由度の高いアニメーション)
+  - [実例](#実例)
+  - [animation プロパティ一覧](#animation-プロパティ一覧)
+    - [animation-name](#animation-name)
+    - [animation-duration](#animation-duration)
+    - [animation-timing-function](#animation-timing-function)
+    - [animation-delay](#animation-delay)
+    - [animation-iteration-count](#animation-iteration-count)
+    - [animation-direction](#animation-direction)
+    - [animation-fill-mode](#animation-fill-mode)
+    - [animation-play-state](#animation-play-state)
+      - [ショートハンド](#ショートハンド)
+
+
 # タイムラインで自由度の高いアニメーション
 
 `@keyframes` と `animation` プロパティを覚えると、CSSアニメーションにタイムラインの概念で要素をアニメーションさせる事ができ、演出の幅が広がります。

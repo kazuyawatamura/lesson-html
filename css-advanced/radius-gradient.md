@@ -1,3 +1,10 @@
+- [角丸とグラデーションで表現の幅を広げよう](#角丸とグラデーションで表現の幅を広げよう)
+  - [角丸](#角丸)
+    - [ショートハンド](#ショートハンド)
+  - [](#)
+  - [グラデーション（gradient.html）](#グラデーションgradienthtml)
+    - [グラデーションの方向を設定する](#グラデーションの方向を設定する)
+
 
 # 角丸とグラデーションで表現の幅を広げよう
 
@@ -10,7 +17,7 @@
 CSSで要素に対して四方に角丸を設定できるプロパティです。
 
 
-![](https://laro.jp/lesson/images/lesson-css-radius1.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-radius1.png)
 
 
 四隅に同じ値の角丸を設定したい場合、以下のように記述します。  
@@ -33,7 +40,7 @@ CSSで要素に対して四方に角丸を設定できるプロパティです�
 
 <br>
 
-![](https://laro.jp/lesson/images/lesson-css-radius2.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-radius2.png)
 
 <br>
 
@@ -68,7 +75,7 @@ CSSでグラデーションを設定ができます。
 デザインのアクセントや要所で使うことがあるので、ぜひ覚えておきましょう。
 
 
-![](https://laro.jp/lesson/images/lesson-css-radius3.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-radius3.png)
 
 
 ```html
@@ -88,7 +95,7 @@ CSSでグラデーションを設定ができます。
 ### グラデーションの方向を設定する
 
 
-![](https://laro.jp/lesson/images/lesson-css-radius4.png)
+![](https://laro.jp/wp-content/uploads/2019/11/lesson-css-radius4.png)
 
 
 ```css
