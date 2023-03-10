@@ -331,4 +331,7 @@ auto-fitとauto-fillは後述するminmax()関数と合わせて使うと効果�
 #### 参考文献
 > https://developer.mozilla.org/ja/docs/Web/CSS/repeat<br>
 > https://shu-naka-blog.com/css/repeat/#repeat<br>
-> https://shu-naka-blog.com/css/auto-fit-fill/
+> https://shu-naka-blog.com/css/auto-fit-fill/<br>
+> https://webdesign-trends.net/entry/11086<br>
+> https://ics.media/entry/15649/<br>
+> https://zero-plus.io/media/grid-layout/
