@@ -36,12 +36,6 @@ WEBサイトをレイアウトする為に実装され、スマートフォン�
 
 ### デメリット
 
-- レガシーブラウザが対応していない場合がある。
-    - IE9は未対応。IE10は`display:-ms-flexbox`。
-    - IE11では`flex:1`ではなく`flex-grow：1`としなければならない。
-    - Safari8 未満は`display: -webkit-flex`
-    - iOS9 未満は`display: -webkit-flex`
-    - Android 4.3 未満は`display: -webkit-box`
 - モダンブラウザでも問題がある場合がある
     - [flexboxのバグに立ち向かう（flexboxバグまとめ）](https://qiita.com/hashrock/items/189db03021b0f565ae27)
 <br><br><br>
@@ -132,7 +126,7 @@ Flexアイテムを垂直に揃えるためのプロパティ
 
 #### align-content
 
-Flexアイテムが2行以上になった場合にどう揃えるかを設定するプロパティ。
+Flexアイテムが2行以上になった場合、どう揃えるかを設定するプロパティ。
 ※「flex-wrap: wrap」が適用され、アイテムが2行になっている場合のみ有効
 
 | align-content     | 行の揃え方                                                                                                     |
@@ -140,8 +134,7 @@ Flexアイテムが2行以上になった場合にどう揃えるかを設定す
 | stretch [default] | ![image.png](https://laro.jp/lesson/images/lesson-css-flex19.png) |
 | flex-start        | ![image.png](https://laro.jp/lesson/images/lesson-css-flex21.png) |
 | flex-end          | ![image.png](https://laro.jp/lesson/images/lesson-css-flex22.png) |
-| center            | ![image.png](https://laro.jp/lesson/images/lesson-css-flex23.png) |
-| space-between     | ![image.png](https://laro.jp/lesson/images/lesson-css-flex24.png) |
+| center            | ![image.png](https://laro.jp/lesson/images/lesson-css-flex23.png) | | space-between     | ![image.png](https://laro.jp/lesson/images/lesson-css-flex24.png) |
 | space-around      | ![image.png](https://laro.jp/lesson/images/lesson-css-flex25.png) |
 
 <br><br><br>
